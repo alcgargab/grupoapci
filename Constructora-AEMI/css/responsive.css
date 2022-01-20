@@ -1,0 +1,4366 @@
+/* @media only screen and (max-width:1440px) and (min-width: 1367px){
+
+}
+@media only screen and (max-width:1366px) and (min-width: 1281px){
+
+} */
+@media only screen and (max-width:1280px) and (min-width: 1200px){
+  /********** menú **********/
+  /* contenedor del logo */
+  .ctn-Logo{
+    margin-left: 0px;
+  }
+  /* contenedor de los item */
+  .aemi-items{
+    margin-left: 70px;
+  }
+  /* opciones del menú */
+  .aemi-nav .nav-link{
+    position: absolute;
+    margin-top: -30px;
+    font-size: 30px;
+    letter-spacing: 1px;
+    margin-left: 80px;
+  }
+  /* opcion de contacto */
+  .aemi-item-contacto{
+    margin-left: 300px;
+  }
+  /********** banner **********/
+  /* banner principal */
+  .aemi-banner img{
+    height: 400px;
+  }
+  /********** home **********/
+  /* ¿Quienes Somos? contenedor */
+  .ctn-Who{
+    margin-left: 630px;
+    margin-top: 55px;
+  }
+  /* ¿Quienes somos? titulo */
+  .ctn-Who-tittle{
+    font-size: 35px;
+    letter-spacing: 1px;
+  }
+  /* ¿Quienes somos? texto */
+  .ctn-Who-text{
+    font-size: 20px;
+  }
+  /* ¿Quienes somos? sombra */
+  .ctn-shadow{
+    margin-top: -250px;
+    height: 250px;
+  }
+  /********** misión y visión **********/
+  /* imagen de misión y visión */
+  .ctn-mi-vi img{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: -160px;
+    width: 50px;
+  }
+  /* contenedor de misión */
+  .ctn-mi{
+    margin-top: 10px;
+    margin-bottom: 70px;
+  }
+  /* titulo de misión */
+  .ctn-mi-tittle{
+    position: absolute;
+    margin-left: 190px;
+    margin-top: 25px;
+    font-size: 35px;
+    letter-spacing: 2px;
+  }
+  /* texto de misión */
+  .ctn-mi-text{
+    font-size: 20px;
+    letter-spacing: 0;
+  }
+  /* contenedor de visión */
+  .ctn-vi{
+    margin-top: 10px;
+    margin-bottom: 70px;
+  }
+  /* titulo de visión */
+  .ctn-vi-tittle{
+    position: absolute;
+    margin-left: 190px;
+    margin-top: 25px;
+    font-size: 35px;
+    letter-spacing: 2px;
+  }
+  /* texto de visión */
+  .ctn-vi-text{
+    font-size: 20px;
+    letter-spacing: 0;
+  }
+  /********** valores **********/
+  /* ttitulo de valores */
+  .ctn-valores .row div p{
+    font-size: 50px;
+    letter-spacing: 3px;
+    margin-bottom: -30px;
+  }
+  /* contenedor principal de valores */
+  .ctn-val-tittle{
+    margin-left: 13px;
+    margin-top: 90px;
+  }
+  /* contenedor de los valores */
+  .ctn-val-opc{
+    margin-bottom: 45px;
+    padding: 50px 5px;
+  }
+  /* texto de valores */
+  .ctn-val-opc span{
+    font-size: 35px;
+    letter-spacing: 2px;
+  }
+  /********** contacto **********/
+  /* contenedor del texto del banner */
+  .aemi-banner-text-contact{
+    padding: 0px 0px;
+    margin-top: -400px;
+    height: 400px;
+  }
+  /* texto del banner */
+  .aemi-banner-text-contact p{
+    margin-top: 160px;
+    font-size: 40px;
+    letter-spacing: 1px;
+  }
+  /* boton del formulario */
+  .aemi-btn-form{
+    margin-top: 90px;
+    margin-left: -110px;
+  }
+  /********** servicios **********/
+  /* banner de nuestros servicios */
+  .aemi-banner-down img{
+    height: 150px;
+  }
+  /* texto del banner de nuestros servicios */
+  .aemi-ctn-our-services{
+    margin-top: -150px;
+    height: 80px;
+  }
+  /* imagen de titulo de nuestros servicios */
+  .aemi-ctn-our-services img{
+    padding: 10px 0px;
+    width: 60%;
+  }
+  /* texto de nuestros servicios */
+  .aemi-ctn-our-services p{
+    padding: 0px 0px;
+    margin-top: 40px;
+    font-size: 40px;
+  }
+  /* contenedor principal */
+  .aemi-services{
+    margin-top: 80px;
+  }
+  /********** Efectos para los servicios **********/
+  /* contenedor de los servicios */
+  .aemi-services-options {
+    margin: 10px;
+  }
+  /* imagen de los servicios */
+  .aemi-services-options figure img {
+    height: 160px;
+    width: 160px;
+  }
+  /* contenedor del texto */
+  .aemi-services-options figure figcaption {
+    height: 160px;
+    width: 160px;
+  }
+  /* texto del servicio */
+  .aemi-services-options figure p {
+    margin: 0px 0px;
+    font-size: 14px;
+    padding: 60px 0px;
+  }
+  /********** beneficios **********/
+  /* imagen de beneficios */
+  .aemi-ctn-benefits-img{
+    margin-left: -50px;
+    margin-top: 63px;
+    width: 300px;
+    height: 426px;
+  }
+  /* titulo de beneficios */
+  .aemi-benefits-tittle{
+    font-size: 35px;
+    letter-spacing: 1px;
+  }
+  /* imagen del logo */
+  .aemi-benefits-img img{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    margin-top: -20px;
+    margin-left: 20px;
+  }
+  /* texto de beneficios */
+  .aemi-benefits-text{
+    font-size: 35px;
+  }
+  /* contenedor principal de los beneficios */
+  .aemi-benefits-budgets, .aemi-benefits-services, .aemi-benefits-personal{
+    padding: 5px 2px;
+  }
+  /* texto de los beneficios */
+  .aemi-benefits-budgets p, .aemi-benefits-services p, .aemi-benefits-personal p{
+    font-size: 18px;
+  }
+  /* imagen de los beneficios */
+  .aemi-benefits-budgets img, .aemi-benefits-services img, .aemi-benefits-personal img{
+    width: 90px;
+  }
+  /* contenedor principal del apartado de estrellas */
+  .aemi-benefits-stars{
+    margin-top: -190px;
+    width: 99%;
+    /* height: 200px; */
+  }
+  /* banner de beneficios */
+  .aemi-benefits-starts-banner{
+     width: 97%;
+     height: 190px;
+  }
+  /* titulo */
+  .aemi-benefits-stars-tittle{
+    font-size: 35px;
+  }
+  /* imagen de las estrellas */
+  .aemi-ctn-benefits-tittle img{
+    width: 65%;
+  }
+  /********** clientes **********/
+  /* titulo */
+  .aemi-our-costumer P{
+    font-size: 35px;
+  }
+  /* carousel */
+  .aemi-carousel-our-costumer{
+    width: 100%;
+    margin-left: 10px;
+  }
+  /* imagenes del banner */
+  .aemi-our-costumer-banner img{
+    width: 100%;
+    height: 150px;
+  }
+  /********** categorias **********/
+  /* contenedor del texto del banner */
+  .aemi-banner-text-category{
+    margin-top: -400px;
+    height: 400px;
+  }
+  /* texto del banner */
+  .aemi-banner-text-category p{
+    padding: 120px 5px;
+    font-size: 40px;
+    letter-spacing: 2px;
+  }
+  /* imagen del banner de abajo */
+  .aemi-ctn-cat-img{
+    height: 440px !important;
+  }
+  /* sombra del banner de abajo */
+  .aemi-ctn-cat-options{
+    height: 440px !important;
+    margin-top: -440px !important;
+  }
+  /* contenedor del boton para cotizar */
+  .aemi-ctn-cat-cotizacion{
+    margin: 20px 0px;
+  }
+  /* letra del boton para cotizar */
+  .aemi-ctn-cat-cotizacion span a{
+    font-size: 15px;
+  }
+  /********** Efectos para las categorias **********/
+  /* contenedor de los items */
+  .grid-cat figure {
+    height: 140px;
+  }
+  /* imagen de los items */
+  .grid-cat figure img {
+    height: 85px;
+    width: 85px;
+    margin: 40px 130px 0px;
+  }
+  /* contenedor de la información del item */
+  .grid-cat figure figcaption {
+    padding: 10px 0px;
+  }
+  /* titulo del item */
+  .grid-cat figure h2 {
+    font-size: 15px;
+  }
+  /* texto del item */
+  .grid-cat figure p {
+    font-size: 11px;
+  }
+  /********** sub categorias **********/
+  /* conteendor principal */
+  .aemi-subcat-movil{
+    margin-top: 20px;
+    margin-left: 50px;
+  }
+  /* imagen de la sub categorias */
+  .aemi-subcat-movil img{
+    height: 230px;
+    width: 230px;
+    border-radius: 50%;
+  }
+  /********** footer **********/
+  /* titulo */
+  .aemi-footer-tittle{
+    font-size: 33px;
+  }
+  /* titulo */
+  .aemi-footer-tittle span{
+    font-size: 36px;
+  }
+  /* titulo de nuestros servicios */
+  .aemi-footer-our-services h3, .aemi-footer-contact h3{
+    font-size: 25px;
+  }
+  /* lista de servicios */
+  .aemi-footer-our-services ul li{
+    margin-left: -50px;
+    font-size: 18px;
+  }
+  /* texto de contacto */
+  .aemi-footer-contact-phone{
+    text-align: justify;
+    margin-left: -40px;
+    font-size: 11px;
+  }
+  /* icono de las redes */
+  .aemi-footer-social{
+    width: 60px;
+  }
+  }
+  @media only screen and (max-width:1024px) and (min-width: 992px){
+  /********** menú **********/
+  /* contenedor del logo */
+  .ctn-Logo{
+    margin-left: 0px;
+  }
+  /* contenedor de los item */
+  .aemi-items{
+    margin-left: 70px;
+  }
+  /* opciones del menú */
+  .aemi-nav .nav-link{
+    position: absolute;
+    margin-top: -30px;
+    font-size: 30px;
+    letter-spacing: 1px;
+    margin-left: 80px;
+  }
+  /* opcion de contacto */
+  .aemi-item-contacto{
+    margin-left: 300px;
+  }
+  /********** banner **********/
+  /* banner principal */
+  .aemi-banner img{
+    height: 400px;
+  }
+  /********** home **********/
+  /* ¿Quienes Somos? contenedor */
+  .ctn-Who{
+    margin-left: 500px;
+    margin-top: 5px;
+  }
+  /* ¿Quienes somos? titulo */
+  .ctn-Who-tittle{
+    font-size: 25px;
+    letter-spacing: 1px;
+  }
+  /* ¿Quienes somos? texto */
+  .ctn-Who-text{
+    font-size: 20px;
+  }
+  /* ¿Quienes somos? sombra */
+  .ctn-shadow{
+    margin-top: -250px;
+    height: 250px;
+  }
+  /********** misión y visión **********/
+  /* imagen de misión y visión */
+  .ctn-mi-vi img{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: -160px;
+    width: 50px;
+  }
+  /* contenedor de misión */
+  .ctn-mi{
+    margin-top: 10px;
+    margin-bottom: 70px;
+  }
+  /* titulo de misión */
+  .ctn-mi-tittle{
+    position: absolute;
+    margin-left: 190px;
+    margin-top: 25px;
+    font-size: 35px;
+    letter-spacing: 2px;
+  }
+  /* texto de misión */
+  .ctn-mi-text{
+    font-size: 20px;
+    letter-spacing: 0;
+  }
+  /* contenedor de visión */
+  .ctn-vi{
+    margin-top: 10px;
+    margin-bottom: 70px;
+  }
+  /* titulo de visión */
+  .ctn-vi-tittle{
+    position: absolute;
+    margin-left: 190px;
+    margin-top: 25px;
+    font-size: 35px;
+    letter-spacing: 2px;
+  }
+  /* texto de visión */
+  .ctn-vi-text{
+    font-size: 20px;
+    letter-spacing: 0;
+  }
+  /********** valores **********/
+  /* ttitulo de valores */
+  .ctn-valores .row div p{
+    font-size: 40px;
+    letter-spacing: 2px;
+    margin-bottom: -20px;
+  }
+  /* contenedor principal de valores */
+  .ctn-val-tittle{
+    margin-left: 13px;
+    margin-top: 90px;
+  }
+  /* contenedor de los valores */
+  .ctn-val-opc{
+    margin-bottom: 45px;
+    padding: 30px 5px;
+  }
+  /* texto de valores */
+  .ctn-val-opc span{
+    font-size: 25px;
+    letter-spacing: 1px;
+  }
+  /********** contacto **********/
+  /* contenedor del texto del banner */
+  .aemi-banner-text-contact{
+    padding: 0px 0px;
+    margin-top: -400px;
+    height: 400px;
+  }
+  /* texto del banner */
+  .aemi-banner-text-contact p{
+    margin-top: 160px;
+    font-size: 40px;
+    letter-spacing: 1px;
+  }
+  /* boton del formulario */
+  .aemi-btn-form{
+    margin-top: 90px;
+    margin-left: -110px;
+  }
+  /********** servicios **********/
+  /* banner de nuestros servicios */
+  .aemi-banner-down img{
+    height: 150px;
+  }
+  /* texto del banner de nuestros servicios */
+  .aemi-ctn-our-services{
+    margin-top: -150px;
+    height: 80px;
+  }
+  /* imagen de titulo de nuestros servicios */
+  .aemi-ctn-our-services img{
+    padding: 10px 0px;
+    width: 60%;
+  }
+  /* texto de nuestros servicios */
+  .aemi-ctn-our-services p{
+    padding: 0px 0px;
+    margin-top: 40px;
+    font-size: 40px;
+  }
+  /* contenedor principal */
+  .aemi-services{
+    margin-top: 80px;
+  }
+  /********** Efectos para los servicios **********/
+  /* contenedor de los servicios */
+  .aemi-services-options {
+    margin: 10px;
+  }
+  /* imagen de los servicios */
+  .aemi-services-options figure img {
+    height: 160px;
+    width: 160px;
+  }
+  /* contenedor del texto */
+  .aemi-services-options figure figcaption {
+    height: 160px;
+    width: 160px;
+  }
+  /* texto del servicio */
+  .aemi-services-options figure p {
+    margin: 0px 0px;
+    font-size: 14px;
+    padding: 60px 0px;
+  }
+  /********** beneficios **********/
+  /* imagen de beneficios */
+  .aemi-ctn-benefits-img{
+    margin-left: -50px;
+    margin-top: 63px;
+    width: 300px;
+    height: 300px;
+  }
+  /* titulo de beneficios */
+  .aemi-benefits-tittle{
+    font-size: 25px;
+    letter-spacing: 1px;
+  }
+  /* imagen del logo */
+  .aemi-benefits-img img{
+    position: absolute;
+    width: 150px;
+    height: 100px;
+    margin-top: -10px;
+    margin-left: 20px;
+  }
+  /* texto de beneficios */
+  .aemi-benefits-text{
+    font-size: 25px;
+  }
+  /* contenedor principal de los beneficios */
+  .aemi-benefits-budgets, .aemi-benefits-services, .aemi-benefits-personal{
+    padding: 5px 2px;
+  }
+  /* texto de los beneficios */
+  .aemi-benefits-budgets p, .aemi-benefits-services p, .aemi-benefits-personal p{
+    font-size: 12px;
+  }
+  /* imagen de los beneficios */
+  .aemi-benefits-budgets img, .aemi-benefits-services img, .aemi-benefits-personal img{
+    width: 60px;
+  }
+  /* contenedor principal del apartado de estrellas */
+  .aemi-benefits-stars{
+    margin-top: -190px;
+    width: 98%;
+    /* height: 200px; */
+  }
+  /* banner de beneficios */
+  .aemi-benefits-starts-banner{
+     width: 97%;
+     height: 190px;
+  }
+  /* titulo */
+  .aemi-benefits-stars-tittle{
+    font-size: 25px;
+  }
+  /* imagen de las estrellas */
+  .aemi-ctn-benefits-tittle img{
+    width: 100%;
+  }
+  /********** clientes **********/
+  /* titulo */
+  .aemi-our-costumer P{
+    font-size: 25px;
+  }
+  /* carousel */
+  .aemi-carousel-our-costumer{
+    width: 93%;
+    margin-left: 20px;
+  }
+  /* imagenes del banner */
+  .aemi-our-costumer-banner img{
+    width: 100%;
+    height: 150px;
+  }
+  /********** categorias **********/
+  /* contenedor del texto del banner */
+  .aemi-banner-text-category{
+    margin-top: -400px;
+    height: 400px;
+  }
+  /* texto del banner */
+  .aemi-banner-text-category p{
+    padding: 120px 5px;
+    font-size: 40px;
+    letter-spacing: 2px;
+  }
+  /* imagen del banner de abajo */
+  .aemi-ctn-cat-img{
+    height: 440px !important;
+  }
+  /* sombra del banner de abajo */
+  .aemi-ctn-cat-options{
+    height: 440px !important;
+    margin-top: -440px !important;
+  }
+  /* contenedor del boton para cotizar */
+  .aemi-ctn-cat-cotizacion{
+    margin: 20px 0px;
+  }
+  /* letra del boton para cotizar */
+  .aemi-ctn-cat-cotizacion span a{
+    font-size: 15px;
+  }
+  /********** Efectos para las categorias **********/
+  /* contenedor de los items */
+  .grid-cat figure {
+    height: 140px;
+  }
+  /* imagen de los items */
+  .grid-cat figure img {
+    height: 85px;
+    width: 85px;
+    margin: 40px 100px 0px;
+  }
+  /* contenedor de la información del item */
+  .grid-cat figure figcaption {
+    padding: 10px 0px;
+  }
+  /* titulo del item */
+  .grid-cat figure h2 {
+    font-size: 15px;
+  }
+  /* texto del item */
+  .grid-cat figure p {
+    font-size: 11px;
+  }
+  /********** sub categorias **********/
+  /* conteendor principal */
+  .aemi-subcat-movil{
+    margin-top: 20px;
+    margin-left: 50px;
+  }
+  /* imagen de la sub categorias */
+  .aemi-subcat-movil img{
+    height: 230px;
+    width: 230px;
+    border-radius: 50%;
+  }
+  /********** footer **********/
+  /* titulo */
+  .aemi-footer-tittle{
+    font-size: 27px;
+  }
+  /* titulo */
+  .aemi-footer-tittle span{
+    font-size: 30px;
+  }
+  /* titulo de nuestros servicios */
+  .aemi-footer-our-services h3, .aemi-footer-contact h3{
+    font-size: 22px;
+  }
+  /* lista de servicios */
+  .aemi-footer-our-services ul li{
+    margin-left: -50px;
+    font-size: 15px;
+  }
+  /* texto de contacto */
+  .aemi-footer-contact-phone{
+    text-align: justify;
+    margin-left: -40px;
+    font-size: 11px;
+  }
+  /* icono de las redes */
+  .aemi-footer-social{
+    width: 50px;
+  }
+}
+@media only screen and (max-width:1199px) and (min-width: 1025px){
+  /********** menú **********/
+  /* contenedor del logo */
+  .ctn-Logo{
+    margin-left: 0px;
+  }
+  /* contenedor de los item */
+  .aemi-items{
+    margin-left: 70px;
+  }
+  /* opciones del menú */
+  .aemi-nav .nav-link{
+    position: absolute;
+    margin-top: -30px;
+    font-size: 30px;
+    letter-spacing: 1px;
+    margin-left: 80px;
+  }
+  /* opcion de contacto */
+  .aemi-item-contacto{
+    margin-left: 300px;
+  }
+  /********** banner **********/
+  /* banner principal */
+  .aemi-banner img{
+    height: 400px;
+  }
+  /********** home **********/
+  /* ¿Quienes Somos? contenedor */
+  .ctn-Who{
+    margin-left: 560px;
+    margin-top: 35px;
+  }
+  /* ¿Quienes somos? titulo */
+  .ctn-Who-tittle{
+    font-size: 25px;
+    letter-spacing: 1px;
+  }
+  /* ¿Quienes somos? texto */
+  .ctn-Who-text{
+    font-size: 20px;
+  }
+  /* ¿Quienes somos? sombra */
+  .ctn-shadow{
+    margin-top: -250px;
+    height: 250px;
+  }
+  /********** misión y visión **********/
+  /* imagen de misión y visión */
+  .ctn-mi-vi img{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: -160px;
+    width: 50px;
+  }
+  /* contenedor de misión */
+  .ctn-mi{
+    margin-top: 10px;
+    margin-bottom: 70px;
+  }
+  /* titulo de misión */
+  .ctn-mi-tittle{
+    position: absolute;
+    margin-left: 190px;
+    margin-top: 25px;
+    font-size: 35px;
+    letter-spacing: 2px;
+  }
+  /* texto de misión */
+  .ctn-mi-text{
+    font-size: 20px;
+    letter-spacing: 0;
+  }
+  /* contenedor de visión */
+  .ctn-vi{
+    margin-top: 10px;
+    margin-bottom: 70px;
+  }
+  /* titulo de visión */
+  .ctn-vi-tittle{
+    position: absolute;
+    margin-left: 190px;
+    margin-top: 25px;
+    font-size: 35px;
+    letter-spacing: 2px;
+  }
+  /* texto de visión */
+  .ctn-vi-text{
+    font-size: 20px;
+    letter-spacing: 0;
+  }
+  /********** valores **********/
+  /* ttitulo de valores */
+  .ctn-valores .row div p{
+    font-size: 40px;
+    letter-spacing: 2px;
+    margin-bottom: -20px;
+  }
+  /* contenedor principal de valores */
+  .ctn-val-tittle{
+    margin-left: 13px;
+    margin-top: 90px;
+  }
+  /* contenedor de los valores */
+  .ctn-val-opc{
+    margin-bottom: 45px;
+    padding: 30px 5px;
+  }
+  /* texto de valores */
+  .ctn-val-opc span{
+    font-size: 25px;
+    letter-spacing: 1px;
+  }
+  /********** contacto **********/
+  /* contenedor del texto del banner */
+  .aemi-banner-text-contact{
+    padding: 0px 0px;
+    margin-top: -400px;
+    height: 400px;
+  }
+  /* texto del banner */
+  .aemi-banner-text-contact p{
+    margin-top: 160px;
+    font-size: 40px;
+    letter-spacing: 1px;
+  }
+  /* boton del formulario */
+  .aemi-btn-form{
+    margin-top: 90px;
+    margin-left: -110px;
+  }
+  /********** servicios **********/
+  /* banner de nuestros servicios */
+  .aemi-banner-down img{
+    height: 150px;
+  }
+  /* texto del banner de nuestros servicios */
+  .aemi-ctn-our-services{
+    margin-top: -150px;
+    height: 80px;
+  }
+  /* imagen de titulo de nuestros servicios */
+  .aemi-ctn-our-services img{
+    padding: 10px 0px;
+    width: 60%;
+  }
+  /* texto de nuestros servicios */
+  .aemi-ctn-our-services p{
+    padding: 0px 0px;
+    margin-top: 40px;
+    font-size: 40px;
+  }
+  /* contenedor principal */
+  .aemi-services{
+    margin-top: 80px;
+  }
+  /********** Efectos para los servicios **********/
+  /* contenedor de los servicios */
+  .aemi-services-options {
+    margin: 10px;
+  }
+  /* imagen de los servicios */
+  .aemi-services-options figure img {
+    height: 160px;
+    width: 160px;
+  }
+  /* contenedor del texto */
+  .aemi-services-options figure figcaption {
+    height: 160px;
+    width: 160px;
+  }
+  /* texto del servicio */
+  .aemi-services-options figure p {
+    margin: 0px 0px;
+    font-size: 14px;
+    padding: 60px 0px;
+  }
+  /********** beneficios **********/
+  /* imagen de beneficios */
+  .aemi-ctn-benefits-img{
+    margin-left: -50px;
+    margin-top: 63px;
+    width: 300px;
+    height: 300px;
+  }
+  /* titulo de beneficios */
+  .aemi-benefits-tittle{
+    font-size: 25px;
+    letter-spacing: 1px;
+  }
+  /* imagen del logo */
+  .aemi-benefits-img img{
+    position: absolute;
+    width: 150px;
+    height: 100px;
+    margin-top: -10px;
+    margin-left: 20px;
+  }
+  /* texto de beneficios */
+  .aemi-benefits-text{
+    font-size: 25px;
+  }
+  /* contenedor principal de los beneficios */
+  .aemi-benefits-budgets, .aemi-benefits-services, .aemi-benefits-personal{
+    padding: 5px 2px;
+  }
+  /* texto de los beneficios */
+  .aemi-benefits-budgets p, .aemi-benefits-services p, .aemi-benefits-personal p{
+    font-size: 12px;
+  }
+  /* imagen de los beneficios */
+  .aemi-benefits-budgets img, .aemi-benefits-services img, .aemi-benefits-personal img{
+    width: 60px;
+  }
+  /* contenedor principal del apartado de estrellas */
+  .aemi-benefits-stars{
+    margin-top: -190px;
+    width: 99%;
+    /* height: 200px; */
+  }
+  /* banner de beneficios */
+  .aemi-benefits-starts-banner{
+     width: 97%;
+     height: 190px;
+  }
+  /* titulo */
+  .aemi-benefits-stars-tittle{
+    font-size: 35px;
+  }
+  /* imagen de las estrellas */
+  .aemi-ctn-benefits-tittle img{
+    width: 65%;
+  }
+  /********** clientes **********/
+  /* titulo */
+  .aemi-our-costumer P{
+    font-size: 35px;
+  }
+  /* carousel */
+  .aemi-carousel-our-costumer{
+    width: 100%;
+    margin-left: 10px;
+  }
+  /* imagenes del banner */
+  .aemi-our-costumer-banner img{
+    width: 100%;
+    height: 150px;
+  }
+  /********** categorias **********/
+  /* contenedor del texto del banner */
+  .aemi-banner-text-category{
+    margin-top: -400px;
+    height: 400px;
+  }
+  /* texto del banner */
+  .aemi-banner-text-category p{
+    padding: 120px 5px;
+    font-size: 40px;
+    letter-spacing: 2px;
+  }
+  /* imagen del banner de abajo */
+  .aemi-ctn-cat-img{
+    height: 440px !important;
+  }
+  /* sombra del banner de abajo */
+  .aemi-ctn-cat-options{
+    height: 440px !important;
+    margin-top: -440px !important;
+  }
+  /* contenedor del boton para cotizar */
+  .aemi-ctn-cat-cotizacion{
+    margin: 20px 0px;
+  }
+  /* letra del boton para cotizar */
+  .aemi-ctn-cat-cotizacion span a{
+    font-size: 15px;
+  }
+  /********** Efectos para las categorias **********/
+  /* contenedor de los items */
+  .grid-cat figure {
+    height: 140px;
+  }
+  /* imagen de los items */
+  .grid-cat figure img {
+    height: 85px;
+    width: 85px;
+    margin: 40px 100px 0px;
+  }
+  /* contenedor de la información del item */
+  .grid-cat figure figcaption {
+    padding: 10px 0px;
+  }
+  /* titulo del item */
+  .grid-cat figure h2 {
+    font-size: 15px;
+  }
+  /* texto del item */
+  .grid-cat figure p {
+    font-size: 11px;
+  }
+  /********** sub categorias **********/
+  /* conteendor principal */
+  .aemi-subcat-movil{
+    margin-top: 20px;
+    margin-left: 50px;
+  }
+  /* imagen de la sub categorias */
+  .aemi-subcat-movil img{
+    height: 230px;
+    width: 230px;
+    border-radius: 50%;
+  }
+  /********** footer **********/
+  /* titulo */
+  .aemi-footer-tittle{
+    font-size: 33px;
+  }
+  /* titulo */
+  .aemi-footer-tittle span{
+    font-size: 36px;
+  }
+  /* titulo de nuestros servicios */
+  .aemi-footer-our-services h3, .aemi-footer-contact h3{
+    font-size: 25px;
+  }
+  /* lista de servicios */
+  .aemi-footer-our-services ul li{
+    margin-left: -50px;
+    font-size: 18px;
+  }
+  /* texto de contacto */
+  .aemi-footer-contact-phone{
+    text-align: justify;
+    margin-left: -40px;
+    font-size: 11px;
+  }
+  /* icono de las redes */
+  .aemi-footer-social{
+    width: 60px;
+  }
+}
+@media only screen and (max-width:1024px) and (min-width: 992px){
+  /********** menú **********/
+  /* contenedor del logo */
+  .ctn-Logo{
+    margin-left: 0px;
+  }
+  /* contenedor de los item */
+  .aemi-items{
+    margin-left: 70px;
+  }
+  /* opciones del menú */
+  .aemi-nav .nav-link{
+    position: absolute;
+    margin-top: -30px;
+    font-size: 30px;
+    letter-spacing: 1px;
+    margin-left: 80px;
+  }
+  /* opcion de contacto */
+  .aemi-item-contacto{
+    margin-left: 300px;
+  }
+  /********** banner **********/
+  /* banner principal */
+  .aemi-banner img{
+    height: 400px;
+  }
+  /********** home **********/
+  /* ¿Quienes Somos? contenedor */
+  .ctn-Who{
+    margin-left: 500px;
+    margin-top: 5px;
+  }
+  /* ¿Quienes somos? titulo */
+  .ctn-Who-tittle{
+    font-size: 25px;
+    letter-spacing: 1px;
+  }
+  /* ¿Quienes somos? texto */
+  .ctn-Who-text{
+    font-size: 20px;
+  }
+  /* ¿Quienes somos? sombra */
+  .ctn-shadow{
+    margin-top: -250px;
+    height: 250px;
+  }
+  /********** misión y visión **********/
+  /* imagen de misión y visión */
+  .ctn-mi-vi img{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: -160px;
+    width: 50px;
+  }
+  /* contenedor de misión */
+  .ctn-mi{
+    margin-top: 10px;
+    margin-bottom: 70px;
+  }
+  /* titulo de misión */
+  .ctn-mi-tittle{
+    position: absolute;
+    margin-left: 190px;
+    margin-top: 25px;
+    font-size: 35px;
+    letter-spacing: 2px;
+  }
+  /* texto de misión */
+  .ctn-mi-text{
+    font-size: 20px;
+    letter-spacing: 0;
+  }
+  /* contenedor de visión */
+  .ctn-vi{
+    margin-top: 10px;
+    margin-bottom: 70px;
+  }
+  /* titulo de visión */
+  .ctn-vi-tittle{
+    position: absolute;
+    margin-left: 190px;
+    margin-top: 25px;
+    font-size: 35px;
+    letter-spacing: 2px;
+  }
+  /* texto de visión */
+  .ctn-vi-text{
+    font-size: 20px;
+    letter-spacing: 0;
+  }
+  /********** valores **********/
+  /* ttitulo de valores */
+  .ctn-valores .row div p{
+    font-size: 40px;
+    letter-spacing: 2px;
+    margin-bottom: -20px;
+  }
+  /* contenedor principal de valores */
+  .ctn-val-tittle{
+    margin-left: 13px;
+    margin-top: 90px;
+  }
+  /* contenedor de los valores */
+  .ctn-val-opc{
+    margin-bottom: 45px;
+    padding: 30px 5px;
+  }
+  /* texto de valores */
+  .ctn-val-opc span{
+    font-size: 25px;
+    letter-spacing: 1px;
+  }
+  /********** contacto **********/
+  /* contenedor del texto del banner */
+  .aemi-banner-text-contact{
+    padding: 0px 0px;
+    margin-top: -400px;
+    height: 400px;
+  }
+  /* texto del banner */
+  .aemi-banner-text-contact p{
+    margin-top: 160px;
+    font-size: 40px;
+    letter-spacing: 1px;
+  }
+  /* boton del formulario */
+  .aemi-btn-form{
+    margin-top: 90px;
+    margin-left: -110px;
+  }
+  /********** servicios **********/
+  /* banner de nuestros servicios */
+  .aemi-banner-down img{
+    height: 150px;
+  }
+  /* texto del banner de nuestros servicios */
+  .aemi-ctn-our-services{
+    margin-top: -150px;
+    height: 80px;
+  }
+  /* imagen de titulo de nuestros servicios */
+  .aemi-ctn-our-services img{
+    padding: 10px 0px;
+    width: 60%;
+  }
+  /* texto de nuestros servicios */
+  .aemi-ctn-our-services p{
+    padding: 0px 0px;
+    margin-top: 40px;
+    font-size: 40px;
+  }
+  /* contenedor principal */
+  .aemi-services{
+    margin-top: 80px;
+  }
+  /********** Efectos para los servicios **********/
+  /* contenedor de los servicios */
+  .aemi-services-options {
+    margin: 10px;
+  }
+  /* imagen de los servicios */
+  .aemi-services-options figure img {
+    height: 160px;
+    width: 160px;
+  }
+  /* contenedor del texto */
+  .aemi-services-options figure figcaption {
+    height: 160px;
+    width: 160px;
+  }
+  /* texto del servicio */
+  .aemi-services-options figure p {
+    margin: 0px 0px;
+    font-size: 14px;
+    padding: 60px 0px;
+  }
+  /********** beneficios **********/
+  /* imagen de beneficios */
+  .aemi-ctn-benefits-img{
+    margin-left: -50px;
+    margin-top: 63px;
+    width: 300px;
+    height: 300px;
+  }
+  /* titulo de beneficios */
+  .aemi-benefits-tittle{
+    font-size: 25px;
+    letter-spacing: 1px;
+  }
+  /* imagen del logo */
+  .aemi-benefits-img img{
+    position: absolute;
+    width: 150px;
+    height: 100px;
+    margin-top: -10px;
+    margin-left: 20px;
+  }
+  /* texto de beneficios */
+  .aemi-benefits-text{
+    font-size: 25px;
+  }
+  /* contenedor principal de los beneficios */
+  .aemi-benefits-budgets, .aemi-benefits-services, .aemi-benefits-personal{
+    padding: 5px 2px;
+  }
+  /* texto de los beneficios */
+  .aemi-benefits-budgets p, .aemi-benefits-services p, .aemi-benefits-personal p{
+    font-size: 12px;
+  }
+  /* imagen de los beneficios */
+  .aemi-benefits-budgets img, .aemi-benefits-services img, .aemi-benefits-personal img{
+    width: 60px;
+  }
+  /* contenedor principal del apartado de estrellas */
+  .aemi-benefits-stars{
+    margin-top: -190px;
+    width: 98%;
+    /* height: 200px; */
+  }
+  /* banner de beneficios */
+  .aemi-benefits-starts-banner{
+     width: 97%;
+     height: 190px;
+  }
+  /* titulo */
+  .aemi-benefits-stars-tittle{
+    font-size: 25px;
+  }
+  /* imagen de las estrellas */
+  .aemi-ctn-benefits-tittle img{
+    width: 100%;
+  }
+  /********** clientes **********/
+  /* titulo */
+  .aemi-our-costumer P{
+    font-size: 25px;
+  }
+  /* carousel */
+  .aemi-carousel-our-costumer{
+    width: 93%;
+    margin-left: 20px;
+  }
+  /* imagenes del banner */
+  .aemi-our-costumer-banner img{
+    width: 100%;
+    height: 150px;
+  }
+  /********** categorias **********/
+  /* contenedor del texto del banner */
+  .aemi-banner-text-category{
+    margin-top: -400px;
+    height: 400px;
+  }
+  /* texto del banner */
+  .aemi-banner-text-category p{
+    padding: 120px 5px;
+    font-size: 40px;
+    letter-spacing: 2px;
+  }
+  /* imagen del banner de abajo */
+  .aemi-ctn-cat-img{
+    height: 440px !important;
+  }
+  /* sombra del banner de abajo */
+  .aemi-ctn-cat-options{
+    height: 440px !important;
+    margin-top: -440px !important;
+  }
+  /* contenedor del boton para cotizar */
+  .aemi-ctn-cat-cotizacion{
+    margin: 20px 0px;
+  }
+  /* letra del boton para cotizar */
+  .aemi-ctn-cat-cotizacion span a{
+    font-size: 15px;
+  }
+  /********** Efectos para las categorias **********/
+  /* contenedor de los items */
+  .grid-cat figure {
+    height: 140px;
+  }
+  /* imagen de los items */
+  .grid-cat figure img {
+    height: 85px;
+    width: 85px;
+    margin: 40px 100px 0px;
+  }
+  /* contenedor de la información del item */
+  .grid-cat figure figcaption {
+    padding: 10px 0px;
+  }
+  /* titulo del item */
+  .grid-cat figure h2 {
+    font-size: 15px;
+  }
+  /* texto del item */
+  .grid-cat figure p {
+    font-size: 11px;
+  }
+  /********** sub categorias **********/
+  /* conteendor principal */
+  .aemi-subcat-movil{
+    margin-top: 20px;
+    margin-left: 50px;
+  }
+  /* imagen de la sub categorias */
+  .aemi-subcat-movil img{
+    height: 230px;
+    width: 230px;
+    border-radius: 50%;
+  }
+  /********** footer **********/
+  /* titulo */
+  .aemi-footer-tittle{
+    font-size: 27px;
+  }
+  /* titulo */
+  .aemi-footer-tittle span{
+    font-size: 30px;
+  }
+  /* titulo de nuestros servicios */
+  .aemi-footer-our-services h3, .aemi-footer-contact h3{
+    font-size: 22px;
+  }
+  /* lista de servicios */
+  .aemi-footer-our-services ul li{
+    margin-left: -50px;
+    font-size: 15px;
+  }
+  /* texto de contacto */
+  .aemi-footer-contact-phone{
+    text-align: justify;
+    margin-left: -40px;
+    font-size: 11px;
+  }
+  /* icono de las redes */
+  .aemi-footer-social{
+    width: 50px;
+  }
+}
+@media only screen and (max-width:991px) and (min-width: 800px){
+  /********** menú **********/
+  /* contenedor del logo */
+  .ctn-Logo{
+    margin-left: 0px;
+  }
+  /* contenedor de los item */
+  .aemi-items{
+    margin-left: 30px;
+  }
+  /* opciones del menú */
+  .aemi-nav .nav-link{
+    position: absolute;
+    margin-top: -30px;
+    font-size: 25px;
+    letter-spacing: 1px;
+    margin-left: 80px;
+  }
+  /* opcion de contacto */
+  .aemi-item-contacto{
+    margin-left: 250px;
+  }
+  /********** banner **********/
+  /* banner principal */
+  .aemi-banner img{
+    height: 400px;
+  }
+  /********** home **********/
+  /* ¿Quienes Somos? contenedor */
+  .ctn-Who{
+    margin-left: 380px;
+    margin-top: 5px;
+  }
+  /* ¿Quienes somos? titulo */
+  .ctn-Who-tittle{
+    font-size: 25px;
+    letter-spacing: 1px;
+  }
+  /* ¿Quienes somos? texto */
+  .ctn-Who-text{
+    font-size: 15px;
+  }
+  /* ¿Quienes somos? sombra */
+  .ctn-shadow{
+    margin-top: -160px;
+    height: 160px;
+  }
+  /********** misión y visión **********/
+  /* imagen de misión y visión */
+  .ctn-mi-vi img{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: -160px;
+    width: 50px;
+  }
+  /* contenedor de misión */
+  .ctn-mi{
+    margin-top: 10px;
+    margin-bottom: 70px;
+  }
+  /* titulo de misión */
+  .ctn-mi-tittle{
+    position: absolute;
+    margin-left: 190px;
+    margin-top: 25px;
+    font-size: 30px;
+    letter-spacing: 2px;
+  }
+  /* texto de misión */
+  .ctn-mi-text{
+    font-size: 17px;
+    letter-spacing: 0;
+  }
+  /* contenedor de visión */
+  .ctn-vi{
+    margin-top: 10px;
+    margin-bottom: 70px;
+  }
+  /* titulo de visión */
+  .ctn-vi-tittle{
+    position: absolute;
+    margin-left: 190px;
+    margin-top: 25px;
+    font-size: 30px;
+    letter-spacing: 2px;
+  }
+  /* texto de visión */
+  .ctn-vi-text{
+    font-size: 17px;
+    letter-spacing: 0;
+  }
+  /********** valores **********/
+  /* ttitulo de valores */
+  .ctn-valores .row div p{
+    font-size: 35px;
+    letter-spacing: 2px;
+    margin-bottom: -15px;
+  }
+  /* contenedor principal de valores */
+  .ctn-val-tittle{
+    margin-left: 13px;
+    margin-top: 70px;
+  }
+  /* contenedor de los valores */
+  .ctn-val-opc{
+    margin-bottom: 45px;
+    padding: 20px 5px;
+  }
+  /* texto de valores */
+  .ctn-val-opc span{
+    font-size: 20px;
+    letter-spacing: 1px;
+  }
+  /********** contacto **********/
+  /* contenedor del texto del banner */
+  .aemi-banner-text-contact{
+    padding: 0px 0px;
+    margin-top: -400px;
+    height: 400px;
+  }
+  /* texto del banner */
+  .aemi-banner-text-contact p{
+    margin-top: 160px;
+    font-size: 35px;
+    letter-spacing: 1px;
+  }
+  /* boton del formulario */
+  .aemi-btn-form{
+    margin-top: 90px;
+    margin-left: -110px;
+  }
+  /********** servicios **********/
+  /* banner de nuestros servicios */
+  .aemi-banner-down img{
+    height: 150px;
+  }
+  /* texto del banner de nuestros servicios */
+  .aemi-ctn-our-services{
+    margin-top: -150px;
+    height: 80px;
+  }
+  /* imagen de titulo de nuestros servicios */
+  .aemi-ctn-our-services img{
+    padding: 10px 0px;
+    width: 60%;
+  }
+  /* texto de nuestros servicios */
+  .aemi-ctn-our-services p{
+    padding: 0px 0px;
+    margin-top: 50px;
+    font-size: 30px;
+  }
+  /* contenedor principal */
+  .aemi-services{
+    margin-top: 80px;
+  }
+  /********** Efectos para los servicios **********/
+  /* contenedor de los servicios */
+  .aemi-services-options {
+    margin: 20px 50px;
+  }
+  /* imagen de los servicios */
+  .aemi-services-options figure img {
+    height: 160px;
+    width: 160px;
+  }
+  /* contenedor del texto */
+  .aemi-services-options figure figcaption {
+    height: 160px;
+    width: 160px;
+  }
+  /* texto del servicio */
+  .aemi-services-options figure p {
+    margin: 0px 0px;
+    font-size: 13px;
+    padding: 60px 0px;
+  }
+  /********** beneficios **********/
+  /* imagen de beneficios */
+  .aemi-ctn-benefits-img{
+    margin-left: -50px;
+    margin-top: 63px;
+    width: 300px;
+    height: 300px;
+  }
+  /* titulo de beneficios */
+  .aemi-benefits-tittle{
+    font-size: 25px;
+    letter-spacing: 1px;
+  }
+  /* imagen del logo */
+  .aemi-benefits-img img{
+    position: absolute;
+    width: 150px;
+    height: 100px;
+    margin-top: -10px;
+    margin-left: 20px;
+  }
+  /* texto de beneficios */
+  .aemi-benefits-text{
+    font-size: 25px;
+  }
+  /* contenedor principal de los beneficios */
+  .aemi-benefits-budgets, .aemi-benefits-services, .aemi-benefits-personal{
+    padding: 5px 2px;
+  }
+  /* texto de los beneficios */
+  .aemi-benefits-budgets p, .aemi-benefits-services p, .aemi-benefits-personal p{
+    font-size: 12px;
+  }
+  /* imagen de los beneficios */
+  .aemi-benefits-budgets img, .aemi-benefits-services img, .aemi-benefits-personal img{
+    width: 60px;
+  }
+  /* contenedor principal del apartado de estrellas */
+  .aemi-benefits-stars{
+    margin-top: -190px;
+    width: 98%;
+    /* height: 200px; */
+  }
+  /* banner de beneficios */
+  .aemi-benefits-starts-banner{
+     width: 97%;
+     height: 190px;
+  }
+  /* titulo */
+  .aemi-benefits-stars-tittle{
+    font-size: 25px;
+  }
+  /* imagen de las estrellas */
+  .aemi-ctn-benefits-tittle img{
+    width: 100%;
+  }
+  /********** clientes **********/
+  /* titulo */
+  .aemi-our-costumer P{
+    font-size: 25px;
+  }
+  /* carousel */
+  .aemi-carousel-our-costumer{
+    width: 93%;
+    margin-left: 20px;
+  }
+  /* imagenes del banner */
+  .aemi-our-costumer-banner img{
+    width: 100%;
+    height: 150px;
+  }
+  /********** categorias **********/
+  /* contenedor del texto del banner */
+  .aemi-banner-text-category{
+    margin-top: -400px;
+    height: 400px;
+  }
+  /* texto del banner */
+  .aemi-banner-text-category p{
+    padding: 120px 5px;
+    font-size: 30px;
+    letter-spacing: 2px;
+  }
+  /* imagen del banner de abajo */
+  .aemi-ctn-cat-img{
+    height: 580px !important;
+  }
+  /* sombra del banner de abajo */
+  .aemi-ctn-cat-options{
+    height: 580px !important;
+    margin-top: -580px !important;
+  }
+  /* contenedor del boton para cotizar */
+  .aemi-ctn-cat-cotizacion{
+    margin: 20px 0px;
+  }
+  /* letra del boton para cotizar */
+  .aemi-ctn-cat-cotizacion span a{
+    font-size: 15px;
+  }
+  /********** Efectos para las categorias **********/
+  /* contenedor de los items */
+  .grid-cat figure {
+    height: 140px;
+  }
+  /* imagen de los items */
+  .grid-cat figure img {
+    height: 85px;
+    width: 85px;
+    margin: 40px 120px 0px;
+  }
+  /* contenedor de la información del item */
+  .grid-cat figure figcaption {
+    padding: 10px 0px;
+  }
+  /* titulo del item */
+  .grid-cat figure h2 {
+    font-size: 15px;
+  }
+  /* texto del item */
+  .grid-cat figure p {
+    font-size: 11px;
+  }
+  /********** sub categorias **********/
+  /* conteendor principal */
+  .aemi-subcat-movil{
+    margin-top: 20px;
+    margin-left: 50px;
+  }
+  /* imagen de la sub categorias */
+  .aemi-subcat-movil img{
+    height: 230px;
+    width: 230px;
+    border-radius: 50%;
+  }
+  /********** footer **********/
+  /* titulo */
+  .aemi-footer-tittle{
+    font-size: 27px;
+  }
+  /* titulo */
+  .aemi-footer-tittle span{
+    font-size: 30px;
+  }
+  /* titulo de nuestros servicios */
+  .aemi-footer-our-services h3, .aemi-footer-contact h3{
+    font-size: 22px;
+  }
+  /* lista de servicios */
+  .aemi-footer-our-services ul li{
+    margin-left: -50px;
+    font-size: 15px;
+  }
+  /* texto de contacto */
+  .aemi-footer-contact-phone{
+    text-align: justify;
+    margin-left: -40px;
+    font-size: 11px;
+  }
+  /* icono de las redes */
+  .aemi-footer-social{
+    width: 50px;
+    margin-bottom: 5px;
+  }
+}
+@media only screen and (max-width:799px) and (min-width: 768px){
+  /********** menú **********/
+  /* contenedor del logo */
+  .ctn-Logo{
+    margin-left: 0px;
+  }
+  /* contenedor de los item */
+  .aemi-items{
+    margin-left: 30px;
+  }
+  /* opciones del menú */
+  .aemi-nav .nav-link{
+    position: absolute;
+    margin-top: -30px;
+    font-size: 25px;
+    letter-spacing: 1px;
+    margin-left: 80px;
+  }
+  /* opcion de contacto */
+  .aemi-item-contacto{
+    margin-left: 250px;
+  }
+  /********** banner **********/
+  /* banner principal */
+  .aemi-banner img{
+    height: 400px;
+  }
+  /********** home **********/
+  /* ¿Quienes Somos? contenedor */
+  .ctn-Who{
+    margin-left: 330px;
+    margin-top: 5px;
+  }
+  /* ¿Quienes somos? titulo */
+  .ctn-Who-tittle{
+    font-size: 25px;
+    letter-spacing: 1px;
+  }
+  /* ¿Quienes somos? texto */
+  .ctn-Who-text{
+    font-size: 12px;
+  }
+  /* ¿Quienes somos? sombra */
+  .ctn-shadow{
+    margin-top: -140px;
+    height: 140px;
+  }
+  /********** misión y visión **********/
+  /* imagen de misión y visión */
+  .ctn-mi-vi img{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: -160px;
+    width: 50px;
+  }
+  /* contenedor de misión */
+  .ctn-mi{
+    margin-top: 10px;
+    margin-bottom: 70px;
+  }
+  /* titulo de misión */
+  .ctn-mi-tittle{
+    position: absolute;
+    margin-left: 190px;
+    margin-top: 25px;
+    font-size: 30px;
+    letter-spacing: 2px;
+  }
+  /* texto de misión */
+  .ctn-mi-text{
+    font-size: 17px;
+    letter-spacing: 0;
+  }
+  /* contenedor de visión */
+  .ctn-vi{
+    margin-top: 10px;
+    margin-bottom: 70px;
+  }
+  /* titulo de visión */
+  .ctn-vi-tittle{
+    position: absolute;
+    margin-left: 190px;
+    margin-top: 25px;
+    font-size: 30px;
+    letter-spacing: 2px;
+  }
+  /* texto de visión */
+  .ctn-vi-text{
+    font-size: 17px;
+    letter-spacing: 0;
+  }
+  /********** valores **********/
+  /* ttitulo de valores */
+  .ctn-valores .row div p{
+    font-size: 35px;
+    letter-spacing: 2px;
+    margin-bottom: -15px;
+  }
+  /* contenedor principal de valores */
+  .ctn-val-tittle{
+    margin-left: 13px;
+    margin-top: 70px;
+  }
+  /* contenedor de los valores */
+  .ctn-val-opc{
+    margin-bottom: 45px;
+    padding: 20px 5px;
+  }
+  /* texto de valores */
+  .ctn-val-opc span{
+    font-size: 20px;
+    letter-spacing: 1px;
+  }
+  /********** contacto **********/
+  /* contenedor del texto del banner */
+  .aemi-banner-text-contact{
+    padding: 0px 0px;
+    margin-top: -400px;
+    height: 400px;
+  }
+  /* texto del banner */
+  .aemi-banner-text-contact p{
+    margin-top: 160px;
+    font-size: 35px;
+    letter-spacing: 1px;
+  }
+  /* boton del formulario */
+  .aemi-btn-form{
+    margin-top: 90px;
+    margin-left: -110px;
+  }
+  /********** servicios **********/
+  /* banner de nuestros servicios */
+  .aemi-banner-down img{
+    height: 150px;
+  }
+  /* texto del banner de nuestros servicios */
+  .aemi-ctn-our-services{
+    margin-top: -150px;
+    height: 80px;
+  }
+  /* imagen de titulo de nuestros servicios */
+  .aemi-ctn-our-services img{
+    padding: 10px 0px;
+    width: 60%;
+  }
+  /* texto de nuestros servicios */
+  .aemi-ctn-our-services p{
+    padding: 0px 0px;
+    margin-top: 50px;
+    font-size: 30px;
+  }
+  /* contenedor principal */
+  .aemi-services{
+    margin-top: 80px;
+  }
+  /********** Efectos para los servicios **********/
+  /* contenedor de los servicios */
+  .aemi-services-options {
+    margin: 20px 50px;
+  }
+  /* imagen de los servicios */
+  .aemi-services-options figure img {
+    height: 160px;
+    width: 160px;
+  }
+  /* contenedor del texto */
+  .aemi-services-options figure figcaption {
+    height: 160px;
+    width: 160px;
+  }
+  /* texto del servicio */
+  .aemi-services-options figure p {
+    margin: 0px 0px;
+    font-size: 13px;
+    padding: 60px 0px;
+  }
+  /********** beneficios **********/
+  /* imagen de beneficios */
+  .aemi-ctn-benefits-img{
+    margin-left: -50px;
+    margin-top: 63px;
+    width: 300px;
+    height: 300px;
+  }
+  /* titulo de beneficios */
+  .aemi-benefits-tittle{
+    font-size: 25px;
+    letter-spacing: 1px;
+  }
+  /* imagen del logo */
+  .aemi-benefits-img img{
+    position: absolute;
+    width: 150px;
+    height: 100px;
+    margin-top: -10px;
+    margin-left: 20px;
+  }
+  /* texto de beneficios */
+  .aemi-benefits-text{
+    font-size: 25px;
+  }
+  /* contenedor principal de los beneficios */
+  .aemi-benefits-budgets, .aemi-benefits-services, .aemi-benefits-personal{
+    padding: 5px 2px;
+  }
+  /* texto de los beneficios */
+  .aemi-benefits-budgets p, .aemi-benefits-services p, .aemi-benefits-personal p{
+    font-size: 12px;
+  }
+  /* imagen de los beneficios */
+  .aemi-benefits-budgets img, .aemi-benefits-services img, .aemi-benefits-personal img{
+    width: 60px;
+  }
+  /* contenedor principal del apartado de estrellas */
+  .aemi-benefits-stars{
+    margin-top: -190px;
+    width: 98%;
+    /* height: 200px; */
+  }
+  /* banner de beneficios */
+  .aemi-benefits-starts-banner{
+     width: 97%;
+     height: 190px;
+  }
+  /* titulo */
+  .aemi-benefits-stars-tittle{
+    font-size: 25px;
+  }
+  /* imagen de las estrellas */
+  .aemi-ctn-benefits-tittle img{
+    width: 100%;
+  }
+  /********** clientes **********/
+  /* titulo */
+  .aemi-our-costumer P{
+    font-size: 25px;
+  }
+  /* carousel */
+  .aemi-carousel-our-costumer{
+    width: 93%;
+    margin-left: 20px;
+  }
+  /* imagenes del banner */
+  .aemi-our-costumer-banner img{
+    width: 100%;
+    height: 150px;
+  }
+  /********** categorias **********/
+  /* contenedor del texto del banner */
+  .aemi-banner-text-category{
+    margin-top: -400px;
+    height: 400px;
+  }
+  /* texto del banner */
+  .aemi-banner-text-category p{
+    padding: 120px 5px;
+    font-size: 30px;
+    letter-spacing: 2px;
+  }
+  /* imagen del banner de abajo */
+  .aemi-ctn-cat-img{
+    height: 580px !important;
+  }
+  /* sombra del banner de abajo */
+  .aemi-ctn-cat-options{
+    height: 580px !important;
+    margin-top: -580px !important;
+  }
+  /* contenedor del boton para cotizar */
+  .aemi-ctn-cat-cotizacion{
+    margin: 20px 0px;
+  }
+  /* letra del boton para cotizar */
+  .aemi-ctn-cat-cotizacion span a{
+    font-size: 15px;
+  }
+  /********** Efectos para las categorias **********/
+  /* contenedor de los items */
+  .grid-cat figure {
+    height: 140px;
+  }
+  /* imagen de los items */
+  .grid-cat figure img {
+    height: 85px;
+    width: 85px;
+    margin: 40px 120px 0px;
+  }
+  /* contenedor de la información del item */
+  .grid-cat figure figcaption {
+    padding: 10px 0px;
+  }
+  /* titulo del item */
+  .grid-cat figure h2 {
+    font-size: 15px;
+  }
+  /* texto del item */
+  .grid-cat figure p {
+    font-size: 11px;
+  }
+  /********** sub categorias **********/
+  /* conteendor principal */
+  .aemi-subcat-movil{
+    margin-top: 20px;
+    margin-left: 50px;
+  }
+  /* imagen de la sub categorias */
+  .aemi-subcat-movil img{
+    height: 230px;
+    width: 230px;
+    border-radius: 50%;
+  }
+  /********** footer **********/
+  /* titulo */
+  .aemi-footer-tittle{
+    font-size: 27px;
+  }
+  /* titulo */
+  .aemi-footer-tittle span{
+    font-size: 30px;
+  }
+  /* titulo de nuestros servicios */
+  .aemi-footer-our-services h3, .aemi-footer-contact h3{
+    font-size: 22px;
+  }
+  /* lista de servicios */
+  .aemi-footer-our-services ul li{
+    margin-left: -50px;
+    font-size: 15px;
+  }
+  /* texto de contacto */
+  .aemi-footer-contact-phone{
+    text-align: justify;
+    margin-left: -40px;
+    font-size: 11px;
+  }
+  /* icono de las redes */
+  .aemi-footer-social{
+    width: 50px;
+    margin-bottom: 5px;
+  }
+}
+@media only screen and (max-width:767px) and (min-width: 640px){
+  /********** menú **********/
+  /* contenedor del logo */
+  .ctn-Logo{
+    margin-left: 0px;
+  }
+  /* contenedor de los item */
+  .aemi-items{
+    margin-left: 30px;
+  }
+  /* opciones del menú */
+  .aemi-nav .nav-link{
+    position: absolute;
+    margin-top: -30px;
+    font-size: 25px;
+    letter-spacing: 1px;
+    margin-left: 40px;
+  }
+  /* opcion de contacto */
+  .aemi-item-contacto{
+    margin-left: 190px;
+  }
+  /********** banner **********/
+  /* banner principal */
+  .aemi-banner img{
+    height: 400px;
+  }
+  /********** home **********/
+  /* ¿Quienes Somos? contenedor de la imagen */
+  .ctn-Who-Img{
+    margin-top: 10px;
+  }
+  /* ¿Quienes Somos? imagen */
+  .ctn-Who-Img img{
+    width: 100%;
+  }
+  /* ¿Quienes Somos? contenedor */
+  .ctn-Who{
+    width: 100%;
+    position: absolute;
+  }
+  /* ¿Quienes somos? titulo */
+  .ctn-Who-tittle{
+    position: absolute;
+    margin-top: -70px;
+    margin-left: -25px;
+    font-size: 30px;
+    letter-spacing: 2px;
+  }
+  /* ¿Quienes somos? texto */
+  .ctn-Who-text{
+    width: 90%;
+    position: absolute;
+    margin-left: -310px;
+    margin-top: -5px;
+    font-size: 17px;
+  }
+  /* ¿Quienes somos? sombra */
+  .ctn-shadow{
+    margin-top: -350px;
+    height: 350px;
+    margin-left: 15px;
+    background: #a4b6d9;
+    opacity: 0.4;
+  }
+  /********** misión y visión **********/
+  /* imagen de misión y visión */
+  .ctn-mi-vi img{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: -160px;
+    width: 50px;
+  }
+  /* contenedor de misión */
+  .ctn-mi{
+    margin-top: 10px;
+    margin-bottom: 70px;
+  }
+  /* titulo de misión */
+  .ctn-mi-tittle{
+    position: absolute;
+    margin-left: 190px;
+    margin-top: 25px;
+    font-size: 30px;
+    letter-spacing: 2px;
+  }
+  /* texto de misión */
+  .ctn-mi-text{
+    font-size: 17px;
+    letter-spacing: 0;
+  }
+  /* contenedor de visión */
+  .ctn-vi{
+    margin-top: -10px;
+    margin-bottom: 70px;
+  }
+  /* titulo de visión */
+  .ctn-vi-tittle{
+    position: absolute;
+    margin-left: 190px;
+    margin-top: 25px;
+    font-size: 30px;
+    letter-spacing: 2px;
+  }
+  /* texto de visión */
+  .ctn-vi-text{
+    font-size: 17px;
+    letter-spacing: 0;
+  }
+  /********** valores **********/
+  /* ttitulo de valores */
+  .ctn-valores .row div p{
+    font-size: 35px;
+    letter-spacing: 2px;
+    margin-bottom: -15px;
+  }
+  /* contenedor principal de valores */
+  .ctn-val-tittle{
+    margin-left: 13px;
+    margin-top: 60px;
+  }
+  /* contenedor de los valores */
+  .ctn-val-opc{
+    margin-bottom: 15px;
+    padding: 6px 5px;
+  }
+  /* texto de valores */
+  .ctn-val-opc span{
+    font-size: 25px;
+    letter-spacing: 1px;
+  }
+  /********** contacto **********/
+  /* contenedor del texto del banner */
+  .aemi-banner-text-contact{
+    padding: 0px 0px;
+    margin-top: -400px;
+    height: 400px;
+  }
+  /* texto del banner */
+  .aemi-banner-text-contact p{
+    margin-top: 160px;
+    font-size: 35px;
+    letter-spacing: 1px;
+  }
+  /* contenedor principal */
+  .aemi-ctn-form{
+    margin-top: 10px;
+  }
+  /* imagen del formulario */
+  .aemi-ctn-form img{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: -190px;
+    width: 70%;
+    padding: 0px 0px;
+  }
+  /* contenedor del formulario */
+  .aemi-form{
+    margin-top: 30px;
+  }
+  /* titulo */
+  .aemi-form .tittle{
+    font-size: 30px;
+    position: absolute;
+    margin-top: -10px;
+    margin-left: 70px;
+  }
+  /* titulo2 */
+  .aemi-form .tittle2{
+    font-size: 30px;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 160px;
+  }
+  /* formulario */
+  .aemi-form-form{
+    margin-top: 400px;
+  }
+  /* boton del formulario */
+  .aemi-btn-form{
+    margin-top: 10px;
+  }
+  /********** servicios **********/
+  /* banner de nuestros servicios */
+  .aemi-banner-down img{
+    height: 150px;
+  }
+  /* texto del banner de nuestros servicios */
+  .aemi-ctn-our-services{
+    margin-top: -150px;
+    height: 80px;
+  }
+  /* imagen de titulo de nuestros servicios */
+  .aemi-ctn-our-services img{
+    padding: 10px 0px;
+    width: 60%;
+  }
+  /* texto de nuestros servicios */
+  .aemi-ctn-our-services p{
+    padding: 0px 0px;
+    margin-top: 50px;
+    font-size: 30px;
+  }
+  /* contenedor principal */
+  .aemi-services{
+    margin-top: 80px;
+  }
+  /********** Efectos para los servicios **********/
+  /* contenedor de los servicios */
+  .aemi-services-options {
+    margin: 20px -5px;
+  }
+  /* imagen de los servicios */
+  .aemi-services-options figure img {
+    height: 160px;
+    width: 160px;
+  }
+  /* contenedor del texto */
+  .aemi-services-options figure figcaption {
+    height: 160px;
+    width: 160px;
+  }
+  /* texto del servicio */
+  .aemi-services-options figure p {
+    margin: 0px 0px;
+    font-size: 13px;
+    padding: 60px 0px;
+  }
+  /********** beneficios **********/
+  /* imagen de beneficios */
+  .aemi-ctn-benefits-img{
+    display: none;
+  }
+  /* titulo de beneficios */
+  .aemi-benefits-tittle{
+    font-size: 25px;
+    letter-spacing: 1px;
+  }
+  /* imagen del logo */
+  .aemi-benefits-img img{
+    position: absolute;
+    margin-top: -30px;
+    margin-left: 20px;
+  }
+  /* texto de beneficios */
+  .aemi-benefits-text{
+    font-size: 25px;
+  }
+  /* contenedor principal de los beneficios */
+  .aemi-benefits-budgets, .aemi-benefits-services, .aemi-benefits-personal{
+    padding: 5px 2px;
+  }
+  /* texto de los beneficios */
+  .aemi-benefits-budgets p, .aemi-benefits-services p, .aemi-benefits-personal p{
+    font-size: 12px;
+  }
+  /* imagen de los beneficios */
+  .aemi-benefits-budgets img, .aemi-benefits-services img, .aemi-benefits-personal img{
+    width: 60px;
+  }
+  /* contenedor principal del apartado de estrellas */
+  .aemi-benefits-stars{
+    margin-top: -190px;
+    width: 97%;
+    height: 190px;
+  }
+  /* banner de beneficios */
+  .aemi-benefits-starts-banner{
+     width: 97%;
+     height: 190px;
+  }
+  /* titulo */
+  .aemi-benefits-stars-tittle{
+    font-size: 25px;
+  }
+  /* imagen de las estrellas */
+  .aemi-ctn-benefits-tittle img{
+    width: 100%;
+  }
+  /********** clientes **********/
+  /* titulo */
+  .aemi-our-costumer P{
+    font-size: 25px;
+  }
+  /* carousel */
+  .aemi-carousel-our-costumer{
+    width: 93%;
+    margin-left: 20px;
+  }
+  /* imagenes del banner */
+  .aemi-our-costumer-banner img{
+    width: 100%;
+    height: 150px;
+  }
+  /********** categorias **********/
+  /* contenedor del texto del banner */
+  .aemi-banner-text-category{
+    margin-top: -400px;
+    height: 400px;
+  }
+  /* texto del banner */
+  .aemi-banner-text-category p{
+    padding: 120px 5px;
+    font-size: 30px;
+    letter-spacing: 2px;
+  }
+  /* imagen del banner de abajo */
+  .aemi-ctn-cat-img{
+    height: 440px !important;
+  }
+  /* sombra del banner de abajo */
+  .aemi-ctn-cat-options{
+    height: 440px !important;
+    margin-top: -440px !important;
+  }
+  /* contenedor del boton para cotizar */
+  .aemi-ctn-cat-cotizacion{
+    margin: 20px 0px;
+  }
+  /* letra del boton para cotizar */
+  .aemi-ctn-cat-cotizacion span a{
+    font-size: 15px;
+  }
+  /********** Efectos para las categorias **********/
+  /* contenedor de los items */
+  .grid-cat figure {
+    height: 140px;
+  }
+  /* imagen de los items */
+  .grid-cat figure img {
+    height: 85px;
+    width: 85px;
+    margin: 40px 30px 0px;
+  }
+  /* contenedor de la información del item */
+  .grid-cat figure figcaption {
+    padding: 10px 0px;
+  }
+  /* titulo del item */
+  .grid-cat figure h2 {
+    font-size: 15px;
+  }
+  /* texto del item */
+  .grid-cat figure p {
+    font-size: 9px;
+  }
+  /********** sub categorias **********/
+  /* conteendor principal */
+  .aemi-subcat-movil{
+    margin-top: 20px;
+  }
+  /* imagen de la sub categorias */
+  .aemi-subcat-movil img{
+    height: 230px;
+    width: 230px;
+    border-radius: 50%;
+  }
+  /********** footer **********/
+  /* titulo */
+  .aemi-footer-tittle{
+    font-size: 27px;
+  }
+  /* titulo */
+  .aemi-footer-tittle span{
+    font-size: 30px;
+  }
+  /* titulo de nuestros servicios */
+  .aemi-footer-our-services h3, .aemi-footer-contact h3{
+    font-size: 22px;
+  }
+  /* lista de servicios */
+  .aemi-footer-our-services ul li{
+    margin-left: -50px;
+    font-size: 15px;
+  }
+  /* texto de contacto */
+  .aemi-footer-contact span{
+    font-size: 15px;
+  }
+  /* icono de las redes */
+  .aemi-footer-social{
+    width: 30px;
+    margin-bottom: 5px;
+  }
+}
+@media only screen and (max-width:639px) and (min-width: 576px){
+  /********** menú **********/
+  /* contenedor del logo */
+  .ctn-Logo{
+    margin-left: 0px;
+  }
+  /* contenedor de los item */
+  .aemi-items{
+    margin-left: 30px;
+  }
+  /* opciones del menú */
+  .aemi-nav .nav-link{
+    position: absolute;
+    margin-top: -30px;
+    font-size: 25px;
+    letter-spacing: 1px;
+    margin-left: 0px;
+  }
+  /* opcion de contacto */
+  .aemi-item-contacto{
+    margin-left: 190px;
+  }
+  /********** banner **********/
+  /* banner principal */
+  .aemi-banner img{
+    height: 400px;
+  }
+  /********** home **********/
+  /* ¿Quienes Somos? contenedor de la imagen */
+  .ctn-Who-Img{
+    margin-top: 10px;
+  }
+  /* ¿Quienes Somos? imagen */
+  .ctn-Who-Img img{
+    width: 100%;
+  }
+  /* ¿Quienes Somos? contenedor */
+  .ctn-Who{
+    width: 100%;
+    position: absolute;
+  }
+  /* ¿Quienes somos? titulo */
+  .ctn-Who-tittle{
+    position: absolute;
+    margin-top: -70px;
+    margin-left: -25px;
+    font-size: 30px;
+    letter-spacing: 2px;
+  }
+  /* ¿Quienes somos? texto */
+  .ctn-Who-text{
+    width: 90%;
+    color: #ffffff;
+    font-weight: lighter;
+    position: absolute;
+    margin-left: -280px;
+    margin-top: -5px;
+    font-size: 17px;
+  }
+  /* ¿Quienes somos? sombra */
+  .ctn-shadow{
+    margin-top: -210px;
+    height: 211px;
+    margin-left: 15px;
+    background: #a4b6d9;
+    opacity: 0.2;
+  }
+  /********** misión y visión **********/
+  /* imagen de misión y visión */
+  .ctn-mi-vi img{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: -160px;
+    width: 50px;
+  }
+  /* contenedor de misión */
+  .ctn-mi{
+    margin-top: 10px;
+    margin-bottom: 70px;
+  }
+  /* titulo de misión */
+  .ctn-mi-tittle{
+    position: absolute;
+    margin-left: 190px;
+    margin-top: 25px;
+    font-size: 30px;
+    letter-spacing: 2px;
+  }
+  /* texto de misión */
+  .ctn-mi-text{
+    font-size: 17px;
+    letter-spacing: 0;
+  }
+  /* contenedor de visión */
+  .ctn-vi{
+    margin-top: -10px;
+    margin-bottom: 70px;
+  }
+  /* titulo de visión */
+  .ctn-vi-tittle{
+    position: absolute;
+    margin-left: 190px;
+    margin-top: 25px;
+    font-size: 30px;
+    letter-spacing: 2px;
+  }
+  /* texto de visión */
+  .ctn-vi-text{
+    font-size: 17px;
+    letter-spacing: 0;
+  }
+  /********** valores **********/
+  /* ttitulo de valores */
+  .ctn-valores .row div p{
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin-bottom: -15px;
+  }
+  /* contenedor principal de valores */
+  .ctn-val-tittle{
+    margin-left: 13px;
+    margin-top: 45px;
+  }
+  /* contenedor de los valores */
+  .ctn-val-opc{
+    margin-bottom: 15px;
+    padding: 6px 5px;
+  }
+  /* texto de valores */
+  .ctn-val-opc span{
+    font-size: 20px;
+    letter-spacing: 1px;
+  }
+  /********** contacto **********/
+  /* contenedor del texto del banner */
+  .aemi-banner-text-contact{
+    padding: 0px 0px;
+    margin-top: -400px;
+    height: 400px;
+  }
+  /* texto del banner */
+  .aemi-banner-text-contact p{
+    margin-top: 160px;
+    font-size: 35px;
+    letter-spacing: 1px;
+  }
+  /* contenedor principal */
+  .aemi-ctn-form{
+    margin-top: 10px;
+  }
+  /* imagen del formulario */
+  .aemi-ctn-form img{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: -190px;
+    width: 70%;
+    padding: 0px 0px;
+  }
+  /* contenedor del formulario */
+  .aemi-form{
+    margin-top: 30px;
+  }
+  /* titulo */
+  .aemi-form .tittle{
+    font-size: 30px;
+    position: absolute;
+    margin-top: -10px;
+    margin-left: 70px;
+  }
+  /* titulo2 */
+  .aemi-form .tittle2{
+    font-size: 30px;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 160px;
+  }
+  /* formulario */
+  .aemi-form-form{
+    margin-top: 400px;
+  }
+  /* boton del formulario */
+  .aemi-btn-form{
+    margin-top: 10px;
+  }
+  /********** servicios **********/
+  /* banner de nuestros servicios */
+  .aemi-banner-down img{
+    height: 150px;
+  }
+  /* texto del banner de nuestros servicios */
+  .aemi-ctn-our-services{
+    margin-top: -150px;
+    height: 80px;
+  }
+  /* imagen de titulo de nuestros servicios */
+  .aemi-ctn-our-services img{
+    padding: 10px 0px;
+    width: 60%;
+  }
+  /* texto de nuestros servicios */
+  .aemi-ctn-our-services p{
+    padding: 0px 0px;
+    margin-top: 50px;
+    font-size: 30px;
+  }
+  /* contenedor principal */
+  .aemi-services{
+    margin-top: 80px;
+  }
+  /********** Efectos para los servicios **********/
+  /* contenedor de los servicios */
+  .aemi-services-options {
+    margin: 20px -5px;
+  }
+  /* imagen de los servicios */
+  .aemi-services-options figure img {
+    height: 160px;
+    width: 160px;
+  }
+  /* contenedor del texto */
+  .aemi-services-options figure figcaption {
+    height: 160px;
+    width: 160px;
+  }
+  /* texto del servicio */
+  .aemi-services-options figure p {
+    margin: 0px 0px;
+    font-size: 13px;
+    padding: 60px 0px;
+  }
+  /********** beneficios **********/
+  /* imagen de beneficios */
+  .aemi-ctn-benefits-img{
+    display: none;
+  }
+  /* titulo de beneficios */
+  .aemi-benefits-tittle{
+    font-size: 25px;
+    letter-spacing: 1px;
+  }
+  /* imagen del logo */
+  .aemi-benefits-img img{
+    position: absolute;
+    margin-top: -30px;
+    margin-left: 20px;
+  }
+  /* texto de beneficios */
+  .aemi-benefits-text{
+    font-size: 25px;
+  }
+  /* contenedor principal de los beneficios */
+  .aemi-benefits-budgets, .aemi-benefits-services, .aemi-benefits-personal{
+    padding: 5px 2px;
+  }
+  /* texto de los beneficios */
+  .aemi-benefits-budgets p, .aemi-benefits-services p, .aemi-benefits-personal p{
+    font-size: 12px;
+  }
+  /* imagen de los beneficios */
+  .aemi-benefits-budgets img, .aemi-benefits-services img, .aemi-benefits-personal img{
+    width: 60px;
+  }
+  /* contenedor principal del apartado de estrellas */
+  .aemi-benefits-stars{
+    margin-top: -190px;
+    width: 97%;
+    height: 190px;
+  }
+  /* banner de beneficios */
+  .aemi-benefits-starts-banner{
+     width: 97%;
+     height: 190px;
+  }
+  /* titulo */
+  .aemi-benefits-stars-tittle{
+    font-size: 25px;
+  }
+  /* imagen de las estrellas */
+  .aemi-ctn-benefits-tittle img{
+    width: 100%;
+  }
+  /********** clientes **********/
+  /* titulo */
+  .aemi-our-costumer P{
+    font-size: 25px;
+  }
+  /* carousel */
+  .aemi-carousel-our-costumer{
+    width: 93%;
+    margin-left: 20px;
+  }
+  /* imagenes del banner */
+  .aemi-our-costumer-banner img{
+    width: 100%;
+    height: 150px;
+  }
+  /********** categorias **********/
+  /* contenedor del texto del banner */
+  .aemi-banner-text-category{
+    margin-top: -400px;
+    height: 400px;
+  }
+  /* texto del banner */
+  .aemi-banner-text-category p{
+    padding: 120px 5px;
+    font-size: 30px;
+    letter-spacing: 2px;
+  }
+  /* imagen del banner de abajo */
+  .aemi-ctn-cat-img{
+    height: 440px !important;
+  }
+  /* sombra del banner de abajo */
+  .aemi-ctn-cat-options{
+    height: 440px !important;
+    margin-top: -440px !important;
+  }
+  /* contenedor del boton para cotizar */
+  .aemi-ctn-cat-cotizacion{
+    margin: 20px 0px;
+  }
+  /* letra del boton para cotizar */
+  .aemi-ctn-cat-cotizacion span a{
+    font-size: 15px;
+  }
+  /********** Efectos para las categorias **********/
+  /* contenedor de los items */
+  .grid-cat figure {
+    height: 140px;
+  }
+  /* imagen de los items */
+  .grid-cat figure img {
+    height: 85px;
+    width: 85px;
+    margin: 40px 30px 0px;
+  }
+  /* contenedor de la información del item */
+  .grid-cat figure figcaption {
+    padding: 10px 0px;
+  }
+  /* titulo del item */
+  .grid-cat figure h2 {
+    font-size: 15px;
+  }
+  /* texto del item */
+  .grid-cat figure p {
+    font-size: 9px;
+  }
+  /********** sub categorias **********/
+  /* conteendor principal */
+  .aemi-subcat-movil{
+    margin-top: 20px;
+  }
+  /* imagen de la sub categorias */
+  .aemi-subcat-movil img{
+    height: 230px;
+    width: 230px;
+    border-radius: 50%;
+  }
+  /********** footer **********/
+  /* titulo */
+  .aemi-footer-tittle{
+    font-size: 27px;
+  }
+  /* titulo */
+  .aemi-footer-tittle span{
+    font-size: 30px;
+  }
+  /* titulo de nuestros servicios */
+  .aemi-footer-our-services h3, .aemi-footer-contact h3{
+    font-size: 22px;
+  }
+  /* lista de servicios */
+  .aemi-footer-our-services ul li{
+    margin-left: -50px;
+    font-size: 15px;
+  }
+  /* texto de contacto */
+  .aemi-footer-contact span{
+    font-size: 15px;
+  }
+  /* icono de las redes */
+  .aemi-footer-social{
+    width: 30px;
+    margin-bottom: 5px;
+  }
+}
+@media only screen and (max-width:575px) and (min-width: 501px){
+  /********** menú **********/
+  /* contenedor del logo */
+  .ctn-Logo{
+    margin-left: 0px;
+  }
+  /* contenedor de los item */
+  .aemi-items{
+    margin-left: 90px;
+  }
+  /* opciones del menú */
+  .aemi-nav .nav-link{
+    position: absolute;
+    margin-top: -60px;
+    font-size: 25px;
+    letter-spacing: 1px;
+    margin-left: 0px;
+  }
+  /* opcion de contacto */
+  .aemi-item-contacto{
+    margin-left: 190px;
+  }
+  /********** banner **********/
+  /* banner principal */
+  .aemi-banner img{
+    height: 400px;
+  }
+  /********** home **********/
+  /* ¿Quienes Somos? contenedor de la imagen */
+  .ctn-Who-Img{
+    margin-top: 10px;
+  }
+  /* ¿Quienes Somos? imagen */
+  .ctn-Who-Img img{
+    width: 100%;
+  }
+  /* ¿Quienes Somos? contenedor */
+  .ctn-Who{
+    width: 100%;
+    position: absolute;
+  }
+  /* ¿Quienes somos? titulo */
+  .ctn-Who-tittle{
+    position: absolute;
+    margin-top: -70px;
+    margin-left: -25px;
+    font-size: 30px;
+    letter-spacing: 2px;
+  }
+  /* ¿Quienes somos? texto */
+  .ctn-Who-text{
+    width: 90%;
+    color: #ffffff;
+    font-weight: lighter;
+    position: absolute;
+    margin-left: -240px;
+    margin-top: -15px;
+    font-size: 17px;
+  }
+  /* ¿Quienes somos? sombra */
+  .ctn-shadow{
+    margin-top: -210px;
+    height: 211px;
+    margin-left: 15px;
+    background: #a4b6d9;
+    opacity: 0.2;
+  }
+  /********** misión y visión **********/
+  /* imagen de misión y visión */
+  .ctn-mi-vi img{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: -160px;
+    width: 50px;
+  }
+  /* contenedor de misión */
+  .ctn-mi{
+    margin-top: 10px;
+    margin-bottom: 70px;
+  }
+  /* titulo de misión */
+  .ctn-mi-tittle{
+    position: absolute;
+    margin-left: 190px;
+    margin-top: 25px;
+    font-size: 30px;
+    letter-spacing: 2px;
+  }
+  /* texto de misión */
+  .ctn-mi-text{
+    font-size: 17px;
+    letter-spacing: 0;
+  }
+  /* contenedor de visión */
+  .ctn-vi{
+    margin-top: -10px;
+    margin-bottom: 70px;
+  }
+  /* titulo de visión */
+  .ctn-vi-tittle{
+    position: absolute;
+    margin-left: 190px;
+    margin-top: 25px;
+    font-size: 30px;
+    letter-spacing: 2px;
+  }
+  /* texto de visión */
+  .ctn-vi-text{
+    font-size: 17px;
+    letter-spacing: 0;
+  }
+  /********** valores **********/
+  /* ttitulo de valores */
+  .ctn-valores .row div p{
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin-bottom: -15px;
+  }
+  /* contenedor principal de valores */
+  .ctn-val-tittle{
+    margin-left: 13px;
+    margin-top: 45px;
+  }
+  /* contenedor de los valores */
+  .ctn-val-opc{
+    margin-bottom: 15px;
+    padding: 6px 5px;
+  }
+  /* texto de valores */
+  .ctn-val-opc span{
+    font-size: 17px;
+    letter-spacing: 1px;
+  }
+  /********** contacto **********/
+  /* contenedor del texto del banner */
+  .aemi-banner-text-contact{
+    padding: 0px 0px;
+    margin-top: -400px;
+    height: 400px;
+  }
+  /* texto del banner */
+  .aemi-banner-text-contact p{
+    margin-top: 160px;
+    font-size: 35px;
+    letter-spacing: 1px;
+  }
+  /* contenedor principal */
+  .aemi-ctn-form{
+    margin-top: 10px;
+  }
+  /* imagen del formulario */
+  .aemi-ctn-form img{
+    position: absolute;
+    margin-top: 70px;
+    margin-left: -190px;
+    width: 70%;
+    padding: 0px 0px;
+  }
+  /* contenedor del formulario */
+  .aemi-form{
+    margin-top: 30px;
+  }
+  /* titulo */
+  .aemi-form .tittle{
+    position: absolute;
+    margin-top: -10px;
+    margin-left: 120px;
+  }
+  /* titulo2 */
+  .aemi-form .tittle2{
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 180px;
+  }
+  /* formulario */
+  .aemi-form-form{
+    margin-top: 360px;
+  }
+  /* boton del formulario */
+  .aemi-btn-form{
+    margin-top: 10px;
+  }
+  /********** servicios **********/
+  /* banner de nuestros servicios */
+  .aemi-banner-down img{
+    height: 150px;
+  }
+  /* texto del banner de nuestros servicios */
+  .aemi-ctn-our-services{
+    margin-top: -150px;
+    height: 80px;
+  }
+  /* imagen de titulo de nuestros servicios */
+  .aemi-ctn-our-services img{
+    padding: 10px 0px;
+    width: 60%;
+  }
+  /* texto de nuestros servicios */
+  .aemi-ctn-our-services p{
+    padding: 0px 0px;
+    margin-top: 50px;
+    font-size: 25px;
+  }
+  /* contenedor principal */
+  .aemi-services{
+    margin-top: 80px;
+  }
+  /********** Efectos para los servicios **********/
+  /* contenedor de los servicios */
+  .aemi-services-options {
+    margin: 20px -5px;
+  }
+  /* imagen de los servicios */
+  .aemi-services-options figure img {
+    height: 140px;
+    width: 140px;
+  }
+  /* contenedor del texto */
+  .aemi-services-options figure figcaption {
+    height: 140px;
+    width: 140px;
+  }
+  /* texto del servicio */
+  .aemi-services-options figure p {
+    margin: 0px 0px;
+    font-size: 13px;
+    padding: 60px 0px;
+  }
+  /********** beneficios **********/
+  /* imagen de beneficios */
+  .aemi-ctn-benefits-img{
+    display: none;
+  }
+  /* titulo de beneficios */
+  .aemi-benefits-tittle{
+    font-size: 25px;
+    letter-spacing: 1px;
+  }
+  /* imagen del logo */
+  .aemi-benefits-img img{
+    position: absolute;
+    margin-top: -30px;
+    margin-left: 20px;
+  }
+  /* texto de beneficios */
+  .aemi-benefits-text{
+    font-size: 25px;
+  }
+  /* contenedor principal de los beneficios */
+  .aemi-benefits-budgets, .aemi-benefits-services, .aemi-benefits-personal{
+    padding: 5px 2px;
+  }
+  /* texto de los beneficios */
+  .aemi-benefits-budgets p, .aemi-benefits-services p, .aemi-benefits-personal p{
+    font-size: 12px;
+  }
+  /* imagen de los beneficios */
+  .aemi-benefits-budgets img, .aemi-benefits-services img, .aemi-benefits-personal img{
+    width: 60px;
+  }
+  /* contenedor principal del apartado de estrellas */
+  .aemi-benefits-stars{
+    margin-top: -190px;
+    width: 97%;
+    height: 190px;
+  }
+  /* banner de beneficios */
+  .aemi-benefits-starts-banner{
+     width: 97%;
+     height: 190px;
+  }
+  /* titulo */
+  .aemi-benefits-stars-tittle{
+    font-size: 25px;
+  }
+  /* imagen de las estrellas */
+  .aemi-ctn-benefits-tittle img{
+    width: 100%;
+  }
+  /********** clientes **********/
+  /* titulo */
+  .aemi-our-costumer P{
+    font-size: 25px;
+  }
+  /* carousel */
+  .aemi-carousel-our-costumer{
+    width: 93%;
+    margin-left: 20px;
+  }
+  /* imagenes del banner */
+  .aemi-our-costumer-banner img{
+    width: 100%;
+    height: 150px;
+  }
+  /********** categorias **********/
+  /* contenedor del texto del banner */
+  .aemi-banner-text-category{
+    margin-top: -400px;
+    height: 400px;
+  }
+  /* texto del banner */
+  .aemi-banner-text-category p{
+    padding: 120px 5px;
+    font-size: 30px;
+    letter-spacing: 2px;
+  }
+  /* imagen del banner de abajo */
+  .aemi-ctn-cat-img{
+    height: 580px !important;
+  }
+  /* sombra del banner de abajo */
+  .aemi-ctn-cat-options{
+    height: 580px !important;
+    margin-top: -580px !important;
+  }
+  /* contenedor del boton para cotizar */
+  .aemi-ctn-cat-cotizacion{
+    margin: 20px 0px;
+  }
+  /* letra del boton para cotizar */
+  .aemi-ctn-cat-cotizacion span a{
+    font-size: 15px;
+  }
+  /********** Efectos para las categorias **********/
+  /* contenedor de los items */
+  .grid-cat figure {
+    height: 140px;
+  }
+  /* imagen de los items */
+  .grid-cat figure img {
+    height: 85px;
+    width: 85px;
+    margin: 40px 70px 0px;
+  }
+  /* contenedor de la información del item */
+  .grid-cat figure figcaption {
+    padding: 10px 0px;
+  }
+  /* titulo del item */
+  .grid-cat figure h2 {
+    font-size: 15px;
+  }
+  /* texto del item */
+  .grid-cat figure p {
+    font-size: 9px;
+  }
+  /********** sub categorias **********/
+  /* conteendor principal */
+  .aemi-subcat-movil{
+    margin-top: 20px;
+  }
+  /* imagen de la sub categorias */
+  .aemi-subcat-movil img{
+    height: 230px;
+    width: 230px;
+    border-radius: 50%;
+  }
+  /********** footer **********/
+  /* titulo */
+  .aemi-footer-tittle{
+    font-size: 27px;
+  }
+  /* titulo */
+  .aemi-footer-tittle span{
+    font-size: 30px;
+  }
+  /* titulo de nuestros servicios */
+  .aemi-footer-our-services h3, .aemi-footer-contact h3{
+    font-size: 22px;
+  }
+  /* lista de servicios */
+  .aemi-footer-our-services ul li{
+    margin-left: -50px;
+    font-size: 15px;
+  }
+  /* texto de contacto */
+  .aemi-footer-contact span{
+    font-size: 15px;
+  }
+  /* icono de las redes */
+  .aemi-footer-social{
+    width: 30px;
+    margin-bottom: 5px;
+  }
+}
+@media only screen and (max-width:500px) and (min-width: 439px){
+  /********** menú **********/
+  /* contenedor del logo */
+  .ctn-Logo{
+    margin-left: 0px;
+  }
+  /* contenedor de los item */
+  .aemi-items{
+    margin-left: 80px;
+  }
+  /* opciones del menú */
+  .aemi-nav .nav-link{
+    position: absolute;
+    margin-top: -50px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-left: 0px;
+  }
+  /* opcion de contacto */
+  .aemi-item-contacto{
+    margin-left: 160px;
+  }
+  /********** banner **********/
+  /* banner principal */
+  .aemi-banner img{
+    height: 200px;
+  }
+  /********** home **********/
+  /* ¿Quienes Somos? contenedor de la imagen */
+  .ctn-Who-Img{
+    margin-top: 10px;
+  }
+  /* ¿Quienes Somos? imagen */
+  .ctn-Who-Img img{
+    width: 100%;
+  }
+  /* ¿Quienes Somos? contenedor */
+  .ctn-Who{
+    width: 100%;
+    position: absolute;
+  }
+  /* ¿Quienes somos? titulo */
+  .ctn-Who-tittle{
+    position: absolute;
+    margin-top: -70px;
+    margin-left: -25px;
+    font-size: 25px;
+    letter-spacing: 2px;
+  }
+  /* ¿Quienes somos? texto */
+  .ctn-Who-text{
+    width: 90%;
+    color: #ffffff;
+    font-weight: lighter;
+    position: absolute;
+    margin-left: -210px;
+    margin-top: -15px;
+    font-size: 15px;
+  }
+  /* ¿Quienes somos? sombra */
+  .ctn-shadow{
+    margin-top: -210px;
+    height: 211px;
+    margin-left: 15px;
+    background: #a4b6d9;
+    opacity: 0.2;
+  }
+  /********** misión y visión **********/
+  /* imagen de misión y visión */
+  .ctn-mi-vi img{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: -120px;
+    width: 50px;
+  }
+  /* contenedor de misión */
+  .ctn-mi{
+    margin-top: 10px;
+    margin-bottom: 70px;
+  }
+  /* titulo de misión */
+  .ctn-mi-tittle{
+    position: absolute;
+    margin-left: 160px;
+    margin-top: 25px;
+    font-size: 25px;
+    letter-spacing: 2px;
+  }
+  /* texto de misión */
+  .ctn-mi-text{
+    font-size: 15px;
+    letter-spacing: 0;
+  }
+  /* contenedor de visión */
+  .ctn-vi{
+    margin-top: -10px;
+    margin-bottom: 70px;
+  }
+  /* titulo de visión */
+  .ctn-vi-tittle{
+    position: absolute;
+    margin-left: 160px;
+    margin-top: 25px;
+    font-size: 25px;
+    letter-spacing: 2px;
+  }
+  /* texto de visión */
+  .ctn-vi-text{
+    font-size: 15px;
+    letter-spacing: 0;
+  }
+  /********** valores **********/
+  /* ttitulo de valores */
+  .ctn-valores .row div p{
+    font-size: 25px;
+    letter-spacing: 1px;
+    margin-bottom: -15px;
+  }
+  /* contenedor principal de valores */
+  .ctn-val-tittle{
+    margin-left: 13px;
+    margin-top: 38px;
+  }
+  /* contenedor de los valores */
+  .ctn-val-opc{
+    margin-bottom: 15px;
+    padding: 6px 5px;
+  }
+  /* texto de valores */
+  .ctn-val-opc span{
+    font-size: 15px;
+    letter-spacing: 1px;
+  }
+  /********** contacto **********/
+  /* contenedor del texto del banner */
+  .aemi-banner-text-contact{
+    padding: 0px 0px;
+    margin-top: -200px;
+    height: 200px;
+  }
+  /* texto del banner */
+  .aemi-banner-text-contact p{
+    margin-top: 75px;
+    font-size: 30px;
+    letter-spacing: 1px;
+  }
+  /* contenedor principal */
+  .aemi-ctn-form{
+    margin-top: 10px;
+  }
+  /* imagen del formulario */
+  .aemi-ctn-form img{
+    position: absolute;
+    margin-top: 80px;
+    margin-left: -160px;
+    width: 70%;
+    padding: 0px 0px;
+  }
+  /* contenedor del formulario */
+  .aemi-form{
+    margin-top: 20px;
+  }
+  /* titulo */
+  .aemi-form .tittle{
+    position: absolute;
+    margin-top: -10px;
+    margin-left: 100px;
+  }
+  /* titulo2 */
+  .aemi-form .tittle2{
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 160px;
+  }
+  /* formulario */
+  .aemi-form-form{
+    margin-top: 360px;
+  }
+  /* boton del formulario */
+  .aemi-btn-form{
+    margin-top: 10px;
+  }
+  /********** servicios **********/
+  /* banner de nuestros servicios */
+  .aemi-banner-down img{
+    height: 100px;
+  }
+  /* texto del banner de nuestros servicios */
+  .aemi-ctn-our-services{
+    margin-top: -100px;
+    height: 80px;
+  }
+  /* imagen de titulo de nuestros servicios */
+  .aemi-ctn-our-services img{
+    padding: 10px 0px;
+    width: 60%;
+  }
+  /* texto de nuestros servicios */
+  .aemi-ctn-our-services p{
+    padding: 0px 0px;
+    margin-top: 30px;
+    font-size: 25px;
+  }
+  /* contenedor principal */
+  .aemi-services{
+    margin-top: 20px;
+  }
+  /********** Efectos para los servicios **********/
+  /* contenedor de los servicios */
+  .aemi-services-options {
+    margin: 20px -5px;
+  }
+  /* imagen de los servicios */
+  .aemi-services-options figure img {
+    height: 140px;
+    width: 140px;
+  }
+  /* contenedor del texto */
+  .aemi-services-options figure figcaption {
+    height: 140px;
+    width: 140px;
+  }
+  /* texto del servicio */
+  .aemi-services-options figure p {
+    margin: 0px 0px;
+    font-size: 13px;
+    padding: 60px 0px;
+  }
+  /********** beneficios **********/
+  /* imagen de beneficios */
+  .aemi-ctn-benefits-img{
+    display: none;
+  }
+  /* titulo de beneficios */
+  .aemi-benefits-tittle{
+    font-size: 25px;
+    letter-spacing: 1px;
+  }
+  /* imagen del logo */
+  .aemi-benefits-img img{
+    position: absolute;
+    margin-top: -30px;
+    margin-left: 20px;
+  }
+  /* texto de beneficios */
+  .aemi-benefits-text{
+    font-size: 25px;
+  }
+  /* contenedor principal de los beneficios */
+  .aemi-benefits-budgets, .aemi-benefits-services, .aemi-benefits-personal{
+    padding: 5px 2px;
+  }
+  /* texto de los beneficios */
+  .aemi-benefits-budgets p, .aemi-benefits-services p, .aemi-benefits-personal p{
+    font-size: 12px;
+  }
+  /* imagen de los beneficios */
+  .aemi-benefits-budgets img, .aemi-benefits-services img, .aemi-benefits-personal img{
+    width: 60px;
+  }
+  /* contenedor principal del apartado de estrellas */
+  .aemi-benefits-stars{
+    margin-top: -190px;
+    width: 97%;
+    height: 190px;
+  }
+  /* banner de beneficios */
+  .aemi-benefits-starts-banner{
+     width:96%;
+     height: 190px;
+  }
+  /* titulo */
+  .aemi-benefits-stars-tittle{
+    font-size: 25px;
+  }
+  /* imagen de las estrellas */
+  .aemi-ctn-benefits-tittle img{
+    width: 100%;
+  }
+  /********** clientes **********/
+  /* titulo */
+  .aemi-our-costumer P{
+    font-size: 25px;
+  }
+  /* carousel */
+  .aemi-carousel-our-costumer{
+    width: 93%;
+    margin-left: 10px;
+  }
+  /* imagenes del banner */
+  .aemi-our-costumer-banner img{
+    width: 100%;
+    height: 150px;
+  }
+  /********** categorias **********/
+  /* contenedor del texto del banner */
+  .aemi-banner-text-category{
+    margin-top: -200px;
+    height: 200px;
+  }
+  /* texto del banner */
+  .aemi-banner-text-category p{
+    padding: 50px 5px;
+    font-size: 25px;
+    letter-spacing: 1px;
+  }
+  /* imagen del banner de abajo */
+  .aemi-ctn-cat-img{
+    height: 520px !important;
+  }
+  /* sombra del banner de abajo */
+  .aemi-ctn-cat-options{
+    height: 520px !important;
+    margin-top: -520px !important;
+  }
+  /* contenedor del boton para cotizar */
+  .aemi-ctn-cat-cotizacion{
+    margin: 20px 0px;
+  }
+  /* letra del boton para cotizar */
+  .aemi-ctn-cat-cotizacion span a{
+    font-size: 15px;
+  }
+  /********** Efectos para las categorias **********/
+  /* contenedor de los items */
+  .grid-cat figure {
+    height: 120px;
+  }
+  /* imagen de los items */
+  .grid-cat figure img {
+    height: 80px;
+    width: 80px;
+    margin: 30px 60px 0px;
+  }
+  /* contenedor de la información del item */
+  .grid-cat figure figcaption {
+    padding: 10px 0px;
+  }
+  /* titulo del item */
+  .grid-cat figure h2 {
+    font-size: 15px;
+  }
+  /* texto del item */
+  .grid-cat figure p {
+    font-size: 8px;
+  }
+  /********** sub categorias **********/
+  /* conteendor principal */
+  .aemi-subcat-movil{
+    margin-top: 20px;
+  }
+  /* imagen de la sub categorias */
+  .aemi-subcat-movil img{
+    height: 230px;
+    width: 230px;
+    border-radius: 50%;
+  }
+  /********** footer **********/
+  /* titulo */
+  .aemi-footer-tittle{
+    font-size: 25px;
+  }
+  /* titulo */
+  .aemi-footer-tittle span{
+    font-size: 27px;
+  }
+  /* titulo de nuestros servicios */
+  .aemi-footer-our-services h3, .aemi-footer-contact h3{
+    font-size: 20px;
+  }
+  /* lista de servicios */
+  .aemi-footer-our-services ul li{
+    margin-left: -50px;
+    font-size: 12px;
+  }
+  /* texto de contacto */
+  .aemi-footer-contact span{
+    font-size: 12px;
+  }
+  /* icono de las redes */
+  .aemi-footer-social{
+    width: 30px;
+    margin-bottom: 5px;
+  }
+}
+@media only screen and (max-width:438px) and (min-width: 351px){
+  /********** menú **********/
+  /* contenedor del logo */
+  .ctn-Logo{
+    margin-left: 0px;
+  }
+  /* contenedor de los item */
+  .aemi-items{
+    margin-left: 50px;
+  }
+  /* opciones del menú */
+  .aemi-nav .nav-link{
+    position: absolute;
+    margin-top: -50px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-left: 0px;
+  }
+  /* opcion de contacto */
+  .aemi-item-contacto{
+    margin-left: 140px;
+  }
+  /********** banner **********/
+  /* banner principal */
+  .aemi-banner img{
+    height: 200px;
+  }
+  /********** home **********/
+  /* ¿Quienes Somos? contenedor de la imagen */
+  .ctn-Who-Img{
+    margin-top: 10px;
+  }
+  /* ¿Quienes Somos? imagen */
+  .ctn-Who-Img img{
+    width: 100%;
+  }
+  /* ¿Quienes Somos? contenedor */
+  .ctn-Who{
+    width: 100%;
+    position: absolute;
+  }
+  /* ¿Quienes somos? titulo */
+  .ctn-Who-tittle{
+    position: absolute;
+    margin-top: -70px;
+    margin-left: -25px;
+    font-size: 20px;
+    letter-spacing: 2px;
+  }
+  /* ¿Quienes somos? texto */
+  .ctn-Who-text{
+    width: 95%;
+    color: #ffffff;
+    font-weight: lighter;
+    position: absolute;
+    margin-left: -192px;
+    margin-top: -35px;
+    font-size: 12px;
+  }
+  /* ¿Quienes somos? sombra */
+  .ctn-shadow{
+    margin-top: -210px;
+    height: 211px;
+    margin-left: 15px;
+    background: #a4b6d9;
+    opacity: 0.2;
+  }
+  /********** misión y visión **********/
+  /* imagen de misión y visión */
+  .ctn-mi-vi img{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: -120px;
+    width: 50px;
+  }
+  /* contenedor de misión */
+  .ctn-mi{
+    margin-top: 10px;
+    margin-bottom: 70px;
+  }
+  /* titulo de misión */
+  .ctn-mi-tittle{
+    position: absolute;
+    margin-left: 160px;
+    margin-top: 25px;
+    font-size: 20px;
+    letter-spacing: 2px;
+  }
+  /* texto de misión */
+  .ctn-mi-text{
+    font-size: 12px;
+    letter-spacing: 0;
+  }
+  /* contenedor de visión */
+  .ctn-vi{
+    margin-top: -10px;
+    margin-bottom: 70px;
+  }
+  /* titulo de visión */
+  .ctn-vi-tittle{
+    position: absolute;
+    margin-left: 160px;
+    margin-top: 25px;
+    font-size: 20px;
+    letter-spacing: 2px;
+  }
+  /* texto de visión */
+  .ctn-vi-text{
+    font-size: 12px;
+    letter-spacing: 0;
+  }
+  /********** valores **********/
+  /* ttitulo de valores */
+  .ctn-valores .row div p{
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-bottom: -15px;
+  }
+  /* contenedor principal de valores */
+  .ctn-val-tittle{
+    margin-left: 13px;
+    margin-top: 25px;
+  }
+  /* contenedor de los valores */
+  .ctn-val-opc{
+    margin-bottom: 6px;
+    padding: 6px 5px;
+  }
+  /* texto de valores */
+  .ctn-val-opc span{
+    font-size: 12px;
+    letter-spacing: 1px;
+  }
+  /********** contacto **********/
+  /* contenedor del texto del banner */
+  .aemi-banner-text-contact{
+    padding: 0px 0px;
+    margin-top: -200px;
+    height: 200px;
+  }
+  /* texto del banner */
+  .aemi-banner-text-contact p{
+    margin-top: 75px;
+    font-size: 25px;
+    letter-spacing: 1px;
+  }
+  /* contenedor principal */
+  .aemi-ctn-form{
+    margin-top: 10px;
+  }
+  /* imagen del formulario */
+  .aemi-ctn-form img{
+    position: absolute;
+    margin-top: 80px;
+    margin-left: -185px;
+    width: 93%;
+    padding: 0px 0px;
+  }
+  /* contenedor del formulario */
+  .aemi-form{
+    margin-top: 20px;
+  }
+  /* titulo */
+  .aemi-form .tittle{
+    position: absolute;
+    margin-top: -10px;
+    margin-left: 55px;
+  }
+  /* titulo2 */
+  .aemi-form .tittle2{
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 115px;
+  }
+  /* formulario */
+  .aemi-form-form{
+    margin-top: 360px;
+  }
+  /* boton del formulario */
+  .aemi-btn-form{
+    margin-top: 10px;
+  }
+  /********** servicios **********/
+  /* banner de nuestros servicios */
+  .aemi-banner-down img{
+    height: 80px;
+  }
+  /* texto del banner de nuestros servicios */
+  .aemi-ctn-our-services{
+    margin-top: -80px;
+    height: 80px;
+  }
+  /* imagen de titulo de nuestros servicios */
+  .aemi-ctn-our-services img{
+    padding: 10px 0px;
+    width: 50%;
+  }
+  /* texto de nuestros servicios */
+  .aemi-ctn-our-services p{
+    padding: 0px 0px;
+    margin-top: 20px;
+    font-size: 20px;
+  }
+  /* contenedor principal */
+  .aemi-services{
+    margin-top: 20px;
+  }
+  /********** Efectos para los servicios **********/
+  /* contenedor de los servicios */
+  .aemi-services-options {
+    margin: 0px -30px;
+  }
+  /* imagen de los servicios */
+  .aemi-services-options figure img {
+    height: 120px;
+    width: 120px;
+  }
+  /* contenedor del texto */
+  .aemi-services-options figure figcaption {
+    height: 120px;
+    width: 120px;
+  }
+  /* texto del servicio */
+  .aemi-services-options figure p {
+    margin: 0px 0px;
+    font-size: 10px;
+    padding: 50px 0px;
+  }
+  /********** beneficios **********/
+  /* imagen de beneficios */
+  .aemi-ctn-benefits-img{
+    display: none;
+  }
+  /* titulo de beneficios */
+  .aemi-benefits-tittle{
+    font-size: 20px;
+    letter-spacing: 1px;
+  }
+  /* imagen del logo */
+  .aemi-benefits-img img{
+    position: absolute;
+    margin-top: -20px;
+    margin-left: 10px;
+  }
+  /* texto de beneficios */
+  .aemi-benefits-text{
+    font-size: 20px;
+  }
+  /* contenedor principal de los beneficios */
+  .aemi-benefits-budgets, .aemi-benefits-services, .aemi-benefits-personal{
+    padding: 5px 2px;
+  }
+  /* texto de los beneficios */
+  .aemi-benefits-budgets p, .aemi-benefits-services p, .aemi-benefits-personal p{
+    font-size: 10px;
+  }
+  /* imagen de los beneficios */
+  .aemi-benefits-budgets img, .aemi-benefits-services img, .aemi-benefits-personal img{
+    width: 40px;
+  }
+  /* contenedor principal del apartado de estrellas */
+  .aemi-benefits-stars{
+    margin-top: -190px;
+    width: 96%;
+    height: 190px;
+  }
+  /* banner de beneficios */
+  .aemi-benefits-starts-banner{
+     width:96%;
+     height: 190px;
+  }
+  /* titulo */
+  .aemi-benefits-stars-tittle{
+    font-size: 20px;
+  }
+  /* imagen de las estrellas */
+  .aemi-ctn-benefits-tittle img{
+    width: 100%;
+  }
+  /********** clientes **********/
+  /* titulo */
+  .aemi-our-costumer P{
+    font-size: 20px;
+  }
+  /* carousel */
+  .aemi-carousel-our-costumer{
+    width: 93%;
+    margin-left: 10px;
+  }
+  /* imagenes del banner */
+  .aemi-our-costumer-banner img{
+    width: 100%;
+    height: 130px;
+  }
+  /********** categorias **********/
+  /* contenedor del texto del banner */
+  .aemi-banner-text-category{
+    margin-top: -200px;
+    height: 200px;
+  }
+  /* texto del banner */
+  .aemi-banner-text-category p{
+    padding: 50px 5px;
+    font-size: 20px;
+    letter-spacing: 1px;
+  }
+  /* imagen del banner de abajo */
+  .aemi-ctn-cat-img{
+    height: 520px !important;
+  }
+  /* sombra del banner de abajo */
+  .aemi-ctn-cat-options{
+    height: 520px !important;
+    margin-top: -520px !important;
+  }
+  /* contenedor del boton para cotizar */
+  .aemi-ctn-cat-cotizacion{
+    margin: 20px 0px;
+  }
+  /* letra del boton para cotizar */
+  .aemi-ctn-cat-cotizacion span a{
+    font-size: 12px;
+  }
+  /********** Efectos para las categorias **********/
+  /* contenedor de los items */
+  .grid-cat figure {
+    height: 120px;
+  }
+  /* imagen de los items */
+  .grid-cat figure img {
+    height: 50px;
+    width: 50px;
+    margin: 40px 40px 0px;
+  }
+  /* contenedor de la información del item */
+  .grid-cat figure figcaption {
+    padding: 10px 0px;
+  }
+  /* titulo del item */
+  .grid-cat figure h2 {
+    font-size: 12px;
+  }
+  /* texto del item */
+  .grid-cat figure p {
+    font-size: 7px;
+  }
+  /********** sub categorias **********/
+  /* conteendor principal */
+  .aemi-subcat-movil{
+    margin-top: 20px;
+  }
+  /* imagen de la sub categorias */
+  .aemi-subcat-movil img{
+    height: 230px;
+    width: 230px;
+    border-radius: 50%;
+  }
+  /********** footer **********/
+  /* titulo */
+  .aemi-footer-tittle{
+    font-size: 20px;
+  }
+  /* titulo */
+  .aemi-footer-tittle span{
+    font-size: 22px;
+  }
+  /* titulo de nuestros servicios */
+  .aemi-footer-our-services h3, .aemi-footer-contact h3{
+    font-size: 15px;
+  }
+  /* lista de servicios */
+  .aemi-footer-our-services ul li{
+    margin-left: -50px;
+    font-size: 10px;
+  }
+  /* texto de contacto */
+  .aemi-footer-contact span{
+    font-size: 10px;
+  }
+  /* icono de las redes */
+  .aemi-footer-social{
+    width: 30px;
+    margin-bottom: 5px;
+  }
+}
+@media only screen and (max-width:350px) and (min-width: 320px){
+  /********** menú **********/
+  /* contenedor del logo */
+  .ctn-Logo{
+    margin-left: 0px;
+  }
+  /* contenedor de los item */
+  .aemi-items{
+    margin-left: 50px;
+  }
+  /* opciones del menú */
+  .aemi-nav .nav-link{
+    position: absolute;
+    margin-top: -50px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-left: 0px;
+  }
+  /* opcion de contacto */
+  .aemi-item-contacto{
+    margin-left: 140px;
+  }
+  /********** banner **********/
+  /* banner principal */
+  .aemi-banner img{
+    height: 200px;
+  }
+  /********** home **********/
+  /* ¿Quienes Somos? contenedor de la imagen */
+  .ctn-Who-Img{
+    margin-top: 10px;
+  }
+  /* ¿Quienes Somos? imagen */
+  .ctn-Who-Img img{
+    width: 100%;
+  }
+  /* ¿Quienes Somos? contenedor */
+  .ctn-Who{
+    width: 100%;
+    position: absolute;
+  }
+  /* ¿Quienes somos? titulo */
+  .ctn-Who-tittle{
+    position: absolute;
+    margin-top: -70px;
+    margin-left: -25px;
+    font-size: 20px;
+    letter-spacing: 2px;
+  }
+  /* ¿Quienes somos? texto */
+  .ctn-Who-text{
+    width: 90%;
+    color: #ffffff;
+    font-weight: lighter;
+    position: absolute;
+    margin-left: -152px;
+    margin-top: -35px;
+    font-size: 12px;
+  }
+  /* ¿Quienes somos? sombra */
+  .ctn-shadow{
+    margin-top: -210px;
+    height: 211px;
+    margin-left: 15px;
+    background: #a4b6d9;
+    opacity: 0.2;
+  }
+  /********** misión y visión **********/
+  /* imagen de misión y visión */
+  .ctn-mi-vi img{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: -120px;
+    width: 50px;
+  }
+  /* contenedor de misión */
+  .ctn-mi{
+    margin-top: 10px;
+    margin-bottom: 70px;
+  }
+  /* titulo de misión */
+  .ctn-mi-tittle{
+    position: absolute;
+    margin-left: 160px;
+    margin-top: 25px;
+    font-size: 20px;
+    letter-spacing: 2px;
+  }
+  /* texto de misión */
+  .ctn-mi-text{
+    font-size: 12px;
+    letter-spacing: 0;
+  }
+  /* contenedor de visión */
+  .ctn-vi{
+    margin-top: -10px;
+    margin-bottom: 70px;
+  }
+  /* titulo de visión */
+  .ctn-vi-tittle{
+    position: absolute;
+    margin-left: 160px;
+    margin-top: 25px;
+    font-size: 20px;
+    letter-spacing: 2px;
+  }
+  /* texto de visión */
+  .ctn-vi-text{
+    font-size: 12px;
+    letter-spacing: 0;
+  }
+  /********** valores **********/
+  /* ttitulo de valores */
+  .ctn-valores .row div p{
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-bottom: -15px;
+  }
+  /* contenedor principal de valores */
+  .ctn-val-tittle{
+    margin-left: 13px;
+    margin-top: 25px;
+  }
+  /* contenedor de los valores */
+  .ctn-val-opc{
+    margin-bottom: 6px;
+    padding: 6px 5px;
+  }
+  /* texto de valores */
+  .ctn-val-opc span{
+    font-size: 12px;
+    letter-spacing: 1px;
+  }
+  /********** contacto **********/
+  /* contenedor del texto del banner */
+  .aemi-banner-text-contact{
+    padding: 0px 0px;
+    margin-top: -200px;
+    height: 200px;
+  }
+  /* texto del banner */
+  .aemi-banner-text-contact p{
+    margin-top: 75px;
+    font-size: 25px;
+    letter-spacing: 1px;
+  }
+  /* contenedor principal */
+  .aemi-ctn-form{
+    margin-top: 10px;
+  }
+  /* imagen del formulario */
+  .aemi-ctn-form img{
+    position: absolute;
+    margin-top: 80px;
+    margin-left: -150px;
+    width: 93%;
+    padding: 0px 0px;
+  }
+  /* contenedor del formulario */
+  .aemi-form{
+    margin-top: 20px;
+  }
+  /* titulo */
+  .aemi-form .tittle{
+    position: absolute;
+    margin-top: -10px;
+    margin-left: 15px;
+  }
+  /* titulo2 */
+  .aemi-form .tittle2{
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 68px;
+  }
+  /* formulario */
+  .aemi-form-form{
+    margin-top: 360px;
+  }
+  /* boton del formulario */
+  .aemi-btn-form{
+    margin-top: 10px;
+  }
+  /********** servicios **********/
+  /* banner de nuestros servicios */
+  .aemi-banner-down img{
+    height: 80px;
+  }
+  /* texto del banner de nuestros servicios */
+  .aemi-ctn-our-services{
+    margin-top: -80px;
+    height: 80px;
+  }
+  /* imagen de titulo de nuestros servicios */
+  .aemi-ctn-our-services img{
+    padding: 10px 0px;
+    width: 50%;
+  }
+  /* texto de nuestros servicios */
+  .aemi-ctn-our-services p{
+    padding: 0px 0px;
+    margin-top: 20px;
+    font-size: 20px;
+  }
+  /* contenedor principal */
+  .aemi-services{
+    margin-top: 20px;
+  }
+  /********** Efectos para los servicios **********/
+  /* contenedor de los servicios */
+  .aemi-services-options {
+  	margin: 0px -30px;
+  }
+  /* imagen de los servicios */
+  .aemi-services-options figure img {
+    height: 120px;
+    width: 120px;
+  }
+  /* contenedor del texto */
+  .aemi-services-options figure figcaption {
+    height: 120px;
+    width: 120px;
+  }
+  /* texto del servicio */
+  .aemi-services-options figure p {
+    margin: 0px 0px;
+  	font-size: 10px;
+    padding: 50px 0px;
+  }
+  /********** beneficios **********/
+  /* imagen de beneficios */
+  .aemi-ctn-benefits-img{
+    display: none;
+  }
+  /* titulo de beneficios */
+  .aemi-benefits-tittle{
+    font-size: 20px;
+    letter-spacing: 1px;
+  }
+  /* imagen del logo */
+  .aemi-benefits-img img{
+    position: absolute;
+    margin-top: -20px;
+    margin-left: 10px;
+  }
+  /* texto de beneficios */
+  .aemi-benefits-text{
+    font-size: 20px;
+  }
+  /* contenedor principal de los beneficios */
+  .aemi-benefits-budgets, .aemi-benefits-services, .aemi-benefits-personal{
+    padding: 5px 2px;
+  }
+  /* texto de los beneficios */
+  .aemi-benefits-budgets p, .aemi-benefits-services p, .aemi-benefits-personal p{
+    font-size: 10px;
+  }
+  /* imagen de los beneficios */
+  .aemi-benefits-budgets img, .aemi-benefits-services img, .aemi-benefits-personal img{
+    width: 40px;
+  }
+  /* contenedor principal del apartado de estrellas */
+  .aemi-benefits-stars{
+    margin-top: -190px;
+    width: 96%;
+    height: 190px;
+  }
+  /* banner de beneficios */
+  .aemi-benefits-starts-banner{
+     width:96%;
+     height: 190px;
+  }
+  /* titulo */
+  .aemi-benefits-stars-tittle{
+    font-size: 20px;
+  }
+  /* imagen de las estrellas */
+  .aemi-ctn-benefits-tittle img{
+    width: 100%;
+  }
+  /********** clientes **********/
+  /* titulo */
+  .aemi-our-costumer P{
+    font-size: 20px;
+  }
+  /* carousel */
+  .aemi-carousel-our-costumer{
+    width: 93%;
+    margin-left: 10px;
+  }
+  /* imagenes del banner */
+  .aemi-our-costumer-banner img{
+    width: 100%;
+    height: 130px;
+  }
+  /********** categorias **********/
+  /* contenedor del texto del banner */
+  .aemi-banner-text-category{
+    margin-top: -200px;
+    height: 200px;
+  }
+  /* texto del banner */
+  .aemi-banner-text-category p{
+    padding: 50px 5px;
+    font-size: 20px;
+    letter-spacing: 1px;
+  }
+  /* imagen del banner de abajo */
+  .aemi-ctn-cat-img{
+    height: 520px !important;
+  }
+  /* sombra del banner de abajo */
+  .aemi-ctn-cat-options{
+    height: 520px !important;
+    margin-top: -520px !important;
+  }
+  /* contenedor del boton para cotizar */
+  .aemi-ctn-cat-cotizacion{
+    margin: 20px 0px;
+  }
+  /* letra del boton para cotizar */
+  .aemi-ctn-cat-cotizacion span a{
+    font-size: 12px;
+  }
+  /********** Efectos para las categorias **********/
+  /* contenedor de los items */
+  .grid-cat figure {
+    height: 120px;
+  }
+  /* imagen de los items */
+  .grid-cat figure img {
+    height: 50px;
+    width: 50px;
+    margin: 40px 40px 0px;
+  }
+  /* contenedor de la información del item */
+  .grid-cat figure figcaption {
+  	padding: 10px 0px;
+  }
+  /* titulo del item */
+  .grid-cat figure h2 {
+    font-size: 12px;
+  }
+  /* texto del item */
+  .grid-cat figure p {
+  	font-size: 7px;
+  }
+  /********** sub categorias **********/
+  /* conteendor principal */
+  .aemi-subcat-movil{
+    margin-top: 20px;
+  }
+  /* imagen de la sub categorias */
+  .aemi-subcat-movil img{
+    height: 230px;
+    width: 230px;
+    border-radius: 50%;
+  }
+  /********** footer **********/
+  /* titulo */
+  .aemi-footer-tittle{
+    font-size: 20px;
+  }
+  /* titulo */
+  .aemi-footer-tittle span{
+    font-size: 22px;
+  }
+  /* titulo de nuestros servicios */
+  .aemi-footer-our-services h3, .aemi-footer-contact h3{
+    font-size: 15px;
+  }
+  /* lista de servicios */
+  .aemi-footer-our-services ul li{
+    margin-left: -50px;
+    font-size: 10px;
+  }
+  /* texto de contacto */
+  .aemi-footer-contact span{
+    font-size: 10px;
+  }
+  /* icono de las redes */
+  .aemi-footer-social{
+    width: 30px;
+    margin-bottom: 5px;
+  }
+}

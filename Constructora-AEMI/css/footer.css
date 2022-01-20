@@ -1,0 +1,44 @@
+/*------------------------VISTA COMPUTADORA 1440px -------------------*/
+/********** FOOTER **********/
+/* footer */
+.aemi-footer{
+  background-image: radial-gradient(farthest-corner at 45px 45px , #ec1c24 30%, #333333 80%);
+  border-radius: 0px;
+  margin: 0px;
+}
+/* titulo */
+.aemi-footer-tittle{
+  font-weight: bold;
+  font-size: 33px;
+}
+/* titulo */
+.aemi-footer-tittle span{
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 35px;
+}
+/* linea del footer */
+.aemi-footer hr{
+  border-bottom: 1px solid #ffffff;
+}
+/* lista de servicios */
+.aemi-footer-our-services ul li a{
+  position: absolute;
+  color: #ffffff;
+}
+/* lista de servicios cuando pase el mouse */
+.aemi-footer-our-services ul li a:hover{
+  border-bottom: 1px solid #ffffff;
+}
+/* lista de servicios */
+.aemi-footer-our-services ul li{
+  margin-left: -200px;
+}
+/* titulo de contacto */
+.aemi-footer-contact{
+  color: #ffffff;
+}
+/* icono de las redes */
+.aemi-footer-social{
+  width: 30%;
+}

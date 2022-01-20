@@ -1,0 +1,119 @@
+/*------------------------VISTA COMPUTADORA 1440px -------------------*/
+/********** home **********/
+/* ¿Quienes Somos? contenedor de la imagen */
+.ctn-Who-Img{
+  z-index: 1;
+}
+/* ¿Quienes Somos? imagen */
+.ctn-Who-Img img{
+  width: 100%;
+}
+/* ¿Quienes Somos? contenedor */
+.ctn-Who{
+  position: absolute;
+  margin-left: 50%;
+  margin-top: 100px;
+  z-index: 3;
+}
+/* ¿Quienes somos? titulo */
+.ctn-Who-tittle{
+  font-size: 50px;
+  letter-spacing: 3px;
+  color: #C02536;
+  font-weight: bold;
+  text-transform: uppercase
+}
+/* ¿Quienes somos? texto */
+.ctn-Who-text{
+  font-size: 20px;
+  letter-spacing: 1px;
+  color: #135283;
+  font-weight: bold;
+  text-align: justify;
+}
+/* ¿Quienes somos? sombra */
+.ctn-shadow{
+  position: absolute;
+  margin-top: -220px;
+  width: 100%;
+  height: 220px;
+  background: #a4b6d9;
+  opacity: 0.3;
+  z-index: 2;
+}
+/********** misión y visión **********/
+/* imagen de misión y visión */
+.ctn-mi-vi img{
+  width: 150px;
+}
+/* titulo de misión */
+.ctn-mi-tittle{
+  font-size: 40px;
+  letter-spacing: 3px;
+  font-weight: bold;
+  color: #C02536;
+  text-transform: uppercase;
+}
+/* texto de misión */
+.ctn-mi-text{
+  font-size: 20px;
+  letter-spacing: 1px;
+  color: #135286;
+  font-weight: bold;
+  text-align: justify;
+}
+/* titulo de visión */
+.ctn-vi-tittle{
+  font-size: 40px;
+  letter-spacing: 3px;
+  font-weight: bold;
+  color: #676767;
+  text-transform: uppercase;
+}
+/* texto de visión */
+.ctn-vi-text{
+  font-size: 20px;
+  letter-spacing: 1px;
+  color: #135286;
+  font-weight: bold;
+  text-align: justify;
+}
+/* Valores */
+.ctn-valores .row div.ctn-val-h1{
+  z-index: 99;
+}
+/* ttitulo de valores */
+.ctn-valores .row div p{
+  font-size: 50px;
+  color: #ffffff;
+  background-color: #C02536;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 3px;
+  margin-bottom: -30px;
+}
+/* imagen de banner de valores */
+.ctn-valores .row div img{
+  width: 100%;
+}
+/* contenedor principal de valores */
+.ctn-val-tittle{
+  position: absolute;
+  margin-top: 100px;
+}
+/* contenedor de los valores */
+.ctn-val-opc{
+  background-color: rgba(150, 150, 150, 0.3);
+  margin-bottom: 30px;
+  padding: 60px 5px;
+  text-align: center;
+}
+/* texto de valores */
+.ctn-val-opc span{
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  color: #ffffff;
+  text-transform: uppercase;
+}

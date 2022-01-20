@@ -1,0 +1,218 @@
+/*------------------------VISTA COMPUTADORA 1440px -------------------*/
+/********** SERVICIOS **********/
+/* texto del banner de nuestros servicios */
+.aemi-ctn-our-services{
+  margin-top: -200px;
+  opacity: 0.8;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  height: 200px;
+}
+/* imagen de titulo de nuestros servicios */
+.aemi-ctn-our-services img{
+  padding: 10px;
+  width: 50%;
+}
+/* texto de nuestros servicios */
+.aemi-ctn-our-services p{
+  padding: 60px 100px;
+  text-align: center;
+  font-size: 50px;
+  color: #ffffff;
+}
+/* contenedor principal */
+.aemi-services{
+  margin-top: 70px;
+}
+/********** Efectos para los servicios **********/
+/* contenedor de los servicios */
+.aemi-services-options {
+	position: relative;
+	clear: both;
+	margin: 0 auto;
+	list-style: none;
+	text-align: center;
+}
+/* contenedor de la imagen */
+.aemi-services-options figure {
+	position: relative;
+	overflow: hidden;
+	height: auto;
+	text-align: center;
+	cursor: pointer;
+}
+/* imagen de los servicios */
+.aemi-services-options figure img {
+	position: relative;
+	display: block;
+  height: 230px;
+  width: 230px;
+  margin: 0px 40px 0px;
+}
+/* contenedor del texto */
+.aemi-services-options figure figcaption {
+  position: absolute;
+	top: 0;
+	left: 0;
+  height: 230px;
+  width: 230px;
+  margin: 0px 40px 0px;
+  border-radius: 50%;
+	color: #fff;
+	text-transform: uppercase;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+.aemi-services-options figure figcaption::before,
+.aemi-services-options figure figcaption::after {
+	pointer-events: none;
+}
+/* texto del servicio */
+.aemi-services-options figure p {
+  margin: 25px 0px;
+	font-size: 20px;
+  padding: 75px 0px;
+	opacity: 0;
+  font-weight: 300;
+	-webkit-transition: opacity 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: scale(1.5);
+	transform: scale(1.5);
+}
+.aemi-services-options .effect-ming img {
+	-webkit-transition: opacity 0.35s;
+	transition: opacity 0.35s;
+}
+.aemi-services-options .effect-ming figcaption::before {
+	position: absolute;
+	top: 3px;
+	right: 3px;
+	bottom: 3px;
+	left: 3px;
+	content: '';
+	opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: scale3d(1.4,1.4,1);
+	transform: scale3d(1.4,1.4,1);
+}
+.aemi-services-options .effect-ming:hover h2 {
+	-webkit-transform: scale(0.9);
+	transform: scale(0.9);
+}
+.aemi-services-options .effect-ming:hover figcaption::before,
+.aemi-services-options .effect-ming:hover p {
+	opacity: 1;
+	-webkit-transform: scale3d(1,1,1);
+	transform: scale3d(1,1,1);
+}
+.aemi-services-options .effect-ming:hover figcaption {
+	background-color: rgba(0, 0, 0, 0.8);
+}
+/********** BENEFICIOS **********/
+/* contenedor de beneficios */
+.aemi-ctn-benefits{
+  background-color: #EDEDEC
+}
+/* imagen de beneficios */
+.aemi-ctn-benefits-img{
+  width: 400px;
+  height: 400px;
+}
+/* titulo de beneficios */
+.aemi-benefits-tittle{
+  font-size: 50px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+/* imagen del logo */
+.aemi-benefits-img img{
+  width:100px;
+  height:80px;
+}
+/* texto de beneficios */
+.aemi-benefits-text{
+  font-size: 27px;
+  color: #535353;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+/* texto de beneficios */
+.aemi-benefits-text span{
+  color: #C02536;
+}
+/* cuadro de propuestas */
+.aemi-benefits-budgets{
+  background-color: #C02536;
+  padding: 10px;
+}
+/* cuadro de servicios */
+.aemi-benefits-services{
+  background-color: #8B2134;
+  padding: 10px;
+}
+/* cuadro de personal */
+.aemi-benefits-personal{
+  background-color: #535353;
+  padding: 10px;
+}
+/* texto de los beneficios */
+.aemi-benefits-budgets p, .aemi-benefits-services p, .aemi-benefits-personal p{
+  margin-top: 25px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 15px;
+}
+/* imagen de los beneficios */
+.aemi-benefits-budgets img, .aemi-benefits-services img, .aemi-benefits-personal img{
+  width: 60px;
+}
+/* contenedor principal del apartado de estrellas */
+.aemi-benefits-stars{
+  padding: 30px 50px;
+  margin-top: -250px;
+  opacity: 0.8;
+  background-color: rgb(230, 56, 92);
+  width: 99%;
+  height: 250px;
+}
+/* banner de beneficios */
+.aemi-benefits-starts-banner{
+   width:99%;
+   height:250px;
+}
+/* contenedor del apartado de estrellas */
+.aemi-ctn-benefits-tittle{
+  padding: 10px;
+  border: 5px solid #ffffff;
+}
+/* titulo */
+.aemi-benefits-stars-tittle{
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #000000;
+}
+/* titulo */
+.aemi-benefits-stars-tittle span{
+  color: #ffffff;
+}
+/********** CLIENTES **********/
+/* titulo */
+.aemi-our-costumer P{
+  font-size: 40px;
+  font-weight: bold;
+  color: #000000;
+  text-transform: uppercase;
+}
+/* carousel */
+.aemi-carousel-our-costumer{
+  width: 700px;
+  margin-left: 200px;
+}
+/* imagenes del banner */
+.aemi-our-costumer-banner img{
+  width:700px;
+  height:250px;
+}

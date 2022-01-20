@@ -1,0 +1,48 @@
+/*------------------------VISTA COMPUTADORA 1440px -------------------*/
+/********** contacto **********/
+/* contenedor del banner */
+.aemi-banner-text-contact{
+  padding: 220px 50px;
+  margin-top: -600px;
+  opacity: 0.8;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  height: 600px;
+}
+/* texto del banner */
+.aemi-banner-text-contact p{
+  font-size: 110px;
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+/* contenedor principal */
+.aemi-ctn-form{
+  margin-top: 40px;
+}
+/* imagen del formulario */
+.aemi-ctn-form img{
+  width: 100%;
+  padding: 40px 0px;
+}
+/* titulo */
+.aemi-form .tittle{
+  text-transform: uppercase;
+  text-align: center;
+  color: #C02536;
+  font-size: 20px;
+  font-weight: bold;
+}
+/* titulo2 */
+.aemi-form .tittle2{
+  text-transform: uppercase;
+  text-align: left;
+  color: #000000;
+  font-size: 20px;
+  font-weight: bold;
+}
+/* inputs */
+.aemi-input-form{
+  border: 1px solid #eb132a;
+}

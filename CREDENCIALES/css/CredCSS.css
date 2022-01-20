@@ -1,0 +1,130 @@
+/*------------------------VISTA COMPUTADORA-----------------------*/
+@import url('https://fonts.googleapis.com/css?family=Poppins|Roboto+Condensed');
+body{
+  font-family: 'Poppins', sans-serif;
+}
+*{
+  box-sizing: border-box;
+}
+img{
+  display: block;
+  max-width: 100%;
+}
+/*------------------------MENU--------------------------------*/
+/* CONTENEDOR */
+#Cred_Menu{
+  font-family: 'Roboto Condensed', sans-serif;
+  background-color: #006465;
+}
+/* LISTA DEL MENU*/
+#Cred_Menu_Ul{
+  margin-left: 250px;
+}
+/* ITEMS DEL MENU */
+#Cred_Menu_Ul_Items{
+  margin-left: 150px;
+  color: #ffffff;
+}
+/*------------------------VISTA DE CREDENCIAL TV-------------*/
+/* CONTENEDOR DE CREDENCIAL */
+#CredAPCI{
+  padding: 100px;
+}
+/* BOTON */
+#Cred_Form_btn{
+  background-color: inherit;
+  color: #006465;
+  border: 1px solid #006465;
+}
+/* BOTON CUANDO PASEN EL MAUSE*/
+#Cred_Form_btn:hover{
+  background-color: #006465;
+  color: #ffffff;
+  border: 1px solid #006465;
+}
+/* CREDENCIAL FRENTE */
+#PantillaCred_1{
+  background: url(../images/PantillaCred/PantillaCred_1.jpg) no-repeat;
+  width: 236px;
+  height: auto;
+  min-height: 376px;
+}
+/* LOGO DE LA EMPRESA */
+#Cred_img_Logo{
+  /* position: absolute;   */
+  width: 120px;
+  height: 80px;
+  margin-left: 60px;
+  /* margin-top: 5px; */
+}
+/* FOTO DEL COLABORADOR */
+#Cred_img_Foto{
+  width: 120px;
+  height: 120px;
+  border-radius: 60px;
+  margin-left: 54px;
+  margin-top: 11px;
+}
+/* NOMBRE DEL COLABORADOR */
+#Cred_name{
+  position: absolute;
+  margin-top: 160px;
+  margin-left: 25px;
+}
+/* PUESTO DEL COLABORADOR */
+#Cred_Puesto{
+  position: absolute;
+  margin-top: 50px;
+  margin-left: 65px;
+}
+/* LOGO DE CONSULTORIA */
+#Cred_img_Logo_Emp{
+  width: 120px;
+  height: 60px;
+  margin-left: 60px;
+  margin-top: 110px;
+}
+/* CREDENCIAL ATRAS */
+#PantillaCred_2{
+  background: url(../images/PantillaCred/PantillaCred_2.jpg) no-repeat;
+  width: 236px;
+  height: auto;
+  min-height: 376px;
+  /* border-radius: 20px; */
+}
+/*------------------------VISTA LAPTOP L-----------------------*/
+@media screen and (max-width: 1440px){
+
+}
+/*------------------------VISTA IPAD landscape-----------------*/
+@media screen and (max-width: 1366px){
+
+}
+/*------------------------VISTA LAPTOP-------------------------*/
+@media screen and (max-width: 1280px){
+
+}
+/*------------------------VISTA IPAD---------------------------*/
+@media screen and (max-width: 1024px){
+
+}
+/*------------------------VISTA SMARTPHONE landscape-----------*/
+@media screen and (max-width: 900px){
+
+}
+/*------------------------VISTA TABLETS------------------------*/
+@media screen and (max-width: 768px){
+
+}
+/*------------------------VISTA SMARTPHONE---------------------*/
+@media screen and (max-width: 500px){
+
+}
+/*------------------------VISTA SMARTPHONE ANDROID-------------*/
+@media screen and (max-width: 450px){
+
+}
+/*------------------------VISTA SMARTPHONE IPHONE--------------*/
+@media screen and (max-width: 350px){
+
+}
