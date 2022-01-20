@@ -1,0 +1,6 @@
+/*------------------------ PERFIL -----------------------*/
+/* imagen del usuario */
+#EditarMiPerfil figure img{
+  width: 80%;
+  margin: 10px 0;
+}

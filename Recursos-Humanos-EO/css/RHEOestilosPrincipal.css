@@ -1,0 +1,469 @@
+/*------------------------ESTILOS GENERALES------------------------*/
+@import url('https://fonts.googleapis.com/css?family=Poppins|Roboto+Condensed');
+body{
+  font-family: 'Roboto Condensed', sans-serif;
+}
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+img{
+  display: block;
+  max-width: 100%;
+}
+/* TITULOS DE LA PAGINA */
+#rheo_tittle{
+  font-family: 'Poppins', sans-serif;
+  font-size: 50px;
+  color: #ffb700;
+  text-align: center;
+}
+/* SUBTITULOS DE LA PAGINA */
+#rheo_subtittle{
+  font-family: 'Poppins', sans-serif;
+  font-size: 40px;
+  color: #ffb700;
+  text-align: center;
+}
+/* TEXTO DE LA PAGINA */
+#rheo_txt{
+  font-size: 30px;
+  text-align: justify;
+  color: #545454;
+}
+/* TEXTO DE LA PAGINA COLOR BLANCO */
+#rheo_txt_white{
+  font-size: 30px;
+  text-align: justify;
+  color: #ffffff;
+}
+/*------------------------ESTILOS DEL MENU------------------------*/
+/* CONTENEDOR DERL MENU */
+#rheo_navbar{
+  background-color: #545454;
+  border-bottom: solid 2px #8cbd22;
+}
+/* LOGO DE LA EMPRESA */
+#rheo_logo_img{
+  width: 30%;
+  height: 30%;
+}
+/* ICONO DEL MENU */
+#rheo_menu_icon{
+  font-size: 40px;
+  color: #ffb700;
+}
+/* AOPCIONES DEL MENU */
+#rheo_menu_ul_items{
+  color: #ffffff;
+  font-size: 25px;
+  margin-left: 150px;
+  font-weight: bold;
+}
+/* APCIONES DEL MENU CUANDO PASEN EL MAUSE */
+#rheo_menu_ul_items:hover{
+  transition: all 0.3s;
+  color: #ffb700;
+  border-bottom: 1px solid #ffb700;
+  margin-top: 5px;
+}
+/*------------------------ESTILOS DEL BANNER------------------------*/
+/* CONTENEDOR DEL BANNER */
+#rheo_banner{
+  position: relative;
+  z-index: -1000;
+}
+/* IMAGEN DEL BANNER */
+#rheo_banner_img{
+  width: 100%;
+  height: 100%;
+}
+/* CONTENEDOR DE LAS LETRAS DENTRO DEL BANNER */
+#rheo_banner_contenedor{
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  color: #ffb700;
+  text-align: center;
+}
+/* TEXTO DEL BANNER */
+#rheo_banner_txt{
+  font-size: 40px;
+}
+/* TITULO DEL BANNER */
+#rheo_benner_titulo{
+  font-size: 50px;
+}
+/* TITULO1 DEL BANNER */
+#rheo_benner_titulo1{
+  color: #8cbd22;
+  font-size: 60px;
+}
+/*------------------------HOMEPAGE ------------------------*/
+#rheo_homepage{
+  margin-top: 50px;
+  padding: 50px;
+}
+/*------------------------ESTILOS DEL APARTADO DE QUIENES SOMOS ------------------------*/
+/* TITULO PARA LAS CARDS */
+#rheo_tittle_white_card{
+  color: #ffffff;
+  font-size: 30px;
+  text-align: center;
+}
+/* TEXTO DE LAS CARDS*/
+#rheo_txt_white_card{
+  font-size: 20px;
+  text-align: justify;
+  color: #ffffff;
+}
+/* CONTENEDOR */
+#rheo_quienessomos{
+  background-color: #545454;
+  padding: 50px;
+}
+/* CONTENEDOR DE QUIENES SOMOS */
+#rheo_quienessomos_Welcome{
+  margin-bottom: 50px;
+}
+/* IMAGEN */
+#rheo_quienessomos_Welcome_img{
+  height: 100%;
+  height: 100%;
+}
+/* CONTENEDOR DE OBJETIVOS */
+#rheo_quienessomos_obj{
+  margin-bottom: 50px;
+}
+/* IMAGEN DE OBJETIVOS */
+#rheo_quienessomos_obj_img{
+  margin-bottom: 25px;
+}
+/* CONTENEDOR DE LAS CARDS DEL EQUIPO */
+#rheo_quienessomos_team_card{
+  margin-bottom: 20px;
+}
+/* CARDS DEL EQUIPO */
+#rheo_quienessomos_card_team{
+  padding: 20px;
+  border-color: #706751;
+  background-color: #706751;
+}
+/* IMAGENES DEL EQUIPO */
+#rheo_quienessomos_team_card_img{
+  margin-left: 20px;
+  width: 350px;
+  height: 350px;
+  -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(.7, transparent), to(rgba(0,0,0,0.1)));
+  border-radius: 200px 200px 200px 10px;
+  border: 10px solid #ffffff;
+  -webkit-transition: margin 0.5s ease-out;
+  -moz-transition: margin 0.5s ease-out;
+  -o-transition: margin 0.5s ease-out;
+}
+/* IMAGENES DEL EQUIPO CUANDO PASEN EL MAUSE */
+#rheo_quienessomos_team_card_img:hover{
+  opacity: 0.9;
+  width: 350px;
+  height: 350px;
+  border-radius: 100%;
+  margin-top: 1px;
+  border: 10px solid #ffffff;
+  -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(.7, transparent), to(rgba(0,0,0,0.1)));
+}
+/*------------------------ESTILOS DEL APARTADO DE SERVICIOS ------------------------*/
+/* CONTENEDOR */
+#rheo_servicios{
+  padding: 50px;
+}
+/* CONTENEDOR DE CADA SERVICIO */
+#rheo_servicios_item_servicio{
+  margin-bottom: 50px;
+}
+/* IMAGENES DEL SERVICIO */
+#rheo_servicios_item_servicio_img{
+  height: 100%;
+  width: 100%;
+}
+/*------------------------ESTILOS DEL APARTADO DE EVENTOS ------------------------*/
+/* LINEA DE EVENTOS */
+#rheo_linea_eventos{
+  color: #ffffff;
+}
+/* CONTENEDOR */
+#rheo_eventos{
+  padding: 50px;
+}
+/* OPCIONES DE LA LINEA DEL TIEMPO */
+#rheo_linea_ul_items{
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 30px;
+  margin-left: 50px;
+}
+/* OPCIONES DE LA LINEA DEL TIEMPO CUANDO PASEN EL MAUSE*/
+#rheo_linea_ul_items:hover{
+  border-bottom: 1px solid #ffffff;
+  margin-top: 5px;
+}
+/* CONTENEDOR DE LOS PRIMEROS EVENTOS */
+#rheo_eventos_event{
+  margin-bottom: 80px;
+}
+/* FECHA DEL EVENTO */
+#rheo_fecha_evento{
+  text-align: center;
+  font-size: 50px;
+  color: #545454;
+  text-transform: uppercase;
+}
+/* CONTENEDOR DE CARD DE CADA EVENTO */
+#rheo_container_card{
+  margin-bottom: 30px;
+}
+/* CARD DE CADA EVENTO */
+#rheo_card_items{
+  border: 3px solid #ffb700;
+  border-radius: 10px;
+}
+/* TITULO DEL EVENTO */
+#rheo_card_tittle{
+  text-align: center;
+  font-size: 40px;
+  color: #ffb700;
+}
+/* IMAGEN DEL EVENTO */
+#rheo_card_img{
+  padding: 10px;
+  width: 100%;
+  height: 400px;
+  border-radius: 30px;
+}
+/* ICONOS DEL EVENTO */
+#rheo_card_icon{
+  /* font-size: 40px; */
+  width: 100%;
+  height: 100%;
+  color: #ffb700;
+}
+/* SUBTITULOS DEL EVENTO */
+#rheo_card_subtittle{
+  font-size: 30px;
+  color: #ffb700;
+}
+/* TEXTO DEL EVENTO */
+#rheo_card_txt{
+  font-size: 20px;
+  color: #545454;
+}
+/* BOTON DEL EVENTO */
+#rheo_card_btn{
+  font-size: 20px;
+  float: right;
+}
+/* ICONO DEL BOTON DEL EVENTO */
+#rheo_card_btn_icon{
+  color: #ffffff;
+}
+/*------------------------ESTILOS DEL FOOTER ------------------------*/
+/* CONTENEDOR DEL FOOTER */
+#rheo_footer{
+  padding: 50px;
+  background-color: #ffb700;
+}
+/* CONTENEDOR DE LA PARTE DE ARRIBA */
+#rheo_footer_top{
+  margin-bottom: 20px;
+  text-align: center;
+}
+/* TITULOS DEL FOOTER */
+#rheo_footer_tittle{
+  text-align: center;
+  font-size: 50px;
+  border-bottom: 1px solid #545454;
+}
+/* ICONOS DEL FOOTER */
+#rheo_footer_icon{
+  color: #ffffff;
+  font-size: 60px;
+}
+/* ICONOS DEL FOOTER CUANDO PASEN EL MAUSE */
+#rheo_footer_icon:hover{
+  color: #545454;
+  font-size: 62px;
+}
+/* TEXTO DEL FOOTER */
+#rheo_footer_txt{
+  font-size: 30px;
+  color: #545454;
+}
+/* CONTENEDOR DE LA PARTE DE ABAJO */
+#rheo_footer_down{
+  padding: 50px;
+  border-top: 1px solid #545454;
+}
+/* TEXTO DE LA PARTE DE ABAJO */
+#rheo_footer_txt_down{
+  font-size: 30px;
+  color: #545454;
+  text-align: center;
+}
+/*------------------------VISTA LAPTOP L-----------------------*/
+@media screen and (max-width: 1440px){
+  /* CONTENEDOR DE LAS LETRAS DENTRO DEL BANNER */
+  #rheo_banner_contenedor{
+    left: 55%;
+  }
+  /* AOPCIONES DEL MENU */
+  #rheo_menu_ul_items{
+    margin-left: 80px;
+  }
+  /* IMAGENES DEL EQUIPO */
+  #rheo_quienessomos_team_card_img{
+    margin-left: 8px;
+    width: 250px;
+    height: 250px;
+  }
+  /* OPCIONES DE LA LINEA DEL TIEMPO */
+  #rheo_linea_ul_items{
+    font-size: 25px;
+    margin-left: 25px;
+  }
+}
+/*------------------------VISTA IPAD landscape-----------------*/
+@media screen and (max-width: 1366px){
+  /* OPCIONES DE LA LINEA DEL TIEMPO */
+  #rheo_linea_ul_items{
+    margin-left: 21px;
+  }
+}
+/*------------------------VISTA LAPTOP------------------------*/
+@media screen and (max-width: 1280px){
+  /* OPCIONES DE LA LINEA DEL TIEMPO */
+  #rheo_linea_ul_items{
+    margin-left: 12px;
+  }
+}
+/*------------------------VISTA IPAD-------------------------*/
+@media screen and (max-width: 1024px){
+  /* AOPCIONES DEL MENU */
+  #rheo_menu_ul_items{
+    margin-left: 50px;
+  }
+  /* IMAGENES DEL EQUIPO */
+  #rheo_quienessomos_team_card_img{
+    width: 200px;
+    height: 200px;
+  }
+  /* IMAGENES DEL EQUIPO */
+  #rheo_quienessomos_team_card_img:hover{
+    width: 200px;
+    height: 200px;
+  }
+  /* OPCIONES DE LA LINEA DEL TIEMPO */
+  #rheo_linea_ul_items{
+    font-size: 20px;
+    margin-left: 8px;
+  }
+}
+/*------------------------VISTA SMARTPHONE landscape---------*/
+@media screen and (max-width: 900px){
+  /* CONTENEDOR DE LAS LETRAS DENTRO DEL BANNER */
+  #rheo_banner_contenedor{
+    left: 60%;
+  }
+  /* IMAGENES DEL EQUIPO */
+  #rheo_quienessomos_team_card_img{
+    margin-left: 100px;
+  }
+  /* TEXTO DE LA PAGINA */
+  #rheo_txt{
+    font-size: 20px;
+  }
+  /* SUBTITULOS DE LA PAGINA */
+  #rheo_subtittle{
+    font-size: 30px;
+  }
+  /* TITULOS DE LA PAGINA */
+  #rheo_tittle{
+    font-size: 40px;
+  }
+  /* TEXTO DE LA PAGINA COLOR BLANCO */
+  #rheo_txt_white{
+    font-size: 20px;
+  }
+  /* ICONOS DEL EVENTO */
+  #rheo_card_icon{
+    /* font-size: 40px; */
+    width: 100%;
+    height: 100%;
+  }
+}
+/*------------------------VISTA TABLETS-----------------------*/
+@media screen and (max-width: 768px){
+  /* CONTENEDOR DE LAS LETRAS DENTRO DEL BANNER */
+  #rheo_banner_contenedor{
+    top: 60%;
+  }
+  /* IMAGENES DEL EQUIPO */
+  #rheo_quienessomos_team_card_img{
+    margin-left: 45px;
+  }
+}
+/*------------------------VISTA SMARTPHONE--------------------*/
+@media screen and (max-width: 500px){
+  /* IMAGEN DEL BANNER */
+  #rheo_banner_img{
+    width: 100%;
+    height: 500px;
+  }
+  /* IMAGENES DEL EQUIPO */
+  #rheo_quienessomos_team_card_img{
+    margin-left: 80px;
+  }
+  /* ICONOS DEL EVENTO */
+  #rheo_card_icon{
+    /* font-size: 40px; */
+    width: 20%;
+    height: 20%;
+  }
+}
+/*------------------------VISTA SMARTPHONE ANDROID------------*/
+@media screen and (max-width: 450px){
+  /* TEXTO DEL BANNER */
+  #rheo_banner_txt{
+    font-size: 30px;
+  }
+  /* TITULO DEL BANNER */
+  #rheo_benner_titulo{
+    font-size: 40px;
+  }
+  /* TITULO1 DEL BANNER */
+  #rheo_benner_titulo1{
+    font-size: 50px;
+  }
+  /* IMAGENES DEL EQUIPO */
+  #rheo_quienessomos_team_card_img{
+    margin-left: 45px;
+  }
+  /* CONTENEDOR DE LAS LETRAS DENTRO DEL BANNER */
+  #rheo_banner_contenedor{
+    top: 50%;
+    left: 65%;
+  }
+}
+/*------------------------VISTA SMARTPHONE IPHONE-------------*/
+@media screen and (max-width: 350px){
+  /* IMAGENES DEL EQUIPO */
+  #rheo_quienessomos_team_card_img{
+    margin-left: 2px;
+  }
+  /* TITULOS DEL FOOTER */
+  #rheo_footer_tittle{
+    font-size: 40px;
+  }
+}

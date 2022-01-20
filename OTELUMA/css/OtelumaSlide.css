@@ -1,0 +1,177 @@
+/*------------------------VISTA COMPUTADORA-------------------*/
+/*------------------------ESTILOS GENERALES-------------------*/
+@import url('https://fonts.googleapis.com/css?family=Poppins|Roboto+Condensed');
+/*------------------------SLIDE-----------------------*/
+/* CONTENEDOR */
+#Slide{
+  /* position: absolute; */
+  margin: auto;
+  width: 100%;
+  /* height: 600px; */
+  overflow: hidden;
+  padding: 0;
+}
+/* LISTA */
+#Slide ul{
+  position: relative;
+  left: 0%;
+  margin: auto;
+  height: auto;
+  width: 400%;
+  clear: both;
+  display: table;
+}
+/* ITEMS */
+#Slide ul li{
+  position: relative;
+  float: left;
+  width: 25%;
+}
+/* BACKGROUND */
+#Slide ul li img{
+  width: 100%;
+}
+/* IMAGEN */
+#Slide .SlideOpcion1 img{
+  position: absolute;
+  opacity: 1;
+  /* top: 90%; */
+  /* right: 10%;
+  width: 45%; */
+}
+/* TEXTOS */
+#Slide .SlideOpcion1 .textoSlide{
+  position: absolute;
+  /* width: 40%;
+  top: 20%;
+  left: 10%; */
+}
+/* IMAGEN 2*/
+#Slide .SlideOpcion2 img{
+  position: absolute;
+  opacity: 1;
+  /* top: 5%;
+  left: 10%;
+  width: 45%; */
+}
+/* TEXTOS 2*/
+#Slide .SlideOpcion2 .textoSlide{
+  position: absolute;
+  text-align: right;
+  /* width: 40%;
+  top: 15%;
+  right: 15%; */
+}
+/* TITULO */
+#Slide .slideOpciones h1{
+  text-transform: uppercase;
+  font-size: 50px;
+  font-family: 'Roboto Condensed', sans-serif;
+  opacity: 1;
+  top: -10%;
+}
+/* SUBTITULO */
+#Slide .slideOpciones h2{
+  text-transform: uppercase;
+  font-size: 35px;
+  font-family: 'Roboto Condensed', sans-serif;
+  opacity: 1;
+  top: -10%;
+}
+/* TEXTO */
+#Slide .slideOpciones h3{
+  text-transform: uppercase;
+  font-size: 30px;
+  opacity: 1;
+  top: -10%;
+}
+/* BOTON */
+#Slide .slideOpciones button{
+  border: 0px;
+  margin-top: 10px;
+  padding: 10px;
+  opacity: 1;
+  top: -10%;
+  border: 1px solid #005e8c;
+  color: #005e8c;
+}
+/* CUANDO PASEN EL MAUSE SOBRE EL BOTON */
+#Slide .slideOpciones button:hover{
+  background-color: #005e8c;
+  border: 1px solid #005e8c;
+  color: #ffffff;
+}
+/* ICONO DEL BOTON */
+#Slide .slideOpciones button i{
+  margin-left: 10px;
+}
+/* FLECHAS */
+#Slide .flechas{
+  position: absolute;
+  font-size: 25px;
+  color: #ffffff;
+  cursor: pointer;
+  z-index: 2;
+}
+/* FLECHA PREVIUS */
+#Slide #previus{
+  background-color: #104762;
+  padding: 40px 15px 40px 10px;
+  top: 35%;
+  left: 0;
+  font-size: 22px;
+  opacity: 0;
+}
+/* FLECHA PREVIUS */
+#Slide #next{
+  background-color: #104762;
+  padding: 40px 10px 40px 15px;
+  top: 35%;
+  right: 0;
+  font-size: 22px;
+  opacity: 0;
+}
+/* CUANDO PASEN EL MAUSE SOBRE LAS FLECHAS */
+#Slide #next:hover, #Slide #previus:hover{
+  background-color: #17678f;
+}
+/* CUANDO DEN CLIC EN LAS FLECHAS */
+#Slide #next:active, #Slide #previus:active{
+  color: #17678f;
+  background-color: #ffffff;
+}
+/* PAGINACION */
+#Slide #paginacion{
+  position: absolute;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  line-height: 40px;
+  font-size: 12px;
+  /* bottom: 0px; */
+  left: 0px;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+/* ITEMS DE LA PAGINACION */
+#Slide #paginacion li{
+  display: inline-block;
+  margin: 0px 5px;
+  cursor: pointer;
+  opacity: .5;
+  color: #ffffff;
+  text-shadow: 0px 0px 5px #005c8a;
+}
+/* ITEM ACTIVO */
+#Slide #paginacion li:first-child{
+  opacity: 1;
+}
+/* BOTON PARA ESCONDER EL SLIDE */
+#btnSlide{
+  cursor: pointer;
+  width: 150px;
+  border: 0px;
+  font-size: 25px;
+  padding: 2px;
+  margin-top: 40px;
+}

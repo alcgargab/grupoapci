@@ -1,0 +1,173 @@
+/*------------------------HEADER TOP-----------------------*/
+/* LISTA DEL CONTENEDOR */
+#top ul{
+  padding-top: 10px;
+}
+/* ITEMS DEL CONTENEDOR */
+#top ul li{
+  display: inline;
+  line-height: 30px;
+  margin: 0px 5px;
+  color: #ffffff;
+}
+/* ICONOS */
+.social ul li a img{
+  margin: 0 1px;
+}
+/* REGISTRO */
+.registro ul{
+  text-align: right;
+  font-size: 12px;
+}
+/* BARRA SUPERIOR */
+.barra_Superior{
+  background-color: #000000;
+}
+/* LINKS DENTRO DE LA BARRA SUPEIOR */
+.barra_Superior a{
+  color: #ffffff;
+}
+
+/*------------------------REDES SOCIALES-----------------------*/
+/* ICONOS */
+.red_Social{
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+}
+/*------------------------HEADER-----------------------*/
+/* CONTENEDOR DEL LOGO*/
+#logo{
+  padding: 20px 50px;
+}
+/* CONTENEDOR DEL SELCT Y DEL CARRITO */
+#SelecCat, #carrito{
+  padding: 20px 10px;
+}
+/* ICONO DEL CARRITO DE COMPRAS */
+header #carrito a button img{
+  width: 30px;
+  height: 30px;
+}
+/* CONTENEDOR DEL CARRITO DE COMPRAS */
+header #carrito a p{
+  padding: 2px;
+  padding-left: 60px;
+  border: 1px solid #aaa;
+  font-size: 12px;
+  color: #aaa;
+  margin-top: -43px;
+}
+/* BUSCADOR */
+header #searchContainer input, header #searchContainer a{
+  background-color: #ffffff;
+  border: 1px solid #005e8c;
+  color: #005e8c;
+}
+/* BUSCADOR CUANDO PASEN EL MAUSE*/
+header #searchContainer a:hover{
+  background-color: #005e8c;
+  border: 1px solid #005e8c;
+  color: #ffffff;
+}
+/* IMAGEN DEL BUSCADOR */
+header #searchContainer img{
+  padding: 3px;
+  width: 50px;
+  height: 30px;
+}
+/*------------------------ERROR 404-----------------------*/
+/* CONTENEDOR PRINCIPAL */
+.container404{
+  background-color: #005e8c;
+  width: 100%;
+  height: 700px;
+}
+/* CONTENEDOR */
+.error404{
+  margin-top: 80px;
+  width: 100%;
+  height: 500px;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #333;
+  background-color: #ffffff;
+  /* box-shadow: 8px 8px 1px #b4b4b4; */
+}
+/* NUMERO DE ERROR */
+.error404 h1{
+  font-size: 300px;
+  text-shadow: 8px 8px 1px #dadada;
+}
+/* CONTENEDOR DE LA IMAGEN */
+.error404Img{
+  margin-top: 60px;
+  border-right: 4px solid #dadada;
+}
+/* IMAGEN */
+.error404 img{
+  margin-top: 70px;
+}
+/*------------------------ MODEL -----------------------*/
+/* ICONO PARA CERRAR EL MODEL */
+.modalFormulario .close{
+  position: absolute;
+  right: 27px;
+  top: 15px;
+  color: #ffffff;
+}
+/* TITULO DEL MODAL */
+.modalTitulo{
+  padding: 5px 0px;
+}
+/* TEXTO DEL TITULO DEL MODAL */
+.modalTitulo h3{
+  text-align: center;
+  margin-top: -5px;
+  padding: 15px 0px;
+  border-radius: 3px 3px 0px 0px;
+}
+/* REGISTRO CON REDES SOCIALES */
+.modalFormulario .facebook, .modalFormulario .google{
+  cursor: pointer;
+}
+/* BOTONES DE LAS REDES FACEBOOK*/
+.modalFormulario .facebook p{
+  background-color: #46639f;
+  color: #ffffff;
+  text-align: center;
+  line-height: 40px;
+  padding: 8px;
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+/* BOTONES DE LAS REDES GOOGLE*/
+.modalFormulario .google p{
+  background-color: #d6513e;
+  color: #ffffff;
+  text-align: center;
+  line-height: 40px;
+  padding: 8px;
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+/* ICONOS */
+.modalFormulario p i{
+  margin-left: -25px;
+  margin-right: 25px;
+  font-size: 25px;
+}
+/* SEPARADOR */
+.modalFormulario form hr{
+  border: 1px solid #eee;
+}
+/* INPUTS DEL FORM */
+.modalFormulario form input[type="text"], .modalFormulario form input[type="email"], .modalFormulario form input[type="password"]{
+  padding: 25px;
+}
+/* BOTON DEL FORM */
+.modalFormulario form input[type="submit"]{
+  padding: 15px;
+}

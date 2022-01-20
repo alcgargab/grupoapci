@@ -1,0 +1,54 @@
+/*------------------------VISTA COMPUTADORA-------------------*/
+/*------------------------ESTILOS GENERALES-------------------*/
+@import url('https://fonts.googleapis.com/css?family=Poppins|Roboto+Condensed');
+body{
+  /* font-family: 'Roboto Condensed', sans-serif; */
+  font-family: 'Poppins', sans-serif;
+}
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  text-decoration: none;
+}
+ul, ol{
+  padding: 0;
+}
+a:visited, a:link, a:focus, a:hover, a:active{
+  list-style: none;
+  text-decoration: none;
+}
+/* input type file */
+input[type='file'].adjArchivos {
+ opacity: 0;
+ overflow: hidden;
+ position: absolute;
+ z-index: -1;
+}
+/* label del file */
+label[for="adjArchivos[]"] {
+ color: #acacac;
+ display: inline-block;
+ transition: all .5s;
+ cursor: pointer;
+ width: fit-content;
+ text-align: center;
+}
+
+/* input type file */
+input[type='file'].adjArchivosS {
+ opacity: 0;
+ overflow: hidden;
+ position: absolute;
+ z-index: -1;
+}
+/* label del file */
+label[for="adjArchivosS[]"] {
+ color: #acacac;
+ display: inline-block;
+ transition: all .5s;
+ cursor: pointer;
+ width: fit-content;
+ text-align: center;
+}

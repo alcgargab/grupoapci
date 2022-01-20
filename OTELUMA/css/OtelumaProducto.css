@@ -1,0 +1,62 @@
+/*================================= PRODUCTO ============================*/
+/* IMAGENES */
+.infoProducto figure.visor img{
+  display: none;
+  cursor: crosshair;
+}
+/* PRIMER IMAGEN */
+.infoProducto figure.visor img:first-child{
+  display: block;
+}
+/* FLEXSLIDER */
+.flexslider{
+  cursor: pointer;
+}
+/* IMAGEN CON LUPA */
+.lupa{
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+/* IMAGEN */
+.lupa img{
+  position: relative;
+  margin-top: -100%;
+  margin-left: -50%;
+  width: 160%;
+}
+/* LISTA DE REDES SOCIALES */
+.compartirRedes{
+  border: 0px;
+  box-shadow: none;
+  margin: 0px;
+}
+/* ITEMS DE LA LISTA DE REDES SOCIALES */
+.compartirRedes li p{
+  color: #ffffff;
+  text-align: center;
+  line-height: 30px;
+  padding: 8px;
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+/* BOTON DE FACEBOOK */
+.btnFacebook{
+  background-color: #46639f;
+}
+/* BOTON DE GOOGLE */
+.btnGoogle{
+  background-color: #d6513e;
+}
+/* CONTENEDOR DE LA ENTREGA */
+#Entrega1{
+  display: block;
+}
+/* CONTENEDOR DE LA ENTREGA */
+#Entrega2{
+  display: none;
+}
