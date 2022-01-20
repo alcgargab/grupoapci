@@ -1,0 +1,556 @@
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+//El nombre del controlador debe ser igual al del archivo pero con mayuscula
+class Empresa_model extends CI_Model {
+    function __construct(){
+      parent:: __construct();
+      // se carga la base de datos
+      $this -> load -> database();
+
+    }
+
+    //esta funcion inserta en la tabla empresa
+    public function InsertEmpresa($empresa){
+      $this -> db -> insert('empresa', $empresa);
+    }
+
+//esta funcion obtiene todos los registros de la tabla empresa
+    public function GetAllEmpresa(){
+      $respuesta = array ();
+      $query = $this -> db -> query ("SELECT * FROM `empresa`");
+      if ($query->num_rows () > 0) {
+        foreach ( $query->result () as $row ) {
+          $respuesta [] = $row;
+        }
+      }
+      return $respuesta;
+    }
+
+//esta funcion obtiene todos los registros de la tabla servicio
+    public function getAllServ(){
+      $respuesta = array ();
+      $query = $this -> db -> query ("SELECT * FROM `servicio`");
+      if ($query->num_rows () > 0) {
+        foreach ( $query->result () as $row ) {
+          $respuesta [] = $row;
+        }
+      }
+      return $respuesta;
+    }
+
+//esta funcion busca una empresa por clave la cual se guarda en la variable $empresa en la
+//posicion de clave
+    public function GetEmpresa($empresa){
+      $respuesta = array ();
+      $query = $this -> db -> query ("SELECT * FROM `empresa` WHERE clave =".$empresa['clave']);
+      if ($query->num_rows () > 0) {
+        foreach ( $query->result () as $row ) {
+          $respuesta [] = $row;
+        }
+      }
+      return $respuesta;
+    }
+
+//en esta funcion insertamos una certificacion
+    public function InsertCertificacion($certificacion){
+      $this -> db -> insert('certificacion', $certificacion);
+    }
+
+//en esta funcion obtenemos obtenemos una certificacion con el nombre
+// de la certificacion el cual se guarda en la variable $certificacion
+    public function GetCertificacion($certificacion){
+      $respuesta = array ();
+      $query = $this -> db -> query ("SELECT * FROM `certificacion` WHERE certificacion = '".$certificacion['certificacion']."'");
+      if ($query->num_rows () > 0) {
+        foreach ( $query->result () as $row ) {
+          $respuesta [] = $row;
+        }
+      }
+      return $respuesta;
+    }
+
+//esta funcion inserta un registro en la tabla empre_cert
+    public function InsertEmpCert($empre_cert){
+      $this -> db -> insert('empre_cert', $empre_cert);
+    }
+
+//esta funcion inserta un registro en la tabla emp_plan
+    public function InsertEmpPlan($emp_plan){
+      $this -> db -> insert('emp_plan', $emp_plan);
+    }
+
+//esta funcion inserta un registro en la tabla emp_tel
+    public function InsertEmpTel($emp_tel){
+      $this -> db -> insert('emp_tel', $emp_tel);
+    }
+
+//esta funcion obtiene un aempresa mediante el id
+    public function GetEmpresaId($valor1){
+      $respuesta = array ();
+      $query = $this -> db -> query ("SELECT * FROM `empresa` WHERE id_e =".$valor1);
+      if ($query->num_rows () > 0) {
+        foreach ( $query->result () as $row ) {
+          $respuesta [] = $row;
+        }
+      }
+      return $respuesta;
+    }
+
+//esta funcion obtiene las certificaciones de la empresa en la tabla empre_cert
+//mediante el id de la empresa
+    public function GetEmpCert($valor1){
+      $respuesta = array ();
+      $query = $this -> db -> query ("SELECT * FROM `empre_cert` WHERE id_e_ec =".$valor1);
+      if ($query->num_rows () > 0) {
+        foreach ( $query->result () as $row ) {
+          $respuesta [] = $row;
+        }
+      }
+      return $respuesta;
+    }
+
+//esta funcion obtiene las certificaciones de la empresa
+//mediante el id
+    public function GetCertificacionEmp($EmpresaReg){
+      $respuesta = array ();
+      $resultado = count($EmpresaReg);
+      foreach ($EmpresaReg as $rowC ) {
+        for ($i=0; $i < $resultado;) {
+      $query = $this -> db -> query ("SELECT * FROM `certificacion` WHERE idcer =".$rowC -> idcer_ec);
+      $i++;
+    }
+      if ($query->num_rows () > 0) {
+        foreach ( $query->result () as $row ) {
+          $respuesta [] = $row;
+        }
+      }
+  }
+  return $respuesta;
+    }
+
+//esta funcion obtiene el plan de la empresa mediante el id de la empresa
+    public function GetPLan($valor1){
+      $respuesta = array ();
+      $query = $this -> db -> query ("SELECT * FROM `emp_plan` WHERE id_e_ep =".$valor1);
+      if ($query->num_rows () > 0) {
+        foreach ( $query->result () as $row ) {
+          $respuesta [] = $row;
+        }
+      }
+      return $respuesta;
+    }
+
+//esta funcion obtiene el tipo de plan mediante el id del plan
+    public function GetTipoPLan($idplan){
+      $respuesta = array ();
+      $query = $this -> db -> query ("SELECT * FROM `plan` WHERE idplan =".$idplan);
+      if ($query->num_rows () > 0) {
+        foreach ( $query->result () as $row ) {
+          $respuesta [] = $row;
+        }
+      }
+      return $respuesta;
+    }
+
+//esta funcion obtiene el telefono de la empresa mediante el id de la empresa
+    public function GetTel($valor1){
+      $respuesta = array ();
+      $query = $this -> db -> query ("SELECT * FROM `emp_tel` WHERE id_e_et =".$valor1);
+      if ($query->num_rows () > 0) {
+        foreach ( $query->result () as $row ) {
+          $respuesta [] = $row;
+        }
+      }
+      return $respuesta;
+    }
+
+//esta funcion obtiene la colonia mediante el id de la colonia
+    public function GetColonia($valor2){
+      $respuesta = array ();
+      $query = $this -> db -> query ("SELECT * FROM `colonia` WHERE idcol =".$valor2);
+      if ($query->num_rows () > 0) {
+        foreach ( $query->result () as $row ) {
+          $respuesta [] = $row;
+        }
+      }
+      return $respuesta;
+    }
+
+//esta funcion elimina un registro en la tabla empre_cert mediante el id
+    public function eliminarEmpreCert($idcer = null){
+      $query = $this -> db -> query ("DELETE FROM `empre_cert` WHERE `idcer_ec`=".$idcer);
+    }
+
+//esta funcion elimina un registro en la tabla certificacion mediante el id
+    public function eliminarCertificacion($idcer = null){
+      $query = $this -> db -> query ("DELETE FROM `certificacion` WHERE `idcer`=".$idcer);
+    }
+
+//esta funcion inserta un proyecto de la empresa en la table proyecto
+    public function insertProyecto($Proyecto){
+      $this -> db -> insert('proyecto', $Proyecto);
+    }
+
+//esta funcion obtiene un proyecto mediante el nombre del proyecto
+    public function getProyecto($Proyecto){
+      $respuesta = array ();
+      $query = $this -> db -> query ("SELECT * FROM `proyecto` WHERE titulo ='".$Proyecto['titulo']."'");
+      if ($query->num_rows () > 0) {
+        foreach ( $query->result () as $row ) {
+          $respuesta [] = $row;
+        }
+      }
+      return $respuesta;
+    }
+
+    //esta funcion inserta un registro en la tabla emp_pro
+    public function insertemp_pro($emp_pro){
+      $this -> db -> insert('emp_pro', $emp_pro);
+    }
+
+    //esta funcion inserta un registro en la tabla detalle_pro
+    public function insertdetalle_pro($detalle_pro){
+      $this -> db -> insert('detalle_pro', $detalle_pro);
+    }
+
+    //en esta funcion obtenemos los detalles del proyecto mediante la descripcion del detalle
+    public function getdetalle_pro($detalle_pro){
+      $respuesta = array ();
+      $query = $this -> db -> query ("SELECT * FROM `detalle_pro` WHERE descripcion ='".$detalle_pro['descripcion']."'");
+      if ($query->num_rows () > 0) {
+        foreach ( $query->result () as $row ) {
+          $respuesta [] = $row;
+        }
+      }
+      return $respuesta;
+    }
+
+    //esta funcion inserta un registro en la tabla pro_detpro
+    public function insertPro_detpro($pro_detpro){
+      $this -> db -> insert('pro_detpro', $pro_detpro);
+    }
+
+    //esta funcion obtiene los proyectos que tiene la empresa mediante el id de la empresa
+    public function GetEmp_Pro($valor1){
+      $respuesta = array ();
+      $query = $this -> db -> query ("SELECT * FROM `emp_pro` WHERE id_e_ep ='".$valor1."'");
+      if ($query->num_rows () > 0) {
+        foreach ( $query->result () as $row ) {
+          $respuesta [] = $row;
+        }
+      }
+      return $respuesta;
+    }
+
+    //esta funcion obtiene obtiene los proyectos de la empresa mediante el id del proyecto
+    public function Getemp_proIdpro($pro_sc){
+      $respuesta = array ();
+      $resultado = count($pro_sc);
+      foreach ($pro_sc as $row ) {
+        // print_r($row -> idproyecto_psc);
+        // die();
+        for ($i=0; $i < $resultado;) {
+      $query = $this -> db -> query ("SELECT * FROM `emp_pro` WHERE idproyecto_ep =".$row -> idproyecto_psc);
+      $i++;
+    }
+      if ($query->num_rows () > 0) {
+        foreach ( $query->result () as $row ) {
+          $respuesta [] = $row;
+        }
+      }
+    }
+    return $respuesta;
+    }
+
+    //esta funcion obtiene ontiene un empresa mediante el id de la empresa
+    public function GetEmpresaCat($emp_pro){
+      $respuesta = array ();
+      $resultado = count($emp_pro);
+      foreach ($emp_pro as $row ) {
+        // print_r($row -> id_e_ep);
+        // die();
+        for ($i=0; $i < $resultado;) {
+      $query = $this -> db -> query ("SELECT * FROM `empresa` WHERE id_e =".$row -> id_e_ep);
+      $i++;
+    }
+      if ($query->num_rows () > 0) {
+        foreach ( $query->result () as $row ) {
+          $respuesta [] = $row;
+        }
+      }
+    }
+    return $respuesta;
+    }
+
+    //esta funcion obtiene los proyectos mediante el id del proyecto
+    public function Getproyect($EmpresaReg){
+      $respuesta = array ();
+      $resultado = count($EmpresaReg);
+      foreach ($EmpresaReg as $rowP ) {
+        for ($i=0; $i < $resultado;) {
+      $query = $this -> db -> query ("SELECT * FROM `proyecto` WHERE idproyecto =".$rowP -> idproyecto_ep);
+      $i++;
+    }
+      if ($query->num_rows () > 0) {
+        foreach ( $query->result () as $row ) {
+          $respuesta [] = $row;
+        }
+      }
+  }
+  return $respuesta;
+    }
+
+    //estafuncion obtiene los detalles de los proyectos mediante el id del proyecto
+    public function Getpro_detprot($EmpresaReg){
+      $respuesta = array ();
+      $resultado = count($EmpresaReg);
+      foreach ($EmpresaReg as $rowPp ) {
+        for ($i=0; $i < $resultado;) {
+      $query = $this -> db -> query ("SELECT * FROM `pro_detpro` WHERE idproyecto_pdp =".$rowPp -> idproyecto);
+      $i++;
+    }
+      if ($query->num_rows () > 0) {
+        foreach ( $query->result () as $row ) {
+          $respuesta [] = $row;
+        }
+      }
+  }
+  return $respuesta;
+    }
+
+    //estafuncion obtiene los detalles de los proyectos mediante el id del proyecto
+    public function Getpro_detprotPP($idproyecto){
+      $respuesta = array ();
+      $query = $this -> db -> query ("SELECT * FROM `pro_detpro` WHERE idproyecto_pdp ='".$idproyecto."'");
+      if ($query->num_rows () > 0) {
+        foreach ( $query->result () as $row ) {
+          $respuesta [] = $row;
+        }
+      }
+      return $respuesta;
+    }
+
+    //esta funcion obtiene los proyectos mediante el id del proyecto
+    public function getProyectoID($idproyecto){
+      $respuesta = array ();
+      $query = $this -> db -> query ("SELECT * FROM `proyecto` WHERE idproyecto ='".$idproyecto."'");
+      if ($query->num_rows () > 0) {
+        foreach ( $query->result () as $row ) {
+          $respuesta [] = $row;
+        }
+      }
+      return $respuesta;
+    }
+
+    //esta funcion obtiene los detalles de los proyectos mediante el id del detalle
+    public function getdetalle_proID($iddetalle_pro){
+      $respuesta = array ();
+      $query = $this -> db -> query ("SELECT * FROM `detalle_pro` WHERE iddetalle_pro ='".$iddetalle_pro."'");
+      if ($query->num_rows () > 0) {
+        foreach ( $query->result () as $row ) {
+          $respuesta [] = $row;
+        }
+      }
+      return $respuesta;
+    }
+
+    //esta funcion inserta un registro en la tabla servicio
+    public function InsertSer($servicio){
+      $this -> db -> insert('servicio', $servicio);
+    }
+
+    //esta funcion obtiene un servicio mediante el nombre del servicio
+    public function getServicio($servicio){
+      $respuesta = array ();
+      $query = $this -> db -> query ("SELECT * FROM `servicio` WHERE nombre_s ='".$servicio['nombre_s']."'");
+      if ($query->num_rows () > 0) {
+        foreach ( $query->result () as $row ) {
+          $respuesta [] = $row;
+        }
+      }
+      return $respuesta;
+    }
+
+    //esta funcion obtiene los revicios mediante la subcategoria
+    public function GetSerSub($sub){
+      $respuesta = array ();
+      $query = $this -> db -> query ("SELECT * FROM `pro_sc` WHERE id_sc_psc ='".$sub."'");
+      if ($query->num_rows () > 0) {
+        foreach ( $query->result () as $row ) {
+          $respuesta [] = $row;
+        }
+      }
+      return $respuesta;
+    }
+
+    //esta funcion inserta un registro en la tabla pro_sc
+    public function Insertpro_sc($pro_sc){
+      $this -> db -> insert('pro_sc', $pro_sc);
+    }
+
+    //esta funcion obtiene los proyectos de la tabla pro_sc mediante el id del proyecto
+    public function getpro_sc($EmpresaReg){
+      $respuesta = array ();
+      $resultado = count($EmpresaReg);
+      foreach ($EmpresaReg as $rowPs ) {
+        for ($i=0; $i < $resultado;) {
+      $query = $this -> db -> query ("SELECT * FROM `pro_sc` WHERE idproyecto_psc =".$rowPs -> idproyecto);
+      $i++;
+    }
+      if ($query->num_rows () > 0) {
+        foreach ( $query->result () as $row ) {
+          $respuesta [] = $row;
+        }
+      }
+    }
+    return $respuesta;
+    }
+
+    //esta empresa obtiene los servicios mediante el id del servicio
+    public function getServicioID($EmpresaReg){
+      $respuesta = array ();
+      $resultado = count($EmpresaReg);
+      foreach ($EmpresaReg as $rowS ) {
+        for ($i=0; $i < $resultado;) {
+      $query = $this -> db -> query ("SELECT * FROM `servicio` WHERE idservicio =".$rowS -> idservicio_psc);
+      $i++;
+    }
+      if ($query->num_rows () > 0) {
+        foreach ( $query->result () as $row ) {
+          $respuesta [] = $row;
+        }
+      }
+    }
+    return $respuesta;
+    }
+
+    //esta funcion actualiza el proyect mediante el id del proyecto
+    public function UpdateProyecto($proyecto){
+      $this->db->where ( "idproyecto", $proyecto['idproyecto'] );
+  		$this->db->update ( 'proyecto', $proyecto );
+
+    }
+
+    //esta funcion actualiza los detalles del proyecto mediante el id del detalle
+    public function Updatedetalle_pro($detalle_pro){
+      $this->db->where ( "iddetalle_pro", $detalle_pro['iddetalle_pro'] );
+  		$this->db->update ( 'detalle_pro', $detalle_pro );
+
+    }
+
+    //esta funcion elimina un proyecto de la tabla emp_pro mediante el id del proyecto
+    public function deleteEmp_pro($proyecto){
+      $query = $this -> db -> query ("DELETE FROM `emp_pro` WHERE `idproyecto_ep`=".$proyecto['idproyecto']);
+    }
+
+    //esta funcion elimina un proyecto de la tabla pro_sc mediante el id del proyecto
+    public function deletePro_sc($proyecto){
+      $query = $this -> db -> query ("DELETE FROM `pro_sc` WHERE `idproyecto_psc`=".$proyecto['idproyecto']);
+    }
+
+    //esta funcion elimina un proyecto de la tabla pro_detpro mediante el id del proyecto
+    public function deletePro_detpro($proyecto){
+      $query = $this -> db -> query ("DELETE FROM `pro_detpro` WHERE `idproyecto_pdp`=".$proyecto['idproyecto']);
+    }
+
+    //esta funcion elimina un proyecto de la tabla detalle_pro mediante el id del proyecto
+    public function deletedetalle_pro($proyecto){
+        $query = $this -> db -> query ("DELETE FROM `detalle_pro` WHERE `iddetalle_pro`=".$proyecto['iddetalle_pro'][0] -> iddetalle_pro);
+    }
+
+    //esta funcion elimina un proyecto de la tabla proyecto mediante el id del proyecto
+    public function deletePro($proyecto){
+        $query = $this -> db -> query ("DELETE FROM `proyecto` WHERE `idproyecto`=".$proyecto['idproyecto']);
+    }
+
+    //esta funcion actualiza el registro en la tabla empresa mediante la clave
+    public function updateEmpresa($empresa){
+      $this->db->where ( "clave", $empresa['clave'] );
+  		$this->db->update ( 'empresa', $empresa );
+
+    }
+
+    //esta funcion actualiza el registro en la tabla emp_tel mediante el id
+    public function updateEmprTel($emp_tel){
+      $this->db->where ( "id_e_et", $emp_tel['id_e_et'] );
+  		$this->db->update ( 'emp_tel', $emp_tel );
+
+    }
+
+    //esta funcion elimina el servicio de la tabla pro_sc mediante el id del servicio
+    public function Deletepro_scS($idservicio){
+        $query = $this -> db -> query ("DELETE FROM `pro_sc` WHERE `idservicio_psc`=".$idservicio);
+    }
+
+    //esta funcion elimina el servicio de la tabla servicio mediante el id del servicio
+    public function DeleteServicio($idservicio){
+        $query = $this -> db -> query ("DELETE FROM `servicio` WHERE `idservicio`=".$idservicio);
+    }
+
+    //esta funcuon inserta un registro en la tabla solicitud
+    public function insertSolicitud($Solicitud){
+      $this -> db -> insert('solicitud', $Solicitud);
+    }
+
+    //esta funcion inserta un registro en la tabla pro_sol
+    public function insertpro_sol($pro_sol){
+      $this -> db -> insert('pro_sol', $pro_sol);
+    }
+
+    //esta funcion obtiene una solicitud mediante ek comentario
+    public function getSolicitud($Solicitud){
+      $respuesta = array ();
+      $query = $this -> db -> query ("SELECT * FROM `solicitud` WHERE comentario ='".$Solicitud['comentario']."'");
+      if ($query->num_rows () > 0) {
+        foreach ( $query->result () as $row ) {
+          $respuesta [] = $row;
+        }
+      }
+      return $respuesta;
+    }
+
+    //esta funcion obtiene al cliente mediante el nombre
+    public function getCliente($sesion){
+      $respuesta = array ();
+      $query = $this -> db -> query ("SELECT * FROM `cliente` WHERE nombre ='".$sesion."'");
+      if ($query->num_rows () > 0) {
+        foreach ( $query->result () as $row ) {
+          $respuesta [] = $row;
+        }
+      }
+      return $respuesta;
+    }
+
+    //esta funcion actualiza el plan de la empresa mediante el id del plan
+    public function UpdatePlan($idplan , $val){
+      $query = $this -> db -> query ("UPDATE emp_plan SET idplan_ep= ". $idplan[0] -> idplan .", referencia= ". $val['Costo'] ." WHERE id_e_ep=" . $val['id_e']);
+    }
+
+    //esta funcion obtiene el plan de la empresa de la tabla plan mediante el nombre del plan
+    public function GetPLanEmp($plan){
+      $respuesta = array ();
+      $query = $this -> db -> query ("SELECT * FROM `plan` WHERE suscripcion ='".$plan."'");
+      if ($query->num_rows () > 0) {
+        foreach ( $query->result () as $row ) {
+          $respuesta [] = $row;
+        }
+      }
+      return $respuesta;
+    }
+    public function GetEmpresaN($empresa){
+      // print_r($empresa);
+      // echo "<br>";
+      // echo "model";
+      // die();
+      $respuesta = array ();
+      $query = $this -> db -> query ("SELECT * FROM empresa WHERE nombre_empresa like '%$empresa%'");
+      if ($query->num_rows () > 0) {
+        foreach ( $query->result () as $row ) {
+          $respuesta [] = $row;
+        }
+      }
+      return $respuesta;
+    }
+
+  }
+?>

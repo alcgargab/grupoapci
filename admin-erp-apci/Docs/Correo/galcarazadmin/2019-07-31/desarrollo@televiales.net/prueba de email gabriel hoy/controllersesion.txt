@@ -1,0 +1,20 @@
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+//El nombre del controlador debe ser igual al del archivo pero con mayuscula
+class Login extends CI_Controller {
+  function __construct(){
+  parent:: __construct();
+  //cargar un helper
+  $this -> load -> helper ('form');
+  }
+  //este ejecuta las instrucciones del controlador CI_Controller que es parte del framework
+
+  function index(){
+    if ($usuario = $this -> session -> userdata('usuario')) {
+      redirect ( base_url () );
+    }
+      $this->load->view('Header');
+      $this -> load -> view('Login/Login_view');
+      $this->load->view('Footer');
+  }
+}

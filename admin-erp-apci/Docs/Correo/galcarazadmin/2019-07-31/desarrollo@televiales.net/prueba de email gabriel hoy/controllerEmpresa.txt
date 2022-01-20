@@ -1,0 +1,450 @@
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+//El nombre del controlador debe ser igual al del archivo pero con mayuscula
+class Empresa extends CI_Controller {
+  function __construct(){
+    parent:: __construct();
+  //cargar un helper
+  $this -> load -> helper ('form');
+  //cargar el modelo
+  $this -> load -> model('Empresa_model');
+  $this -> load -> model('Registro_model');
+  $this -> load -> model('Categoria_model','',TRUE);
+
+  }
+  //este ejecuta las instrucciones del controlador CI_Controller que es parte del framework
+  //En ella solo se carga la vista del header la del registro de empresa y el footer.
+  function index(){
+      $this->load->view('Header');
+      $this -> load -> view('Empresa/Registro_empresa_view');
+      $this->load->view('Footer');
+  }
+//funcion obtenerDatos: En esta funcion obtenemos los datos del formulario y los guardamos en una variable llamada $empresa
+//e insertamos el registro en la tabla empresa.
+  public function obtenerDatos(){
+    $nombre_empresa = strtoupper($this -> input -> post("nombre_empresa"));
+    $empresa['clave'] = $this -> input -> post("clave");
+    $empresa['usuario'] = strtoupper($this -> input -> post("usuario"));
+    $empresa['nombre_empresa'] = strtoupper($this -> input -> post("nombre_empresa"));
+    $empresa['correo'] = strtoupper($this -> input -> post("email"));
+    $empresa['sitio_web'] = strtoupper($this -> input -> post("sitio_web"));
+    $empresa['facebook'] = strtoupper($this -> input -> post("facebook"));
+    $empresa['instagram'] = strtoupper($this -> input -> post("instagram"));
+    $empresa['descripcion'] = strtoupper($this -> input -> post("descripcion"));
+    $empresa['idtipo_e_e'] = $this -> input -> post("tipo_empresa");
+    $empresa['idcol_e'] = $this -> input -> post("colonia");
+
+    $carpeta = 'img/empresa/logo/'.$empresa['nombre_empresa'];
+		if (!file_exists($carpeta)) {
+		    mkdir($carpeta, 0777, true);
+		}
+    $carpeta = 'img/empresa/portada/'.$empresa['nombre_empresa'];
+		if (!file_exists($carpeta)) {
+		    mkdir($carpeta, 0777, true);
+		}
+
+    if ( !empty($_FILES['logo']['name'])) {
+      move_uploaded_file($_FILES['logo']['tmp_name'],"img/empresa/logo/$nombre_empresa/$nombre_empresa-logo-".($_FILES['logo']['name']));
+      $url_img_logo = "img/empresa/logo/$nombre_empresa/$nombre_empresa-logo-".$_FILES['logo']['name'];
+    }
+
+    if ( !empty($_FILES['portada']['name'])) {
+      move_uploaded_file($_FILES['portada']['tmp_name'],"img/empresa/portada/$nombre_empresa/$nombre_empresa-portada-".($_FILES['portada']['name']));
+      $url_img_portada = "img/empresa/portada/$nombre_empresa/$nombre_empresa-portada-".$_FILES['portada']['name'];
+    }
+    $empresa['logo'] = $url_img_logo;
+    $empresa['portada'] = $url_img_portada;
+    $dia = date("d");
+    $mes = date("m");
+    $ano = date("Y");
+    $empresa ['fecha_registro'] = $ano ."-". $mes ."-". $dia;
+
+    // IDEA: se inserta en la tabla Empresa_model
+    $this -> Empresa_model -> InsertEmpresa($empresa);
+
+    // IDEA: se obtiene el registro insertado de la tabla empresa
+    $valor = $this -> Empresa_model -> GetEmpresa($empresa);
+
+    // IDEA: Estos valores se insertan en la tabla certiicacion
+    $certificacion['certificacion'] = strtoupper($this -> input -> post("certificacion"));
+    $certificacion['anio'] = $this -> input -> post("fecha_certificacion");
+    $dia = date("d");
+    $mes = date("m");
+    $ano = date("Y");
+    $certificacion ['fecha_registro'] = $ano ."-". $mes ."-". $dia;
+    $this -> Empresa_model -> InsertCertificacion($certificacion);
+
+
+    // IDEA: Se obtiene el id de la certificacion para insertarla en la tabla emp_cert
+    $cer = $this -> Empresa_model -> GetCertificacion($certificacion);
+    $empre_cert['id_e_ec'] = $valor[0] -> id_e;
+    $empre_cert['idcer_ec'] = $cer[0] -> idcer;
+    $this -> Empresa_model -> InsertEmpCert($empre_cert);
+
+    // IDEA: se insertan los valores en la tabnla emp_plan
+    $emp_plan['idplan_ep'] = $this -> input -> post("tipo_empresa");
+    if ($emp_plan['idplan_ep'] == 1) {
+      $emp_plan['id_e_ep'] = $valor[0] -> id_e;
+      $emp_plan['referencia'] = "free";
+      $emp_plan['status'] = 1;
+      $emp_plan['id_t_p_ep'] = 1;
+      $this -> Empresa_model -> InsertEmpPlan($emp_plan);
+    }
+
+    // IDEA: Se inserta en la tabla emp_tel
+    $emp_tel['id_e_et'] = $valor[0] -> id_e;
+    $emp_tel['idtipo_tel_et'] = $this -> input -> post("tipo_telefono");
+    $emp_tel['telefono'] = $this -> input -> post("telefono");
+    $this -> Empresa_model -> InsertEmpTel($emp_tel);
+
+    $empresa['estado'] = $this -> input -> post("estado");
+    $empresa['municipio'] = $this -> input -> post("municipio");
+
+    //con esta linea estamos mandando los datos del formulario al correo
+    $this->load->library('Correos');
+    //aqui se debe de llamar lalibreria de correos
+     $this->correos->correo_RegTerminado_Empresa($empresa);
+    $val = $this -> Empresa_model -> GetEmpresa($empresa);
+    $valor1 = $val[0]-> id_e;
+    $valor2 = $val[0]-> idcol_e;
+    redirect ( base_url () . 'Empresa/panelEmpresa/'.$valor1.'/'.$valor2 );
+  }
+
+//se obtiene el id de la empresa y el id de la colonia para que se pueda buscar esa empresa en las diferentes
+//tablas donde existen registros de esa empresa para poder mostrar el panel de la empresa seleccionada
+  public function panelEmpresa($valor1 = null, $valor2 = null){
+    $EmpresaReg['categoria'] = $this -> Categoria_model-> getAll();
+    $EmpresaReg['empresa'] = $this -> Empresa_model -> GetEmpresaId($valor1);
+    $EmpresaReg['colonia'] = $this -> Empresa_model -> GetColonia($valor1);
+    $EmpresaReg['empre_cert'] = $this -> Empresa_model -> GetEmpCert($valor1);
+    $EmpresaReg['certificacion'] =$this -> Empresa_model -> GetCertificacionEmp($EmpresaReg['empre_cert']);
+    $EmpresaReg['Emp_Pro'] = $this -> Empresa_model -> GetEmp_Pro($valor1);
+    $EmpresaReg['Proyecto'] = $this -> Empresa_model -> Getproyect($EmpresaReg['Emp_Pro']);
+    $EmpresaReg['pro_detpro'] = $this -> Empresa_model -> Getpro_detprot($EmpresaReg['Proyecto']);
+    $EmpresaReg['pro_sc'] = $this -> Empresa_model-> getpro_sc($EmpresaReg['Proyecto']);
+    $EmpresaReg['servicio'] = $this -> Empresa_model-> getServicioID($EmpresaReg['pro_sc']);
+    $EmpresaReg['plan'] = $this -> Empresa_model -> GetPLan($valor1);
+    $idplan = $EmpresaReg['plan'][0] -> idplan_ep;
+    $EmpresaReg['Tipoplan'] = $this -> Empresa_model -> GetTipoPLan($idplan);
+    $EmpresaReg['telefono'] = $this -> Empresa_model -> GetTel($valor1);
+    $this->load->view('Header');
+    $this -> load -> view('Empresa/Panel_empresa',$EmpresaReg);
+    $this->load->view('Footer');
+  }
+
+  //se obtiene el id de la empresa y el id de la colonia para que se pueda buscar esa empresa en las diferentes
+  //tablas donde existen registros de esa empresa para poder mostrar el panel de la empresa seleccionada
+  //pero la vista como usuario
+  public function panelEmpresaUsuario($valor1 = null, $valor2 = null){
+    $EmpresaReg['categoria'] = $this -> Categoria_model-> getAll();
+    $EmpresaReg['empresa'] = $this -> Empresa_model -> GetEmpresaId($valor1);
+    $EmpresaReg['colonia'] = $this -> Empresa_model -> GetColonia($valor1);
+    $EmpresaReg['empre_cert'] = $this -> Empresa_model -> GetEmpCert($valor1);
+    $EmpresaReg['certificacion'] =$this -> Empresa_model -> GetCertificacionEmp($EmpresaReg['empre_cert']);
+    $EmpresaReg['Emp_Pro'] = $this -> Empresa_model -> GetEmp_Pro($valor1);
+    $EmpresaReg['Proyecto'] = $this -> Empresa_model -> Getproyect($EmpresaReg['Emp_Pro']);
+    $EmpresaReg['pro_detpro'] = $this -> Empresa_model -> Getpro_detprot($EmpresaReg['Proyecto']);
+    $EmpresaReg['pro_sc'] = $this -> Empresa_model-> getpro_sc($EmpresaReg['Proyecto']);
+    $EmpresaReg['servicio'] = $this -> Empresa_model-> getServicioID($EmpresaReg['pro_sc']);
+    $EmpresaReg['plan'] = $this -> Empresa_model -> GetPLan($valor1);
+    $idplan = $EmpresaReg['plan'][0] -> idplan_ep;
+    $EmpresaReg['Tipoplan'] = $this -> Empresa_model -> GetTipoPLan($idplan);
+    $EmpresaReg['telefono'] = $this -> Empresa_model -> GetTel($valor1);
+    $this->load->view('Header');
+    $this -> load -> view('Empresa/Panel_empresa_Usuario',$EmpresaReg);
+    $this->load->view('Footer');
+  }
+
+//obtenemos los valores del formulario y los guardamos en una variable llamada $certificacion
+// y la insertamod en las diferentes tablas
+  public function InsertCertificacion(){
+    $certificacion['certificacion'] = strtoupper($this -> input -> post("titulo_cert"));
+    // print_r($certificacion);
+    // die();
+    $certificacion['anio'] = $this -> input -> post("fecha_cert");
+    $dia = date("d");
+    $mes = date("m");
+    $ano = date("Y");
+    $certificacion ['fecha_registro'] = $ano ."-". $mes ."-". $dia;
+    $this -> Empresa_model -> InsertCertificacion($certificacion);
+    $cer = $this -> Empresa_model -> GetCertificacion($certificacion);
+    $empre_cert['id_e_ec'] = $this -> input -> post('id_e');
+    $empre_cert['idcer_ec'] = $cer[0] -> idcer;
+    $this -> Empresa_model -> InsertEmpCert($empre_cert);
+    $valor1 = $this -> input -> post('id_e');
+    $valor2 = $this -> input -> post('idcol_e');
+    redirect (base_url().'Empresa/panelEmpresa/'.$valor1.'/'.$valor2);
+  }
+
+  public function eliminarCert($idcer= null, $valor1= null, $valor2 = null){
+    $this -> Empresa_model -> eliminarEmpreCert($idcer);
+    $this -> Empresa_model -> eliminarCertificacion($idcer);
+    redirect (base_url().'Empresa/panelEmpresa/'.$valor1.'/'.$valor2);
+  }
+
+  //obtenemos los valores del formulario y los guardamos en una variable llamada $Proyecto
+  // y la insertamod en las diferentes tablas
+  public function InsertProyecto(){
+    $Proyecto['titulo'] = strtoupper($this -> input -> post('titulo_proy'));
+    $Proyecto['costo'] = $this -> input -> post('costo_proy');
+    $dia = date("d");
+    $mes = date("m");
+    $ano = date("Y");
+    $Proyecto ['fecha_registro'] = $ano ."-". $mes ."-". $dia;
+    $primero = $this -> Empresa_model -> insertProyecto($Proyecto);
+    $EP= $this -> Empresa_model -> getProyecto($Proyecto);
+    $emp_pro['id_e_ep'] = $this -> input -> post('id_e');
+    $emp_pro['idproyecto_ep'] = $EP[0] -> idproyecto;
+    $tercero = $this -> Empresa_model -> insertemp_pro($emp_pro);
+    $detalle_pro['descripcion'] = strtoupper($this -> input -> post('desc_proy'));
+    $cuarto = $this -> Empresa_model -> insertdetalle_pro($detalle_pro);
+    $EPD= $this -> Empresa_model -> getdetalle_pro($detalle_pro);
+    $pro_detpro['iddetalle_pro_pdp']= $EPD[0] -> iddetalle_pro;
+    $nombre_empresa = $this -> input -> post('nom_e');
+    $carpeta = 'img/empresa/Proyecto/'.$nombre_empresa;
+    if (!file_exists($carpeta)) {
+        mkdir($carpeta, 0777, true);
+    }
+    $max = 4;
+    for ($i=1; $i <$max ; $i++) {
+    if ( !empty($_FILES['foto'.$i]['name'])) {
+      move_uploaded_file($_FILES['foto'.$i]['tmp_name'],"img/empresa/Proyecto/$nombre_empresa/$nombre_empresa-Pro-".($_FILES['foto'.$i]['name']));
+      $url_img_pro = "img/empresa/Proyecto/$nombre_empresa/$nombre_empresa-Pro-".$_FILES['foto'.$i]['name'];
+    }
+    $pro_detpro['idproyecto_pdp'] = $EP[0] -> idproyecto;
+    $pro_detpro['iddetalle_pro_pdp']= $EPD[0] -> iddetalle_pro;
+    $pro_detpro['foto'] = $url_img_pro;
+    $pro_detpro['titulo'] = strtoupper($this -> input -> post('titulo'.$i));
+    $cuarto = $this -> Empresa_model -> insertPro_detpro($pro_detpro);
+    }
+    $valor1 = $this -> input -> post('id_e');
+    $valor2 = $this -> input -> post('idcol_e');
+    redirect ( base_url () . 'Empresa/panelEmpresa/'.$valor1.'/'.$valor2 );
+  }
+  //obtenemos el id del proyecto y lo buscamos en las diferentes tablas para mostrar el panel del proyecto
+  public function PanelProyecto($titulo = null, $idproyecto = null, $id_e = null, $idcol_e = null){
+    $panelpro['proyecto'] = $this -> Empresa_model -> getProyectoID($idproyecto);
+    $panelpro['detalle'] = $this -> Empresa_model -> Getpro_detprotPP($idproyecto);
+    $iddetalle_pro = $panelpro['detalle'][0] -> iddetalle_pro_pdp;
+    $panelpro['det_pro'] = $this -> Empresa_model -> getdetalle_proID($iddetalle_pro);
+    $panelpro['id_e'] = $id_e;
+    $panelpro['idcol_e'] = $idcol_e;
+    $panelpro['idproyecto'] = $idproyecto;
+    $panelpro['empresa'] = $this -> Empresa_model -> GetEmpresaId($id_e);
+    $this->load->view('Header');
+    $this -> load -> view('Empresa/Panel_proyecto',$panelpro);
+    $this->load->view('Footer');
+  }
+
+//obtenemos el id del proyecto y lo buscamos en las diferentes tablas para mostrar el panel del proyecto pero la vista de usuario
+  public function PanelProyectoUsuario($titulo = null, $idproyecto = null, $id_e = null, $idcol_e = null){
+    $panelpro['proyecto'] = $this -> Empresa_model -> getProyectoID($idproyecto);
+    $panelpro['detalle'] = $this -> Empresa_model -> Getpro_detprotPP($idproyecto);
+    $iddetalle_pro = $panelpro['detalle'][0] -> iddetalle_pro_pdp;
+    $panelpro['det_pro'] = $this -> Empresa_model -> getdetalle_proID($iddetalle_pro);
+    $panelpro['id_e'] = $id_e;
+    $panelpro['idcol_e'] = $idcol_e;
+    $panelpro['idproyecto'] = $idproyecto;
+    $panelpro['empresa'] = $this -> Empresa_model -> GetEmpresaId($id_e);
+    $this->load->view('Header');
+    $this -> load -> view('Empresa/Panel_proyecto_Usuario',$panelpro);
+    $this->load->view('Footer');
+  }
+
+  //obtenemos los valores del formulario y los guardamos en una variable llamada $servicio
+  // y la insertamod en las diferentes tablas
+  public function InsertServicio(){
+    $valor['id_e'] = $this -> input -> post('id_e');
+    $valor['idcol_e'] = $this -> input -> post('idcol_e');
+    $valor['nom_e'] = $this -> input -> post('nom_e');
+    $servicio['nombre_s'] = strtoupper($this -> input -> post('titulo_serv'));
+    $dia = date("d");
+    $mes = date("m");
+    $ano = date("Y");
+    $servicio['fecha_registro'] = $ano ."-". $mes ."-". $dia;
+    $servicio['descripcion'] = strtoupper($this -> input -> post('desc_serv'));
+    $servicio['precio'] = $this -> input -> post('costo_serv');
+    $primero = $this -> Empresa_model ->InsertSer($servicio);
+    $segundo = $this-> Empresa_model -> getServicio($servicio);
+    $pro_sc['id_sc_psc'] = $this -> input -> post('subcategoria');
+    $pro_sc['idservicio_psc'] = $segundo[0] -> idservicio;
+    $pro_sc['idproyecto_psc'] = $this -> input -> post('Proyecto');
+    $tercero = $this-> Empresa_model -> Insertpro_sc($pro_sc);
+    $valor1 = $this -> input -> post('id_e');
+    $valor2 = $this -> input -> post('idcol_e');
+    redirect ( base_url () . 'Empresa/panelEmpresa/'.$valor1.'/'.$valor2 );
+    }
+
+  //obtenemos el id del proyecto y se muestra en en un formulario
+  public function editProy($idproyecto = null, $id_e = null, $idcol_e = null){
+    $proy['id_e'] = $id_e;
+    $proy['idcol_e'] = $idcol_e;
+    $proy['proyecto'] = $this -> Empresa_model -> getProyectoID($idproyecto);
+    $proy['pro_detpro'] = $this -> Empresa_model -> Getpro_detprotPP($idproyecto);
+    $proy['detalle_pro'] = $this -> Empresa_model -> getdetalle_proID($idproyecto);
+    $this->load->view('Header');
+    $this -> load -> view('Empresa/Editar_proyecto',$proy);
+    $this->load->view('Footer');
+  }
+
+//obtenemos los valores del proyecto y los guardamos en una variable llamada $proyecto y
+//mandamos esa informacion al model para que pueda ser actualizado el registro
+  public function ActualizarProyecto($id_e = null, $idcol_e = null, $idproyecto = null, $iddetalle_pro = null){
+    $proyect['id_e'] = $id_e;
+    $proyect['idcol_e'] = $idcol_e;
+    $proyecto['idproyecto'] = $idproyecto;
+    $proyecto['titulo'] = strtoupper($this -> input -> post('titulo_proy'));
+    $proyecto['costo'] = $this -> input -> post('costo_proy');
+    $primero = $this -> Empresa_model -> UpdateProyecto($proyecto);
+    $detalle_pro['iddetalle_pro'] = $iddetalle_pro;
+    $detalle_pro['descripcion'] = strtoupper($this -> input -> post('desc_proy'));
+    $segundo = $this -> Empresa_model -> Updatedetalle_pro($detalle_pro);
+    $max = 4;
+    for ($i=1; $i <$max ; $i++) {
+      if ( !empty($_FILES['foto'.$i]['name'])) {
+        move_uploaded_file($_FILES['foto'.$i]['tmp_name'],"img/empresa/Proyecto/$nombre_empresa/$nombre_empresa-Pro-".($_FILES['foto'.$i]['name']));
+        $url_img_pro = "img/empresa/Proyecto/$nombre_empresa/$nombre_empresa-Pro-".$_FILES['foto'.$i]['name'];
+      }
+      $pro_detpro['idproyecto_pdp'] = $EP[0] -> idproyecto;
+      $pro_detpro['iddetalle_pro_pdp']= $EPD[0] -> iddetalle_pro;
+      $pro_detpro['foto'] = $url_img_pro;
+      $pro_detpro['titulo'] = $this -> input -> post('titulo'.$i);
+    }
+    $proyecto['foto'] = $url_img_pro;
+  }
+
+//obtenemos el id del proyecto y lo eliminamos de la tablas correspondientes
+  public function eliminarProy($idproyecto = null, $id_e = null, $idcol_e = null){
+    $proyecto['id_e'] = $id_e;
+    $proyecto['idcol_e'] = $idcol_e;
+    $proyecto['idproyecto'] = $idproyecto;
+    $this -> Empresa_model -> deleteEmp_pro($proyecto);
+    $this -> Empresa_model -> deletePro_sc($proyecto);
+    $idpro_detpro = $this -> Empresa_model -> Getpro_detprotPP($proyecto['idproyecto']);
+    $proyecto['iddetalle_pro'] = $this -> Empresa_model -> getdetalle_proID($idpro_detpro[0] -> iddetalle_pro_pdp);
+    $this -> Empresa_model -> deletePro_detpro($proyecto);
+    $this -> Empresa_model -> deletedetalle_pro($proyecto);
+    $this -> Empresa_model -> deletePro($proyecto);
+    $valor1 =  $id_e;
+    $valor2 = $idcol_e;
+    redirect ( base_url () . 'Empresa/panelEmpresa/'.$valor1.'/'.$valor2 );
+  }
+
+//obtenemos el id de la empresa y buscamos toda la informacion de esa empresa
+//y la mostramos en una vista
+  public function EditEmpresa($id_e){
+    $empresa['empresa'] = $this -> Empresa_model -> GetEmpresaId($id_e);
+    $empresa['tipo_plan'] = $this -> Registro_model -> tipoPlan();
+    $empresa['tipo_tel'] = $this -> Registro_model -> tipoTel();
+    $empresa['tipo_empresa'] = $this -> Registro_model -> tipoEmpresa();
+    $empresa['estado'] = $this -> Registro_model -> GetEstado();
+    $this->load->view('Header');
+    $this -> load -> view('Empresa/Editar_Empresa',$empresa);
+    $this->load->view('Footer');
+}
+
+//obtenemos los valores del proyecto y los guardamos en una variable llamada $empresa y
+//mandamos esa informacion al model para que pueda ser actualizado el registro
+public function ActualizarEmpresa($id_e){
+  $nombre_empresa = strtoupper($this -> input -> post("nombre_empresa"));
+  $empresa['id_e'] = $this -> input -> post("id_e");
+  $empresa['clave'] = $this -> input -> post("clave");
+  $empresa['usuario'] = strtoupper($this -> input -> post("usuario"));
+  $empresa['nombre_empresa'] = strtoupper($this -> input -> post("nombre_empresa"));
+  $empresa['correo'] = strtoupper($this -> input -> post("email"));
+  $empresa['sitio_web'] = strtoupper($this -> input -> post("sitio_web"));
+  $empresa['facebook'] = strtoupper($this -> input -> post("facebook"));
+  $empresa['instagram'] = strtoupper($this -> input -> post("instagram"));
+  $empresa['descripcion'] = strtoupper($this -> input -> post("descripcion"));
+  $empresa['idtipo_e_e'] = $this -> input -> post("tipo_empresa");
+  $empresa['idcol_e'] = $this -> input -> post("colonia");
+  if ( !empty($_FILES['logo']['name'])) {
+    move_uploaded_file($_FILES['logo']['tmp_name'],"img/empresa/logo/$nombre_empresa/$nombre_empresa-logo-".($_FILES['logo']['name']));
+    $url_img_logo = "img/empresa/logo/$nombre_empresa/$nombre_empresa-logo-".$_FILES['logo']['name'];
+  }
+  if ( !empty($_FILES['portada']['name'])) {
+    move_uploaded_file($_FILES['portada']['tmp_name'],"img/empresa/portada/$nombre_empresa/$nombre_empresa-portada-".($_FILES['portada']['name']));
+    $url_img_portada = "img/empresa/portada/$nombre_empresa/$nombre_empresa-portada-".$_FILES['portada']['name'];
+  }
+  $empresa['logo'] = $url_img_logo;
+  $empresa['portada'] = $url_img_portada;
+  $primero = $this -> Empresa_model -> updateEmpresa($empresa);
+  $emp_tel['id_e_et'] = $this -> input -> post("id_e");
+  $emp_tel['idtipo_tel_et'] = $this -> input -> post("tipo_telefono");
+  $emp_tel['telefono'] = $this -> input -> post("telefono");
+  $segundo = $this -> Empresa_model -> updateEmprTel($emp_tel);
+  $valor1 = $this -> input -> post("id_e");
+  $valor2 =  $this -> input -> post("colonia");
+  redirect ( base_url () . 'Empresa/panelEmpresa/'.$valor1.'/'.$valor2 );
+}
+
+//obtenemos el id del servicio y lo eliminamos de la tablas correspondientes
+public function eliminarServ($idservicio =  null, $id_e = null, $idcol_e = null){
+  $primero = $this -> Empresa_model -> Deletepro_scS($idservicio);
+  $segundo = $this -> Empresa_model -> DeleteServicio($idservicio);
+  $valor1 = $id_e;
+  $valor2 =  $idcol_e;
+  redirect ( base_url () . 'Empresa/panelEmpresa/'.$valor1.'/'.$valor2 );
+}
+
+//En esta funcion obtenemos los datos del formulario y los guardamos en una variable llamada $pro_sol
+//e insertamos el registro en las tablas correspondientes.
+public function InsertSolicitud(){
+  $Solicitud['comentario'] = strtoupper($this -> input -> post('comen_sol'));
+  $dia = date("d");
+  $mes = date("m");
+  $ano = date("Y");
+  $Solicitud ['fecha_registro'] = $ano ."-". $mes ."-". $dia;
+  $primero = $this -> Empresa_model -> insertSolicitud($Solicitud);
+  $sol = $this -> Empresa_model -> getSolicitud($Solicitud);
+  $pro_sol['idproyecto_ps'] = $this -> input -> post('idproyecto');
+  $pro_sol['id_s_ps'] = $sol[0] -> id_s;
+  $pro_sol['costo'] = $this -> input -> post('costo_sol');
+  $pro_sol['fecha_evento'] = $this -> input -> post('fecha_sol');
+  $sesion = $this -> session -> userdata('usuario');
+  // print_r($sesion);
+  // die();
+  $cliente = $this -> Empresa_model -> getCliente($sesion);
+  $pro_sol['id_c_ps']= $cliente[0] -> id_c;
+  $primero = $this -> Empresa_model -> insertpro_sol($pro_sol);
+  $pro_sol['nombre_c'] = $cliente[0] -> nombre;
+  $pro_sol['correo_c'] = $cliente[0] -> correo;
+  $pro_sol['correo_e']= $this -> input -> post('correo_e');
+  $pro_sol['nombre_e']= $this -> input -> post('nombre_e');
+  $pro_sol['proyecto'] = $this -> Empresa_model -> getProyectoID($pro_sol['idproyecto_ps']);
+  //con esta linea estamos mandando los datos del formulario al correo
+  $this->load->library('Correos');
+  //aqui se debe de llamar lalibreria de correos
+  $this->correos->correo_Solicitud($pro_sol);
+  $valor1= $this -> input -> post('id_e');
+  $valor2= $this -> input -> post('idcol_e');
+  redirect ( base_url () . 'Empresa/panelEmpresa/'.$valor1.'/'.$valor2 );
+}
+
+//obtenemos la categoria y subcategoria y buscamos aquellas empresas que tengan servicios con esa busqueda
+//y las guardamos en una variable llamada $empresa y la mandamos a una vista
+public function CatalogoE(){
+  $empresa['cat'] = $this -> input -> post('categoria');
+  $empresa['sub'] = $this -> input -> post('subcategoria');
+  $pro_sc = $this -> Empresa_model -> GetSerSub($empresa['sub']);
+  $emp_pro = $this -> Empresa_model -> Getemp_proIdpro($pro_sc);
+  $empresa['empresa'] = $this -> Empresa_model -> GetEmpresaCat($emp_pro);
+  $empresa['categoria'] = $this -> Categoria_model-> getAll();
+  $this->load->view('Header');
+  $this -> load -> view('Empresa/Catalogo_Empresa',$empresa);
+  $this->load->view('Footer');
+}
+public function BuscarN(){
+  $empresan = $this -> input -> post('nombreE');
+  $empresa['empresa'] = $this -> Empresa_model -> GetEmpresaN($empresan);
+  // $empresa['empresa'] = $this -> Empresa_model -> GetEmpresaCat($emp_pro);
+  $empresa['categoria'] = $this -> Categoria_model-> getAll();
+  // print_r($empresa);
+  // die();
+  $this->load->view('Header');
+  $this -> load -> view('Empresa/Catalogo_Empresa',$empresa);
+  $this->load->view('Footer');
+
+}
+  }
+?>

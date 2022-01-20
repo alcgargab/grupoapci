@@ -1,0 +1,121 @@
+/*------------------------ BOTONES DE LA PÁGINA PRINCIPAL -------------------*/
+/* botones */
+#btnCAEMI, #btnAPCI, #btnCC, #btnTV, #btnRHEO, #btnSASSPER{
+  width: 360px;
+  height: 250px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 15px;
+}
+/* imagenes de los botones */
+.btnHome a img{
+  display: none;
+}
+/* boton caemi */
+#btnCAEMI{
+  border: 1px solid #822022;
+
+  background-color: #822022;
+  color: #ffffff;
+}
+/* boton caemi cuando pasen el mause*/
+#btnCAEMI:hover{
+  border: 1px solid #822022;
+  background-color: #ffffff;
+  color: #822022;
+}
+/* imagen de caemi y apci*/
+#btnCAEMI img, #btnAPCI img{
+  width: 250px;
+  height: 100px;
+}
+/* boton apci */
+#btnAPCI{
+  border: 1px solid #000000;
+  background-color: #000000;
+  color: #ffffff;
+}
+/* boton apci cuando pasen el mause*/
+#btnAPCI:hover{
+  border: 1px solid #000000;
+  background-color: #ffffff;
+  color: #000000;
+}
+/* boton call center */
+#btnCC{
+  border: 1px solid #ffc000;
+  background-color: #ffc000;
+  color: #3757a4;
+}
+/* boton call center cuando pasen el mause*/
+#btnCC:hover{
+  border: 1px solid #ffc000;
+  background-color: #ffffff;
+  color: #ffc000;
+}
+/* boton telecomunicaciones viales */
+#btnTV{
+  border: 1px solid #3757a4;
+  background-color: #3757a4;
+  color: #ffffff;
+}
+/* boton telecomunicaciones viales cuando pasen el mause*/
+#btnTV:hover{
+  border: 1px solid #3757a4;
+  background-color: #ffffff;
+  color: #3757a4;
+}
+/* botones de call center y telecomunicaciones viales */
+#btnCC img, #btnTV img{
+  width: 230px;
+  height: 120px;
+}
+/* boton RH Eficiencia Organizacional */
+#btnRHEO{
+  border: 1px solid #a7d448;
+  background-color: #a7d448;
+  color: #ffffff;
+}
+/* boton RH Eficiencia Organizacional cuando pasen el mause*/
+#btnRHEO:hover{
+  border: 1px solid #a7d448;
+  background-color: #ffffff;
+  color: #a7d448;
+}
+/* imagen de RH Eficiencia Organizacional */
+#btnRHEO img{
+  width: 250px;
+  height: 80px;
+}
+/* boton Seguridad ASSPER */
+#btnSASSPER{
+  border: 1px solid #000000;
+  background-color: #000000;
+  color: #ffc000;
+}
+/* boton RH Eficiencia Organizacional cuando pasen el mause*/
+#btnSASSPER:hover{
+  border: 1px solid #000000;
+  background-color: #ffffff;
+  color: #000000;
+}
+/* imagen de Seguridad ASSPER */
+#btnSASSPER img{
+  width: 120px;
+  height: 120px;
+}
+/*------------------------ LISTA DE EMPLEADOS DE -------------------*/
+/* botones de las operaciones */
+.tablaBtnOp{
+  border: none;
+}
+/*------------------------ BOTONES DE LOS MODULOS -------------------*/
+.cardModule{
+  padding: 20px 5px 10px 5px;
+  height: 180px;
+  border: none;
+}
+.cardModule:hover{
+  border: 1px solid #dedede;
+  background-color: rgba(175, 175, 175, 0.13);
+}
