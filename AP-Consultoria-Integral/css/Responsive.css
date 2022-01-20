@@ -1,0 +1,1529 @@
+@media only screen and (max-width:1440px) and (min-width: 1367px){
+  /* letras */
+  .ap-text-home{
+    margin-top: -63%;
+    margin-left: 11%;
+    width: 500px;
+    font-size: 35px;
+  }
+  /********** MISIÓN Y VISIÓN **********/
+  /* contanedor de los titulos */
+  .ap-mi-vi-ctn{
+    padding: 50px 50px 10px 10px;
+  }
+  /* titulo de la misión y visión*/
+  .ap-mi-vi-tittle{
+    font-size: 45px;
+    letter-spacing: 2px;
+  }
+  /* texto de la misión y visión */
+  .ap-mi-vi-text{
+    padding: 10px 30px;
+  }
+  /********** VALORES **********/
+  /* contenedor de la imagen de valores */
+  .ap-container-val-up{
+    margin-top: -30%;
+  }
+  /* imagen top de valores */
+  .ap-container-val-img-tittle img{
+    width: 80%;
+    height: 400px;
+  }
+  /* titulo de los valores */
+  .ap-container-val-img-tittle p{
+    letter-spacing: 5px;
+  }
+  /* icono de valor */
+  .ap-container-val-down div.container-fluid div.container img{
+    width: 70%;
+  }
+  /* texto */
+  .ap-container-val-down div.container-fluid div.container p{
+    font-size: 25px;
+    letter-spacing: 3px;
+  }
+  /********** EMPRESAS **********/
+  /* letras */
+  .ap-text-empresas{
+    margin-top: -59%;
+    font-size: 35px;
+    width: 82%;
+  }
+  /* contenedor principal */
+  .ap-empresas{
+    margin-top: -30%;
+  }
+  /* card */
+  .ap-empresas .card{
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 13px 4px rgba(0,0,0,.7);
+    -moz-box-shadow: 0px 0px 13px 4px rgba(0,0,0,.7);
+    box-shadow: 0px 0px 13px 4px rgba(0,0,0,.7);
+    padding: 10px;
+  }
+  /* imagen */
+  .ap-empresas .card img{
+    width: 100%;
+  }
+  /* carousel */
+  .carousel{
+    margin: 12% 0% 6%;
+  }
+  /********** FOOTER **********/
+  .ap-footer-contacto img{
+    width: 60%;
+  }
+  .ap-contacto-number{
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width:1366px) and (min-width: 1281px){
+  /* letras */
+  .ap-text-home{
+    margin-top: -63%;
+    margin-left: 11%;
+    width: 500px;
+    font-size: 35px;
+  }
+  /********** MISIÓN Y VISIÓN **********/
+  /* contanedor de los titulos */
+  .ap-mi-vi-ctn{
+    padding: 50px 50px 10px 10px;
+  }
+  /* titulo de la misión y visión*/
+  .ap-mi-vi-tittle{
+    font-size: 45px;
+    letter-spacing: 2px;
+  }
+  /* texto de la misión y visión */
+  .ap-mi-vi-text{
+    padding: 10px 30px;
+  }
+  /********** VALORES **********/
+  /* contenedor de la imagen de valores */
+  .ap-container-val-up{
+    margin-top: -32%;
+  }
+  /* imagen top de valores */
+  .ap-container-val-img-tittle img{
+    width: 80%;
+    height: 400px;
+  }
+  /* titulo de los valores */
+  .ap-container-val-img-tittle p{
+    letter-spacing: 5px;
+  }
+  /* icono de valor */
+  .ap-container-val-down div.container-fluid div.container img{
+    width: 70%;
+  }
+  /* texto */
+  .ap-container-val-down div.container-fluid div.container p{
+    font-size: 25px;
+    letter-spacing: 3px;
+  }
+  /********** EMPRESAS **********/
+  /* letras */
+  .ap-text-empresas{
+    margin-top: -59%;
+    font-size: 35px;
+    width: 82%;
+  }
+  /* contenedor principal */
+  .ap-empresas{
+    margin-top: -30%;
+  }
+  /* card */
+  .ap-empresas .card{
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 13px 4px rgba(0,0,0,.7);
+    -moz-box-shadow: 0px 0px 13px 4px rgba(0,0,0,.7);
+    box-shadow: 0px 0px 13px 4px rgba(0,0,0,.7);
+    padding: 10px;
+  }
+  /* imagen */
+  .ap-empresas .card img{
+    width: 100%;
+  }
+  /* carousel */
+  .carousel{
+    margin: 12% 0% 6%;
+  }
+  /********** FOOTER **********/
+  .ap-footer-contacto img{
+    width: 60%;
+  }
+  .ap-contacto-number{
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width:1280px) and (min-width: 1200px){
+  /* letras */
+  .ap-text-home{
+    margin-top: -63%;
+    margin-left: 11%;
+    width: 500px;
+    font-size: 35px;
+  }
+  /********** MISIÓN Y VISIÓN **********/
+  /* contanedor de los titulos */
+  .ap-mi-vi-ctn{
+    padding: 50px 50px 10px 10px;
+  }
+  /* titulo de la misión y visión*/
+  .ap-mi-vi-tittle{
+    font-size: 45px;
+    letter-spacing: 2px;
+  }
+  /* texto de la misión y visión */
+  .ap-mi-vi-text{
+    padding: 10px 30px;
+  }
+  /********** VALORES **********/
+  /* contenedor de la imagen de valores */
+  .ap-container-val-up{
+    margin-top: -33%;
+  }
+  /* imagen top de valores */
+  .ap-container-val-img-tittle img{
+    width: 80%;
+    height: 400px;
+  }
+  /* titulo de los valores */
+  .ap-container-val-img-tittle p{
+    letter-spacing: 5px;
+  }
+  /* icono de valor */
+  .ap-container-val-down div.container-fluid div.container img{
+    width: 70%;
+  }
+  /* texto */
+  .ap-container-val-down div.container-fluid div.container p{
+    font-size: 25px;
+    letter-spacing: 3px;
+  }
+  /********** EMPRESAS **********/
+  /* letras */
+  .ap-text-empresas{
+    margin-top: -59%;
+    font-size: 35px;
+    width: 82%;
+  }
+  /* contenedor principal */
+  .ap-empresas{
+    margin-top: -30%;
+  }
+  /* card */
+  .ap-empresas .card{
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 13px 4px rgba(0,0,0,.7);
+    -moz-box-shadow: 0px 0px 13px 4px rgba(0,0,0,.7);
+    box-shadow: 0px 0px 13px 4px rgba(0,0,0,.7);
+    padding: 10px;
+  }
+  /* imagen */
+  .ap-empresas .card img{
+    width: 100%;
+  }
+  /* carousel */
+  .carousel{
+    margin: 12% 0% 6%;
+  }
+  /********** FOOTER **********/
+  .ap-footer-contacto img{
+    width: 50px;
+  }
+  .ap-contacto-number{
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width:1199px) and (min-width: 1025px){
+  /* letras */
+  .ap-text-home{
+    margin-top: -66%;
+    margin-left: 9%;
+    width: 450px;
+    font-size: 35px;
+  }
+  /********** MISIÓN Y VISIÓN **********/
+  /* contanedor de los titulos */
+   .ap-mi-vi-ctn{
+     padding: 8% 0% 0% 0%;
+   }
+  /* titulo de la misión y visión*/
+  .ap-mi-vi-tittle{
+    font-size: 45px;
+    letter-spacing: 2px;
+  }
+  /* texto de la misión y visión */
+  .ap-mi-vi-text{
+    padding: 10px 30px;
+  }
+  /********** VALORES **********/
+  /* contenedor de la imagen de valores */
+  .ap-container-val-up{
+    margin-top: -35%;
+  }
+  /* imagen top de valores */
+  .ap-container-val-img-tittle img{
+    width: 80%;
+    height: 400px;
+  }
+  /* titulo de los valores */
+  .ap-container-val-img-tittle p{
+    letter-spacing: 5px;
+  }
+  /* icono de valor */
+  .ap-container-val-down div.container-fluid div.container img{
+    width: 70%;
+  }
+  /* texto */
+  .ap-container-val-down div.container-fluid div.container p{
+    font-size: 25px;
+    letter-spacing: 3px;
+  }
+  /********** EMPRESAS **********/
+  /* letras */
+  .ap-text-empresas{
+    margin-top: -59%;
+    font-size: 35px;
+    width: 82%;
+  }
+  /* contenedor principal */
+  .ap-empresas{
+    margin-top: -30%;
+  }
+  /* card */
+  .ap-empresas .card{
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 13px 4px rgba(0,0,0,.7);
+    -moz-box-shadow: 0px 0px 13px 4px rgba(0,0,0,.7);
+    box-shadow: 0px 0px 13px 4px rgba(0,0,0,.7);
+    padding: 10px;
+  }
+  /* imagen */
+  .ap-empresas .card img{
+    width: 100%;
+  }
+  /* carousel */
+  .carousel{
+    margin: 12% 0% 6%;
+  }
+  /********** FOOTER **********/
+  .ap-footer-contacto img{
+    width: 40px;
+  }
+  .ap-contacto-number{
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width:1024px) and (min-width: 992px){
+  /* opciones del nav */
+  .ap-nav li a.nav-link{
+    font-size: 30px;
+  }
+  /********** BANNER **********/
+  /* imagen del banner */
+  .ap-img-banner{
+    height: 740px;
+  }
+  /* letras */
+  .ap-text-home{
+    margin-top: -59%;
+    margin-left: 12%;
+    width: 390px;
+    font-size: 27px;
+  }
+  /********** MISIÓN Y VISIÓN **********/
+  /* contenedor de misión */
+  .ap-container-mision{
+    margin-left: 0%;
+  }
+  /* contenedor de visión */
+  .ap-container-vision{
+    margin-top: -26%;
+    margin-left: 56.5%;
+  }
+  /* contanedor de los titulos */
+  .ap-mi-vi-ctn{
+    padding: 5% 0% 0% 0%;
+  }
+  /* imagen de la mision y vision */
+  .ap-container-icon img{
+    width: 100%;
+  }
+  /* titulo de la misión y visión*/
+  .ap-mi-vi-tittle{
+    font-size: 40px;
+  }
+  /* texto de la misión y visión */
+  .ap-mi-vi-text{
+    text-align: justify;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 3%;
+  }
+  /********** VALORES **********/
+  /* contenedor de la imagen de valores */
+  .ap-container-val-up{
+    margin-top: -23%;
+  }
+  .ap-container-val-img-tittle{
+    margin-left: 31%;
+  }
+  /* imagen top de valores */
+  .ap-container-val-img-tittle img{
+    width: 64%;
+    height: 300px;
+  }
+  /* titulo de los valores */
+  .ap-container-val-img-tittle p{
+    font-size: 30px;
+    border-radius: 7%;
+    letter-spacing: 5px;
+  }
+  /* contenedor general */
+  .ap-container-val-down{
+    margin-top: 7%;
+  }
+  /* contenedor de los iconos */
+  .ap-container-val-down div.container-fluid{
+    margin-top: -55%;
+    padding: 3%;
+  }
+  /* contenedor de arriba de los iconos */
+  .ap-container-opc-up{
+    margin-bottom: 3%;
+  }
+  /* contenedor de cada valor */
+  .ap-div-val{
+    margin-right: -15px;
+  }
+  /* contenedor de cada valor */
+  .ap-container-val-down div.container-fluid div.container{
+    padding: 3% 0%;
+  }
+  /* icono de valor */
+  .ap-container-val-down div.container-fluid div.container img{
+    width: 50%;
+  }
+  /* texto */
+  .ap-container-val-down div.container-fluid div.container p{
+    font-size: 19px;
+    font-weight: bold;
+    letter-spacing: 2px;
+  }
+  /********** EMPRESAS **********/
+  /* letras */
+  .ap-text-empresas{
+    margin-top: -59%;
+    font-size: 35px;
+    width: 82%;
+  }
+  /* contenedor principal */
+  .ap-empresas{
+    margin-top: -30%;
+  }
+  /* card */
+  .ap-empresas .card{
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 13px 4px rgba(0,0,0,.7);
+    -moz-box-shadow: 0px 0px 13px 4px rgba(0,0,0,.7);
+    box-shadow: 0px 0px 13px 4px rgba(0,0,0,.7);
+    padding: 10px;
+  }
+  /* imagen */
+  .ap-empresas .card img{
+    width: 100%;
+  }
+  /* carousel */
+  .carousel{
+    margin: 12% 0% 6%;
+  }
+  /********** FOOTER **********/
+  .ap-footer-nuestas-empresas p, .ap-footer-contacto p{
+    font-size: 25px;
+  }
+  .ap-footer-nuestas-empresas ul{
+    font-size: 15px;
+  }
+  .ap-footer-contacto img{
+    width: 40px;
+  }
+  .ap-contacto-number{
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width:991px) and (min-width: 800px){
+  /* opciones del nav */
+  .ap-nav li a.nav-link{
+    font-size: 30px;
+  }
+  /********** BANNER **********/
+  /* imagen del banner */
+  .ap-img-banner{
+    height: 600px;
+  }
+  /* letras */
+  .ap-text-home{
+    margin-top: -52%;
+    margin-left: 15%;
+    width: 340px;
+    font-size: 22px;
+  }
+  /********** MISIÓN Y VISIÓN **********/
+  /* contenedor de misión */
+  .ap-container-mision{
+    margin-left: 0%;
+  }
+  /* contenedor de visión */
+  .ap-container-vision{
+    margin-top: -31.5%;
+    margin-left: 56.5%;
+  }
+  /* contanedor de los titulos */
+  .ap-mi-vi-ctn{
+    padding: 5% 0% 0% 0%;
+  }
+  /* imagen de la mision y vision */
+  .ap-container-icon img{
+    width: 100%;
+  }
+  /* titulo de la misión y visión*/
+  .ap-mi-vi-tittle{
+    font-size: 40px;
+  }
+  /* texto de la misión y visión */
+  .ap-mi-vi-text{
+    text-align: justify;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 3%;
+  }
+  /********** VALORES **********/
+  /* contenedor de la imagen de valores */
+  .ap-container-val-up{
+    margin-top: -27%;
+  }
+  .ap-container-val-img-tittle{
+    margin-left: 31%;
+  }
+  /* imagen top de valores */
+  .ap-container-val-img-tittle img{
+    width: 64%;
+    height: 300px;
+  }
+  /* titulo de los valores */
+  .ap-container-val-img-tittle p{
+    font-size: 30px;
+    border-radius: 7%;
+    letter-spacing: 5px;
+  }
+  /* contenedor general */
+  .ap-container-val-down{
+    margin-top: 7%;
+  }
+  /* contenedor de los iconos */
+  .ap-container-val-down div.container-fluid{
+    margin-top: -55%;
+    padding: 3%;
+  }
+  /* contenedor de arriba de los iconos */
+  .ap-container-opc-up{
+    margin-bottom: 3%;
+  }
+  /* contenedor de cada valor */
+  .ap-div-val{
+    margin-right: -15px;
+  }
+  /* contenedor de cada valor */
+  .ap-container-val-down div.container-fluid div.container{
+    padding: 3% 0%;
+  }
+  /* icono de valor */
+  .ap-container-val-down div.container-fluid div.container img{
+    width: 50%;
+  }
+  /* texto */
+  .ap-container-val-down div.container-fluid div.container p{
+    font-size: 19px;
+    font-weight: bold;
+    letter-spacing: 2px;
+  }
+  /********** EMPRESAS **********/
+  /* letras */
+  .ap-text-empresas{
+    margin-top: -55%;
+    font-size: 30px;
+    width: 82%;
+  }
+  /* contenedor principal */
+  .ap-empresas{
+    margin-top: -27%;
+  }
+  /* card */
+  .ap-empresas .card{
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 13px 4px rgba(0,0,0,.7);
+    -moz-box-shadow: 0px 0px 13px 4px rgba(0,0,0,.7);
+    box-shadow: 0px 0px 13px 4px rgba(0,0,0,.7);
+    padding: 5px;
+  }
+  /* imagen */
+  .ap-empresas .card img{
+    width: 100%;
+  }
+  /* carousel */
+  .carousel{
+    margin: 10% 0% 6%;
+  }
+  /********** FOOTER **********/
+  .ap-footer-nuestas-empresas p, .ap-footer-contacto p{
+    font-size: 20px;
+  }
+  .ap-footer-nuestas-empresas ul{
+    font-size: 13px;
+  }
+  .ap-footer-contacto img{
+    width: 40px;
+  }
+  .ap-contacto-number{
+    font-size: 13px;
+  }
+}
+@media only screen and (max-width:799px) and (min-width: 768px){
+  /* opciones del nav */
+  .ap-nav li a.nav-link{
+    font-size: 30px;
+  }
+  /********** BANNER **********/
+  /* imagen del banner */
+  .ap-img-banner{
+    height: 500px;
+  }
+  /* letras */
+  .ap-text-home{
+    margin-top: -50%;
+    margin-left: 12%;
+    width: 320px;
+    font-size: 18px;
+  }
+  /********** MISIÓN Y VISIÓN **********/
+  /* contenedor de misión */
+  .ap-container-mision{
+    margin-left: 0%;
+  }
+  /* contenedor de visión */
+  .ap-container-vision{
+    margin-top: -34%;
+    margin-left: 57%;
+  }
+  /* contanedor de los titulos */
+  .ap-mi-vi-ctn{
+    padding: 5% 0% 0% 0%;
+  }
+  /* imagen de la mision y vision */
+  .ap-container-icon img{
+    width: 100%;
+  }
+  /* titulo de la misión y visión*/
+  .ap-mi-vi-tittle{
+    font-size: 35px;
+  }
+  /* texto de la misión y visión */
+  .ap-mi-vi-text{
+    text-align: justify;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 3%;
+  }
+  /********** VALORES **********/
+  /* contenedor de la imagen de valores */
+  .ap-container-val-up{
+    margin-top: -35%;
+  }
+  .ap-container-val-img-tittle{
+    margin-left: 31%;
+  }
+  /* imagen top de valores */
+  .ap-container-val-img-tittle img{
+    width: 64%;
+    height: 300px;
+  }
+  /* titulo de los valores */
+  .ap-container-val-img-tittle p{
+    font-size: 20px;
+    border-radius: 7%;
+    letter-spacing: 5px;
+  }
+  /* contenedor general */
+  .ap-container-val-down{
+    margin-top: 4%;
+  }
+  /* contenedor de los iconos */
+  .ap-container-val-down div.container-fluid{
+    position: absolute;
+    margin-top: -55%;
+    padding: 3%;
+  }
+  /* contenedor de arriba de los iconos */
+  .ap-container-opc-up{
+    margin-bottom: 3%;
+  }
+  /* contenedor de cada valor */
+  .ap-div-val{
+    margin-right: -15px;
+  }
+  /* contenedor de cada valor */
+  .ap-container-val-down div.container-fluid div.container{
+    padding: 3% 0%;
+  }
+  /* icono de valor */
+  .ap-container-val-down div.container-fluid div.container img{
+    width: 50%;
+  }
+  /* texto */
+  .ap-container-val-down div.container-fluid div.container p{
+    font-size: 19px;
+    font-weight: bold;
+    letter-spacing: 2px;
+  }
+  /********** EMPRESAS **********/
+  /* letras */
+  .ap-text-empresas{
+    margin-top: -53%;
+    font-size: 25px;
+    width: 82%;
+  }
+  /* contenedor principal */
+  .ap-empresas{
+    margin-top: -25%;
+  }
+  /* card */
+  .ap-empresas .card{
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 10px 2px rgba(0,0,0,.7);
+    -moz-box-shadow: 0px 0px 10px 2px rgba(0,0,0,.7);
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,.7);
+    padding: 5px;
+  }
+  /* imagen */
+  .ap-empresas .card img{
+    width: 100%;
+  }
+  /* carousel */
+  .carousel{
+    margin: 10% 0% 8%;
+  }
+  /********** FOOTER **********/
+  .ap-footer-nuestas-empresas p, .ap-footer-contacto p{
+    font-size: 15px;
+  }
+  .ap-footer-nuestas-empresas ul{
+    font-size: 12px;
+  }
+  .ap-footer-contacto img{
+    width: 40px;
+  }
+  .ap-contacto-number{
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width:767px) and (min-width: 640px){
+  /* opciones del nav */
+  .ap-nav li a.nav-link{
+    font-size: 20px;
+  }
+  /********** BANNER **********/
+  /* imagen del banner */
+  .ap-img-banner{
+    height: 350px;
+  }
+  /* letras */
+  .ap-text-home{
+    margin-top: -38%;
+    margin-left: 10%;
+    width: 280px;
+    font-size: 13px;
+  }
+  /********** MISIÓN Y VISIÓN **********/
+  /* contenedor de misión */
+  .ap-container-mision{
+    margin-left: 0%;
+  }
+  /* contanedor de los titulos */
+  .ap-mi-vi-ctn{
+    padding: 7% 0% 0% 0%;
+  }
+  /* imagen de la mision y vision */
+  .ap-container-icon img{
+    width: 100%;
+  }
+  /* titulo de la misión y visión*/
+  .ap-mi-vi-tittle{
+    font-size: 40px;
+  }
+  /* texto de la misión y visión */
+  .ap-mi-vi-text{
+    text-align: justify;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 3%;
+  }
+  /********** VALORES **********/
+  /* contenedor de la imagen de valores */
+  .ap-container-val-up{
+    margin-top: 3%;
+  }
+  .ap-container-val-img-tittle{
+    margin-left: 24%;
+  }
+  /* imagen top de valores */
+  .ap-container-val-img-tittle img{
+    display: none;
+  }
+  /* titulo de los valores */
+  .ap-container-val-img-tittle p{
+    font-size: 20px;
+    border-radius: 7%;
+    letter-spacing: 5px;
+  }
+  /* contenedor general */
+  .ap-container-val-down{
+    margin-top: 7%;
+  }
+  /* contenedor de los iconos */
+  .ap-container-val-down div.container-fluid{
+    margin-top: -55%;
+    padding: 3%;
+  }
+  /* contenedor de arriba de los iconos */
+  .ap-container-opc-up{
+    margin-bottom: 3%;
+  }
+  /* contenedor de cada valor */
+  .ap-div-val{
+    margin-right: -15px;
+  }
+  /* contenedor de cada valor */
+  .ap-container-val-down div.container-fluid div.container{
+    padding: 3% 0%;
+  }
+  /* icono de valor */
+  .ap-container-val-down div.container-fluid div.container img{
+    width: 45%;
+  }
+  /* texto */
+  .ap-container-val-down div.container-fluid div.container p{
+    font-size: 12px;
+    font-weight: 100;
+    letter-spacing: 1px;
+  }
+  /********** EMPRESAS **********/
+  /* letras */
+  .ap-text-empresas{
+    margin-top: -40%;
+    font-size: 15px;
+    width: 82%;
+  }
+  /* contenedor principal */
+  .ap-empresas{
+    margin-top: -25%;
+  }
+  /* card */
+  .ap-empresas .card{
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 10px 2px rgba(0,0,0,.7);
+    -moz-box-shadow: 0px 0px 10px 2px rgba(0,0,0,.7);
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,.7);
+    padding: 5px;
+  }
+  /* imagen */
+  .ap-empresas .card img{
+    width: 100%;
+  }
+  /* carousel */
+  .carousel{
+    margin: 12% 0% 8%;
+  }
+  /********** FOOTER **********/
+  .ap-footer-nuestas-empresas p, .ap-footer-contacto p{
+    font-size: 18px;
+  }
+  .ap-footer-nuestas-empresas ul{
+    font-size: 12px;
+  }
+  .ap-footer-contacto img{
+    width: 30px;
+  }
+  .ap-contacto-number{
+    font-size: 10px;
+  }
+}
+@media only screen and (max-width:639px) and (min-width: 576px){
+  /* opciones del nav */
+  .ap-nav li a.nav-link{
+    font-size: 20px;
+  }
+  /********** BANNER **********/
+  /* imagen del banner */
+  .ap-img-banner{
+    height: 350px;
+  }
+  /* letras */
+  .ap-text-home{
+    margin-top: -48%;
+    margin-left: 12%;
+    width: 200px;
+    font-size: 13px;
+  }
+  /********** MISIÓN Y VISIÓN **********/
+  /* contenedor de misión */
+  .ap-container-mision{
+    margin-left: 0%;
+  }
+  /* contanedor de los titulos */
+  .ap-mi-vi-ctn{
+    padding: 6% 0% 0% 0%;
+  }
+  /* imagen de la mision y vision */
+  .ap-container-icon img{
+    width: 100%;
+  }
+  /* titulo de la misión y visión*/
+  .ap-mi-vi-tittle{
+    font-size: 40px;
+  }
+  /* texto de la misión y visión */
+  .ap-mi-vi-text{
+    text-align: justify;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 3%;
+  }
+  /********** VALORES **********/
+  /* contenedor de la imagen de valores */
+  .ap-container-val-up{
+    margin-top: 3%;
+  }
+  .ap-container-val-img-tittle{
+    margin-left: 24%;
+  }
+  /* imagen top de valores */
+  .ap-container-val-img-tittle img{
+    display: none;
+  }
+  /* titulo de los valores */
+  .ap-container-val-img-tittle p{
+    font-size: 20px;
+    border-radius: 7%;
+    letter-spacing: 5px;
+  }
+  /* contenedor general */
+  .ap-container-val-down{
+    margin-top: 7%;
+  }
+  /* contenedor de los iconos */
+  .ap-container-val-down div.container-fluid{
+    margin-top: -55%;
+    padding: 3%;
+  }
+  /* contenedor de arriba de los iconos */
+  .ap-container-opc-up{
+    margin-bottom: 3%;
+  }
+  /* contenedor de cada valor */
+  .ap-div-val{
+    margin-right: -15px;
+  }
+  /* contenedor de cada valor */
+  .ap-container-val-down div.container-fluid div.container{
+    padding: 3% 0%;
+  }
+  /* icono de valor */
+  .ap-container-val-down div.container-fluid div.container img{
+    width: 45%;
+  }
+  /* texto */
+  .ap-container-val-down div.container-fluid div.container p{
+    font-size: 12px;
+    font-weight: 100;
+    letter-spacing: 1px;
+  }
+  /********** EMPRESAS **********/
+  /* letras */
+  .ap-text-empresas{
+    margin-top: -45%;
+    font-size: 15px;
+    width: 82%;
+  }
+  /* contenedor principal */
+  .ap-empresas{
+    margin-top: -25%;
+  }
+  /* card */
+  .ap-empresas .card{
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 10px 2px rgba(0,0,0,.7);
+    -moz-box-shadow: 0px 0px 10px 2px rgba(0,0,0,.7);
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,.7);
+    padding: 5px;
+  }
+  /* imagen */
+  .ap-empresas .card img{
+    width: 100%;
+  }
+  /* carousel */
+  .carousel{
+    margin: 12% 0% 8%;
+  }
+  /********** FOOTER **********/
+  .ap-footer-nuestas-empresas p, .ap-footer-contacto p{
+    font-size: 18px;
+  }
+  .ap-footer-nuestas-empresas ul{
+    font-size: 12px;
+  }
+  .ap-footer-contacto img{
+    width: 30px;
+  }
+  .ap-contacto-number{
+    font-size: 10px;
+  }
+}
+@media only screen and (max-width:575px) and (min-width: 501px){
+  /* opciones del nav */
+  .ap-nav li a.nav-link{
+    font-size: 20px;
+  }
+  /********** BANNER **********/
+  /* imagen del banner */
+  .ap-img-banner{
+    height: 350px;
+  }
+  /* letras */
+  .ap-text-home{
+    margin-top: -53%;
+    margin-left: 12%;
+    width: 200px;
+    font-size: 13px;
+  }
+  /********** MISIÓN Y VISIÓN **********/
+  /* contenedor de misión */
+  .ap-container-mision{
+    margin-left: 0%;
+  }
+  /* contanedor de los titulos */
+  .ap-mi-vi-ctn{
+    padding: 5% 0% 0% 0%;
+  }
+  /* imagen de la mision y vision */
+  .ap-container-icon img{
+    width: 100%;
+  }
+  /* titulo de la misión y visión*/
+  .ap-mi-vi-tittle{
+    font-size: 40px;
+  }
+  /* texto de la misión y visión */
+  .ap-mi-vi-text{
+    text-align: justify;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 3%;
+  }
+  /********** VALORES **********/
+  /* contenedor de la imagen de valores */
+  .ap-container-val-up{
+    margin-top: 3%;
+  }
+  .ap-container-val-img-tittle{
+    margin-left: 24%;
+  }
+  /* imagen top de valores */
+  .ap-container-val-img-tittle img{
+    display: none;
+  }
+  /* titulo de los valores */
+  .ap-container-val-img-tittle p{
+    font-size: 20px;
+    border-radius: 7%;
+    letter-spacing: 5px;
+  }
+  /* contenedor general */
+  .ap-container-val-down{
+    margin-top: 7%;
+  }
+  /* contenedor de los iconos */
+  .ap-container-val-down div.container-fluid{
+    margin-top: -55%;
+    padding: 3%;
+  }
+  /* contenedor de arriba de los iconos */
+  .ap-container-opc-up{
+    margin-bottom: 3%;
+  }
+  /* contenedor de cada valor */
+  .ap-div-val{
+    margin-right: -15px;
+  }
+  /* contenedor de cada valor */
+  .ap-container-val-down div.container-fluid div.container{
+    padding: 3% 0%;
+  }
+  /* icono de valor */
+  .ap-container-val-down div.container-fluid div.container img{
+    width: 45%;
+  }
+  /* texto */
+  .ap-container-val-down div.container-fluid div.container p{
+    font-size: 12px;
+    font-weight: 100;
+    letter-spacing: 1px;
+  }
+  /********** EMPRESAS **********/
+  /* letras */
+  .ap-text-empresas{
+    margin-top: -50%;
+    font-size: 15px;
+    width: 82%;
+  }
+  /* contenedor principal */
+  .ap-empresas{
+    margin-top: -25%;
+  }
+  /* card */
+  .ap-empresas .card{
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 10px 2px rgba(0,0,0,.7);
+    -moz-box-shadow: 0px 0px 10px 2px rgba(0,0,0,.7);
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,.7);
+    padding: 5px;
+  }
+  /* imagen */
+  .ap-empresas .card img{
+    width: 100%;
+  }
+  /* carousel */
+  .carousel{
+    margin: 12% 0% 8%;
+  }
+  /********** FOOTER **********/
+  .ap-footer-nuestas-empresas p, .ap-footer-contacto p{
+    font-size: 18px;
+  }
+  .ap-footer-nuestas-empresas ul{
+    font-size: 12px;
+  }
+  .ap-footer-contacto img{
+    width: 20px;
+  }
+  .ap-contacto-number{
+    font-size: 9px;
+  }
+}
+@media only screen and (max-width:500px) and (min-width: 439px){
+  /* opciones del nav */
+  .ap-nav li a.nav-link{
+    font-size: 20px;
+  }
+  /********** BANNER **********/
+  /* imagen del banner */
+  .ap-img-banner{
+    height: 350px;
+  }
+  /* letras */
+  .ap-text-home{
+    margin-top: -63%;
+    margin-left: 12%;
+    width: 200px;
+    font-size: 13px;
+  }
+  /********** MISIÓN Y VISIÓN **********/
+  /* contenedor de misión */
+  .ap-container-mision{
+    margin-left: 0%;
+  }
+  /* contanedor de los titulos */
+  .ap-mi-vi-ctn{
+    padding: 5% 0% 0% 0%;
+  }
+  /* imagen de la mision y vision */
+  .ap-container-icon img{
+    width: 100%;
+  }
+  /* titulo de la misión y visión*/
+  .ap-mi-vi-tittle{
+    font-size: 40px;
+  }
+  /* texto de la misión y visión */
+  .ap-mi-vi-text{
+    text-align: justify;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 3%;
+  }
+  /********** VALORES **********/
+  /* contenedor de la imagen de valores */
+  .ap-container-val-up{
+    margin-top: 3%;
+  }
+  .ap-container-val-img-tittle{
+    margin-left: 24%;
+  }
+  /* imagen top de valores */
+  .ap-container-val-img-tittle img{
+    display: none;
+  }
+  /* titulo de los valores */
+  .ap-container-val-img-tittle p{
+    font-size: 20px;
+    border-radius: 7%;
+    letter-spacing: 5px;
+  }
+  /* contenedor general */
+  .ap-container-val-down{
+    margin-top: 7%;
+  }
+  /* contenedor de los iconos */
+  .ap-container-val-down div.container-fluid{
+    margin-top: -55%;
+    padding: 3%;
+  }
+  /* contenedor de arriba de los iconos */
+  .ap-container-opc-up{
+    margin-bottom: 3%;
+  }
+  /* contenedor de cada valor */
+  .ap-div-val{
+    margin-right: -15px;
+  }
+  /* contenedor de cada valor */
+  .ap-container-val-down div.container-fluid div.container{
+    padding: 3% 0%;
+  }
+  /* icono de valor */
+  .ap-container-val-down div.container-fluid div.container img{
+    width: 45%;
+  }
+  /* texto */
+  .ap-container-val-down div.container-fluid div.container p{
+    font-size: 12px;
+    font-weight: 100;
+    letter-spacing: 1px;
+  }
+  /********** EMPRESAS **********/
+  /* letras */
+  .ap-text-empresas{
+    margin-top: -60%;
+    font-size: 15px;
+    width: 82%;
+  }
+  /* contenedor principal */
+  .ap-empresas{
+    /* margin-top: -120px; */
+    margin-top: -25%;
+  }
+  /* card */
+  .ap-empresas .card{
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 10px 2px rgba(0,0,0,.7);
+    -moz-box-shadow: 0px 0px 10px 2px rgba(0,0,0,.7);
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,.7);
+    padding: 5px;
+  }
+  /* imagen */
+  .ap-empresas .card img{
+    width: 100%;
+  }
+  /* carousel */
+  .carousel{
+    margin: 14% 0% 7%;
+  }
+  /********** FOOTER **********/
+  .ap-footer-nuestas-empresas p, .ap-footer-contacto p{
+    font-size: 18px;
+  }
+  .ap-footer-nuestas-empresas ul{
+    font-size: 12px;
+  }
+  .ap-footer-contacto img{
+    width: 20px;
+  }
+  .ap-contacto-number{
+    font-size: 7px;
+  }
+}
+@media only screen and (max-width:438px) and (min-width: 351px){
+  /* opciones del nav */
+  .ap-nav li a.nav-link{
+    font-size: 16px;
+  }
+  /********** BANNER **********/
+  /* imagen del banner */
+  .ap-img-banner{
+    height: 300px;
+  }
+  /* letras */
+  .ap-text-home{
+    margin-top: -68%;
+    margin-left: 8%;
+    width: 170px;
+    font-size: 13px;
+  }
+  /********** MISIÓN Y VISIÓN **********/
+  /* contenedor de misión */
+  .ap-container-mision{
+    margin-left: 0%;
+  }
+  /* contanedor de los titulos */
+  .ap-mi-vi-ctn{
+    padding: 5% 0% 0% 0%;
+  }
+  /* imagen de la mision y vision */
+  .ap-container-icon img{
+    width: 100%;
+  }
+  /* imagen de la misión y visión */
+  .ap-mi-vi-icon{
+    width: 100%;
+  }
+  /* titulo de la misión y visión*/
+  .ap-mi-vi-tittle{
+    font-size: 30px;
+  }
+  /* texto de la misión y visión */
+  .ap-mi-vi-text{
+    text-align: justify;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 3%;
+  }
+  /********** VALORES **********/
+  /* contenedor de la imagen de valores */
+  .ap-container-val-up{
+    margin-top: 3%;
+  }
+  .ap-container-val-img-tittle{
+    margin-left: 24%;
+  }
+  /* imagen top de valores */
+  .ap-container-val-img-tittle img{
+    display: none;
+  }
+  /* titulo de los valores */
+  .ap-container-val-img-tittle p{
+    font-size: 20px;
+    border-radius: 7%;
+    letter-spacing: 5px;
+  }
+  /* contenedor general */
+  .ap-container-val-down{
+    margin-top: 7%;
+  }
+  /* contenedor de los iconos */
+  .ap-container-val-down div.container-fluid{
+    margin-top: -50%;
+    padding: 3%;
+  }
+  /* contenedor de arriba de los iconos */
+  .ap-container-opc-up{
+    margin-bottom: 3%;
+  }
+  /* contenedor de cada valor */
+  .ap-div-val{
+    margin-right: -15px;
+  }
+  /* contenedor de cada valor */
+  .ap-container-val-down div.container-fluid div.container{
+    padding: 3% 0%;
+  }
+  /* icono de valor */
+  .ap-container-val-down div.container-fluid div.container img{
+    width: 35%;
+  }
+  /* texto */
+  .ap-container-val-down div.container-fluid div.container p{
+    font-size: 8px;
+    font-weight: 100;
+    letter-spacing: 1px;
+  }
+  /********** EMPRESAS **********/
+  /* letras */
+  .ap-text-empresas{
+    margin-top: -60%;
+    font-size: 15px;
+    width: 80%;
+  }
+  /* contenedor principal */
+  .ap-empresas{
+    margin-top: -23%;
+  }
+  /* card */
+  .ap-empresas .card{
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 10px 2px rgba(0,0,0,.7);
+    -moz-box-shadow: 0px 0px 10px 2px rgba(0,0,0,.7);
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,.7);
+    padding: 5px;
+  }
+  /* imagen */
+  .ap-empresas .card img{
+    width: 100%;
+  }
+  /* carousel */
+  .carousel{
+    margin: 12% 0% 7%;
+  }
+  /********** FOOTER **********/
+  .ap-footer-nuestas-empresas p, .ap-footer-contacto p{
+    font-size: 13px;
+  }
+  .ap-footer-nuestas-empresas ul{
+    font-size: 10px;
+  }
+  .ap-footer-contacto img{
+    width: 20px;
+  }
+  .ap-contacto-number{
+    font-size: 8px;
+  }
+}
+@media only screen and (max-width:350px) and (min-width: 320px){
+  /* opciones del nav */
+  .ap-nav li a.nav-link{
+    font-size: 15px;
+  }
+  /********** BANNER **********/
+  /* imagen del banner */
+  .ap-img-banner{
+    height: 250px;
+  }
+  /* letras */
+  .ap-text-home{
+    margin-top: -54%;
+    margin-left: 7%;
+    width: 150px;
+    font-size: 10px;
+  }
+  /********** MISIÓN Y VISIÓN **********/
+  /* contenedor de misión */
+  .ap-container-mision{
+    margin-left: 0%;
+  }
+  /* contanedor de los titulos */
+  .ap-mi-vi-ctn{
+    padding: 4% 0% 0% 0%;
+  }
+  /* imagen de la mision y vision */
+  .ap-container-icon img{
+    width: 100%;
+  }
+  /* imagen de la misión y visión */
+  .ap-mi-vi-icon{
+    width: 100%;
+  }
+  /* titulo de la misión y visión*/
+  .ap-mi-vi-tittle{
+    font-size: 30px;
+  }
+  /* texto de la misión y visión */
+  .ap-mi-vi-text{
+    text-align: justify;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 3%;
+  }
+  /********** VALORES **********/
+  /* contenedor de la imagen de valores */
+  .ap-container-val-up{
+    margin-top: 3%;
+  }
+  .ap-container-val-img-tittle{
+    margin-left: 24%;
+  }
+  /* imagen top de valores */
+  .ap-container-val-img-tittle img{
+    display: none;
+  }
+  /* titulo de los valores */
+  .ap-container-val-img-tittle p{
+    font-size: 20px;
+    border-radius: 7%;
+    letter-spacing: 5px;
+  }
+  /* contenedor general */
+  .ap-container-val-down{
+    margin-top: 7%;
+  }
+  /* contenedor de los iconos */
+  .ap-container-val-down div.container-fluid{
+    position: absolute;
+    margin-top: -50%;
+    padding: 3%;
+  }
+  /* contenedor de arriba de los iconos */
+  .ap-container-opc-up{
+    margin-bottom: 3%;
+  }
+  /* contenedor de cada valor */
+  .ap-div-val{
+    margin-right: -15px;
+  }
+  /* contenedor de cada valor */
+  .ap-container-val-down div.container-fluid div.container{
+    padding: 3% 0%;
+  }
+  /* icono de valor */
+  .ap-container-val-down div.container-fluid div.container img{
+    width: 35%;
+  }
+  /* texto */
+  .ap-container-val-down div.container-fluid div.container p{
+    font-size: 8px;
+    font-weight: 100;
+    letter-spacing: 1px;
+  }
+  /********** EMPRESAS **********/
+  /* letras */
+  .ap-text-empresas{
+    margin-top: -55%;
+    font-size: 10px;
+    width: 82%;
+  }
+  /* contenedor principal */
+  .ap-empresas{
+    margin-top: -22%;
+  }
+  /* card */
+  .ap-empresas .card{
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 10px 2px rgba(0,0,0,.7);
+    -moz-box-shadow: 0px 0px 10px 2px rgba(0,0,0,.7);
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,.7);
+    padding: 5px;
+  }
+  /* imagen */
+  .ap-empresas .card img{
+    width: 100%;
+  }
+  /* carousel */
+  .carousel{
+    margin: 12% 0% 8%;
+  }
+  /********** FOOTER **********/
+  /* footer */
+  .ap-footer-nuestas-empresas p, .ap-footer-contacto p{
+    font-size: 13px;
+  }
+  .ap-footer-nuestas-empresas ul{
+    font-size: 10px;
+  }
+  .ap-footer-contacto img{
+    width: 20px;
+  }
+  .ap-contacto-number{
+    font-size: 8px;
+  }
+}

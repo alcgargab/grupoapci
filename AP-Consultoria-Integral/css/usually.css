@@ -1,0 +1,199 @@
+/*------------------------VISTA COMPUTADORA 1440px -------------------*/
+/*------------------------ESTILOS GENERALES-------------------*/
+/* @import url('https://fonts.googleapis.com/css?family=Poppins|Roboto+Condensed'); */
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+body{
+  font-family: 'Lato';
+}
+img{
+  margin: 0;
+  padding: 0;
+}
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+ul, ol{
+  padding: 0;
+}
+a:visited, a:link, a:focus, a:hover, a:active{
+  list-style: none;
+  text-decoration: none;
+}
+.ap-active{
+  color: #e8bc41 !important;
+  font-weight: bold;
+}
+/********** MENU **********/
+/* nav */
+.ap-nav{
+  background-color: #114174;
+  padding: 1%;
+}
+/* opciones del nav */
+.ap-nav li a.nav-link{
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 25px;
+}
+/********** BANNER **********/
+/* imagen del banner */
+.ap-img-banner{
+  width: 100%;
+  /* height: 650px; */
+}
+/* letras */
+.ap-text-home{
+  position: absolute;
+  margin-top: -63%;
+  margin-left: 8%;
+  color: #efca2c;
+  width: 590px;
+  font-size: 40px;
+  z-index: 99;
+}
+/********** MISIÓN Y VISIÓN **********/
+/* contenedor general */
+.ap-container-mi-vi{
+  margin-top: 1%;
+}
+/* contenedor de misión */
+.ap-container-mision{
+  margin-left: 57%;
+}
+/* imagen de la misión y visión */
+.ap-container-icon{
+  padding: 0%;
+}
+/* imagen de la mision y vision */
+.ap-container-icon img{
+  width: 130%;
+}
+/* titulo de la misión y visión*/
+.ap-mi-vi-tittle{
+  font-size: 50px;
+  color: #E8BC41;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 5px;
+}
+/* texto de la misión y visión */
+.ap-mi-vi-text{
+  text-align: justify;
+  font-size: 20px;
+  font-weight: bold;
+  color: #000000;
+  padding: 10px 100px 10px 30px;
+}
+/********** VALORES **********/
+/* contenedor de la imagen de valores */
+.ap-container-val-up{
+  position: absolute;
+  margin-top: -40%;
+  z-index: 99;
+}
+.ap-container-val-img-tittle{
+  margin-left: 34%;
+}
+/* imagen top de valores */
+.ap-container-val-img-tittle img{
+  width: 50%;
+  height: 500px;
+  /* height: 700px; */
+}
+/* titulo de los valores */
+.ap-container-val-img-tittle p{
+  font-size: 50px;
+  text-align: center;
+  color: #E8BC41;
+  background-color: #114174;
+  text-transform: uppercase;
+  border-radius: 20px;
+  font-weight: bold;
+  letter-spacing: 10px;
+}
+/* contenedor general */
+.ap-container-val-down{
+  margin-top: 1%;
+}
+/* imagen de fondo */
+.ap-val-img-banner{
+  opacity: 0.8;
+  width: 100%;
+  /* height: 900px; */
+}
+/* contenedor de arriba de los iconos */
+.ap-container-opc-up{
+  margin-bottom: 3%;
+}
+/* contenedor de los iconos */
+.ap-container-val-down div.container-fluid{
+  position: absolute;
+  margin-top: -65%;
+  padding: 10%;
+}
+/* contenedor de cada valor */
+.ap-container-val-down div.container-fluid div.container{
+  z-index: 99;
+  background-color: rgba(252, 189, 73, 0.7);
+  border-radius: 5%;
+  padding: 3%;
+}
+/* texto */
+.ap-container-val-down div.container-fluid div.container p{
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #FFFFFF;
+  letter-spacing: 5px;
+}
+/********** FOOTER **********/
+/* footer */
+.ap-footer{
+  background-color: #123356;
+  margin-top: -2%;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 0%;
+}
+.ap-footer-nuestas-empresas{
+  color: #ffffff;
+  padding: 2%;
+}
+.ap-footer-nuestas-empresas p, .ap-footer-contacto p{
+  text-align: center;
+  font-size: 40px;
+}
+.ap-footer-nuestas-empresas ul{
+  text-align: right;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+.ap-footer-nuestas-empresas ul li a{
+  color: #ffffff;
+}
+.ap-footer-nuestas-empresas ul li i{
+  color: #efca2c;
+}
+.ap-footer-contacto{
+  padding: 2%;
+  background-color: #efca2c;
+  color: #ffffff
+}
+.ap-contacto-facebook, .ap-contacto-twitter{
+  text-align: center;
+}
+.ap-footer-contacto img{
+  width: 30%;
+}
+.ap-contacto-number{
+  font-size: 18px;
+}
+.ap-footer-mouseover{
+  border-bottom: 1px solid #efca2c;
+}
