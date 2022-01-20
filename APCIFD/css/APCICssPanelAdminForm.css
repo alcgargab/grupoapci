@@ -1,0 +1,24 @@
+/*------------------------VISTA COMPUTADORA------------------------*/
+/*------------------------ESTILOS DEL LA GRAFICA DE SESIONES------------------------*/
+#APCISesionChart{
+width: 1000px;
+height: 1000px;
+}
+/*------------------------VISTA LAPTOP------------------------*/
+@media screen and (max-width: 1280px){
+
+}
+/*------------------------VISTA TABLETS------------------------*/
+@media screen and (max-width: 768px){
+  #APCISesionChart{
+  width: 600px;
+  height: 1000px;
+  }
+}
+/*------------------------VISTA SMARTPHONE------------------------*/
+@media screen and (max-width: 400px){
+  #APCISesionChart{
+  width: 400px;
+  height: 700px;
+  }
+}

@@ -1,0 +1,159 @@
+/*------------------------ESTILOS GENERALES------------------------*/
+@import url('https://fonts.googleapis.com/css?family=Poppins|Roboto+Condensed');
+body{
+  font-family: 'Roboto Condensed', sans-serif;
+}
+*{
+  box-sizing: border-box;
+}
+img{
+  display: block;
+  max-width: 100%;
+}
+/*------------------------MENU------------------------*/
+/* CONTENEDOR DEL FORMULARIO */
+#apci_menu{
+  background-color: #006465;
+}
+/*------------------------ESTILOS DEL BANNER DE LA IMAGEN------------------------*/
+/* IMAGEN DEL FONDO */
+#apci_img_banner{
+  width: 100%;
+  height: 100%;
+  z-index: -1000;
+  min-height: 1000px;
+}
+/*------------------------ESTILOS DEL LOGIN------------------------*/
+/* FORMULARIO */
+#apci_main{
+  position:  absolute;
+  text-align: center;
+  transform: translateX(130%) translateY(-220%);
+  background-color: rgba(0, 100, 101, 0.2);
+  padding: 20px;
+  border-radius: 40px;
+  width: 500px;
+}
+/* CONTENEDOR DEL NOMBRE */
+#apci_main_form_name{
+  background-color: inherit;
+  border: 4px solid #006465;
+  color: #006465;
+  margin-bottom: 50px;
+  width: 300px;
+  height: auto;
+  margin-left: 100px;
+}
+/* CONTENEDOR DEL PASSWORD */
+#apci_main_form_pass{
+  background-color: inherit;
+  border: 4px solid #006465;
+  color: #006465;
+  margin-bottom: 30px;
+  width: 300px;
+  height: auto;
+  margin-left: 100px;
+}
+/* TEXTO DEL LOGIN */
+#apci_main_form_text{
+  font-size: 25px;
+  color: #006465;
+}
+/* BOTON DEL LOGIN */
+#apci_main_form_btn{
+  border: 1px solid #006465;
+  color: #006465;
+  margin-top: 30px;
+}
+/* BOTON DEL LOGIN CUANDO PASEN EL MAUSE*/
+#apci_main_form_btn:hover{
+  border: 1px solid #006465;
+  color: #ffffff;
+  background-color: #006465;
+  margin-top: 30px;
+}
+/*------------------------VISTA LAPTOP L-----------------------*/
+@media screen and (max-width: 1440px){
+  /* FORMULARIO */
+  #apci_main{
+    transform: translateX(90%) translateY(-200%);
+  }
+}
+/*------------------------VISTA IPAD landscape-----------------*/
+@media screen and (max-width: 1366px){
+  /* FORMULARIO */
+  #apci_main{
+    transform: translateX(90%) translateY(-210%);
+  }
+}
+/*------------------------VISTA LAPTOP------------------------*/
+@media screen and (max-width: 1280px){
+  /* FORMULARIO */
+  #apci_main{
+    transform: translateX(80%) translateY(-210%);
+  }
+}
+/*------------------------VISTA IPAD-------------------------*/
+@media screen and (max-width: 1024px){
+  /* FORMULARIO */
+  #apci_main{
+    transform: translateX(60%) translateY(-210%);
+  }
+}
+/*------------------------VISTA SMARTPHONE landscape---------*/
+@media screen and (max-width: 900px){
+  /* FORMULARIO */
+  #apci_main{
+    transform: translateX(40%) translateY(-210%);
+  }
+}
+/*------------------------VISTA TABLETS------------------------*/
+@media screen and (max-width: 768px){
+  /* FORMULARIO */
+  #apci_main{
+    transform: translateX(28%) translateY(-210%);
+  }
+}
+/*------------------------VISTA SMARTPHONE--------------------*/
+@media screen and (max-width: 500px){
+  /* FORMULARIO */
+  #apci_main{
+    transform: translateX(28%) translateY(-220%);
+  }
+}
+/*------------------------VISTA SMARTPHONE------------------------*/
+@media screen and (max-width: 450px){
+  #apci_main{
+    position: absolute;
+    text-align: center;
+    transform: translateX(5%) translateY(-220%);
+    padding: 20px;
+    border-radius: 40px;
+    width: 340px;
+  }
+  #apci_main_form_name{
+    margin-left: 0px;
+  }
+  #apci_main_form_pass{
+    margin-left: 0px;
+  }
+}
+/*------------------------VISTA SMARTPHONE IPHONE-------------*/
+@media screen and (max-width: 350px){
+  #apci_main{
+    position: absolute;
+    text-align: center;
+    transform: translateX(5%) translateY(-205%);
+    padding: 20px;
+    border-radius: 40px;
+    width: 290px;
+  }
+  #apci_main_form_name{
+    width: 230px;
+    margin-left: 10px;
+  }
+  #apci_main_form_pass{
+    width: 230px;
+    margin-left: 10px;
+  }
+}

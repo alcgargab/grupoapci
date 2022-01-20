@@ -1,0 +1,134 @@
+/*------------------------VISTA COMPUTADORA------------------------*/
+/*------------------------ESTILOS DEL PANEL DE ADMINISTRADOR------------------------*/
+/* IMAGEN DEL ADMINISTRADOR */
+#apci_panel_admin_menu_logo{
+  width: 300px;
+  height: 300px;
+  margin-left: 100px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+/* NOMBRE DEL ADMINISTRADOR */
+#apci_panel_admin_menu_name{
+  font-size: 40px;
+  text-transform: uppercase;
+  margin-left: 110px;
+  color: rgba(0,100, 101, 0.9);
+}
+/* LISTA DE LOS ITEM DEL MENU DE ADMINISTRADOR */
+#apci_panel_user_list{
+  margin-left: 30px;
+}
+/* LISTA DE LOS ITEM DEL MENU DE ADMINISTRADOR */
+#APCIAdminliga{
+  text-decoration: none;
+  color: rgba(0,100, 101);
+  font-size: 20px;
+  border: 1px solid rgba(0,100, 101, 0.5);
+}
+#APCIAdminliga:hover{
+  background-color: rgba(0,100, 101, 0.4);
+  color: rgb(255, 255, 255);
+  font-size: 23px;
+  border: 2px solid rgba(0,100, 101, 0.5);
+}
+/* ICONOS DEL MENU */
+#apci_admin_menu_icon{
+  float: right;
+  color: rgb(255, 255, 255);
+}
+/* MOSTRADOR DE LAS TABLAS */
+  #apci_mostrar_tablas{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  background-color: rgba(0,100, 101);
+  border: 1px solid rgba(0,100, 101, 0.5);
+  margin-left: 30px;
+}
+/* LISTA DE LOS ITEM DEL MENU DE ADMINISTRADOR */
+#apci_panel_Admin_menu_tittle{
+  font-size: 20px;
+  color: rgba(0,100, 101);
+}
+/* BOTÓN DE REGRESAR */
+#APCI_btn_regresar{
+  margin-top: -50px;
+}
+/*------------------------ESTILOS DEL PANEL DE ADMINISTRADOR TABLAS------------------------*/
+/* CABECERA DE LAS TABLAS */
+#bg_tabla{
+  background-color: rgba(0,100, 101, 0.4);
+}
+/* CONTENEDOR DE LAS TABLAS */
+#apci_container_tabla{
+  padding: 70px;
+  text-align: center;
+  color: rgba(0,100, 101, 0.7);
+  font-size: 20px;
+}
+/* BOTONES DE LAS TABLAS */
+#btn_tablas{
+  margin: 10px 10px 10px 10px;
+}
+/*------------------------ESTILOS DEL PANEL DE ADMINISTRADOR TABLAS READ------------------------*/
+#apci_container_tabla_read{
+  padding: 70px;
+  margin-top: 300px;
+  text-align: center;
+  color: rgba(0,100, 101, 0.7);
+  font-size: 20px;
+}
+/*------------------------VISTA LAPTOP------------------------*/
+@media screen and (max-width: 1280px){
+  /* IMAGEN DEL ADMINISTRADOR */
+  #apci_panel_admin_menu_logo{
+    margin-left: 40px;
+  }
+  /* NOMBRE DEL ADMINISTRADOR */
+  #apci_panel_admin_menu_name{
+    margin-left: 40px;
+  }
+}
+/*------------------------VISTA TABLETS------------------------*/
+@media screen and (max-width: 768px){
+  /* IMAGEN DEL ADMINISTRADOR */
+  #apci_panel_admin_menu_logo{
+    margin-left: 40px;
+  }
+  /* NOMBRE DEL ADMINISTRADOR */
+  #apci_panel_admin_menu_name{
+    margin-left: 20px;
+    font-size: 30px;
+  }
+  /* OPERACIONES DEL ADMINISTRADOR */
+  #apci_panel_user_list{
+    /* padding: 10px; */
+    margin-left: 15px;
+  }
+  /* MOSTRADOR DE LAS TABLAS */
+    #apci_mostrar_tablas{
+      margin-left: 15px;
+    }
+  /* BOTONES DEL BUSCADOR DE LAS TABLAS  */
+  #apci_admin_buscador{
+    margin: 20px 20px 20px 20px;
+  }
+}
+/*------------------------VISTA SMARTPHONE------------------------*/
+@media screen and (max-width: 400px){
+  /* NOMBRE DEL ADMINISTRADOR */
+  #apci_panel_admin_menu_name{
+    margin-left: 90px;
+  }
+  /* OPERACIONES DEL ADMINISTRADOR */
+  #apci_panel_user_list{
+    margin-left: 0px;
+    margin-left: 20px;
+  }
+  /* MOSTRADOR DE LAS TABLAS */
+    #apci_mostrar_tablas{
+      margin-left: 0px;
+      margin-left: 20px;
+    }
+}

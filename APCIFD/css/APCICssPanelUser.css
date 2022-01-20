@@ -1,0 +1,414 @@
+/*------------------------VISTA COMPUTADORA------------------------*/
+/*------------------------ESTILOS DEL PANEL DE USUARIO------------------------*/
+/* IMAGEN DEL USUARIO */
+#apci_panel_user_menu_logo{
+    width: 300px;
+    height: 300px;
+    margin-left: 140px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+/* NOMBRE DEL USUARIO */
+#apci_panel_user_menu_name{
+  font-family: 'Poppins', sans-serif;
+  font-size: 40px;
+  text-transform: uppercase;
+  margin-left: 30px;
+}
+/* TITULOS */
+#apci_panel_user_menu_tittle{
+  font-family: 'Poppins', sans-serif;
+  margin-left: 30px;
+  font-size: 40px;
+  color: #8b8b8b;
+}
+/* BOTON PARA CREAR FORMATOS */
+#apci_panel_user_menu_FD{
+  float: right;
+  margin-top: -6px;
+}
+/* BOTON DE CREAR FORMATOS */
+#apci_panel_user_menu_FD_btn, #apci_oanel_User_msn_btn, #apci_panel_user_menu_Msn_btn{
+  background-color: inherit;
+  color: #006465;
+  border: 1px solid #006465;
+}
+/* ICONO DEL BOTON */
+#apci_panel_user_menu_FD_btn_icon{
+  color: #ffffff;
+}
+/* BOTON DE CREAR FORMATOS  CUANDO PASEN EL MAUSE*/
+#apci_panel_user_menu_FD_btn:hover, #apci_oanel_User_msn_btn:hover, #apci_panel_user_menu_Msn_btn:hover{
+  background-color: #006465;
+  color: #ffffff;
+  border: 1px solid #006465;
+}
+/*------------------------ESTILOS DEL PANEL DE MENSAJES------------------------*/
+/* MENSAJES LEIDOS */
+.apci_panel_user_msn_item{
+  color: #006465;
+  font-size: 20px;
+}
+/* MENSAJES NO LEIDOS */
+.apci_panel_user_msn_item_No{
+  background-color: #006465;
+  color: #ffffff;
+  font-size: 20px;
+}
+/* NOMBRE DE LOS FORMATOS */
+#apci_panel_user_ul_form_item{
+  text-transform: lowercase;
+  font-size: 20px;
+  color: #006465;
+}
+/* NOMBRE DE MENSAJES NO LEIDOS */
+#apci_panel_user_menu_msn_user_No{
+  float: right;
+  color: #ffffff;
+  font-size: 20px;
+}
+/* TITULO DE MENSAJES NO LEIDOS */
+#apci_panel_user_menu_msn_user_right_No{
+  text-decoration: none;
+  color: #ffffff;
+}
+/* ITEM CONTADOR DE LOS MENSAJES RECIBIDOS Y ENVIADOS */
+#apci_panel_user_menu_msn_user{
+  float: right;
+  color: #006465;
+  font-size: 20px;
+}
+/* NOMBRE DE MENSAJES LEIDOS */
+#apci_panel_user_menu_msn_user_right{
+  color: #006465;
+  text-decoration:none;
+  font-size: 20px;
+}
+/* ICONOS DE LOS MENSAJES RECIBIDOS */
+#apci_panel_user_menu_msnRecibidos_icon{
+  width: 20px;
+  height: 20px;
+  float: right;
+}
+/* CONTADOR DE MENSAJES */
+#apci_panel_user_menu_msn_user_total{
+  background-color: #006465;
+  color: #ffffff;
+  font-size: 20px;
+}
+/* CONTADOR DE MENSAJES */
+#apci_panel_user_menu_msn_user_total:hover{
+  background-color: #ffffff;
+  color: #006465;
+  border: 1px solid #006465;
+  font-size: 20px;
+}
+/* CREAR NUEVO MENSAJE */
+#apci_panel_user_ul_msn_new{
+  border: 1px solid #006465;
+  color: #006465;
+  text-decoration: none;
+}
+/* TITULO PARA LOS MENSAJES */
+#apci_panel_user_ul_msn_tittle{
+  text-decoration: none;
+  color: #006465;
+  font-size: 20px;
+}
+/* CONTENEDOR DE LOS MENSAJES */
+#apci_panel_user_ul_msn_item{
+  background-color: inherit;
+  border: 1px solid #ffffff;
+}
+/*------------------------ESTILOS DE TODOS LOS MENUS --------------------------------------*/
+/* LISTAS */
+#apci_panel_user_ul_form, #apci_panel_user_ul_msn, #apci_panel_user_ul_pen{
+  margin-left: 30px;
+}
+/*------------------------ESTILOS DEL AREA DE ENVIAR MENSAJES------------------------*/
+/* CONTENEDOR DEL AREA DE MENSAJES */
+#apci_panel_User_msn{
+  padding: 200px;
+}
+/* ESPACIO ENTRE ROWS */
+#apci_margin_row{
+  margin-bottom: 20px;
+}
+/*------------------------ESTILOS DEL AREA DE VER EL MENSAJES------------------------*/
+/* CONTENEDOR DEL AREA DEL MENSAJE RECIBIDO */
+#apci_panel_user_menu_Msn{
+  padding: 200px;
+}
+/* TITULOS DEL MENSAJE RECIBIDO */
+#apci_panel_user_menu_Msn_tittle{
+  font-size: 35px;
+  text-transform: uppercase;
+}
+/* INFORMACION DEL MENSAJE RECIBIDO */
+#apci_panel_user_menu_Msn_txt{
+  font-size: 25px;
+}
+/* REENVIAR MENSAJE */
+#apci_oanel_User_msn_titulo{
+  font-size: 20px;
+}
+/*------------------------ESTILOS DEL PANEL DE FORMATO DIGITAL ORDEN DE TRABAJO------------------------*/
+/* TODO EL FORMATO */
+#APCIFDOT{
+  padding: 30px;
+}
+/* CABECERA DE FORMATO */
+#APCIFDOT_cabecera{
+  color: #822022;
+  text-align: center;
+  border-top: 3px solid #822022;
+  border-bottom: 3px solid #822022;
+}
+/* IMAGEN DE LA CABECERA DEL FORMATO */
+#APCIFDOT_cabecera_img{
+  padding: 20px;
+}
+/* TITULO DEL FORMATO */
+#APCIFDOT_tittle{
+  text-align: center;
+  color: #822022;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+/* INFORMACION DE TODO EL FORMATO */
+#APCIFDOT_info{
+  color: #343a40;
+  border: 1px solid #822022;
+  border-radius: 10px;
+}
+/* BOTON DE GENERAR FORMATO DEL FORMATO */
+#APCIOT_info_btn{
+  margin-bottom: 20px;
+}
+/*------------------------ESTILOS DEL PANEL DEL FORMATO TELECOMUNICACIONES------------------------*/
+/* CONTENEDOR */
+#apci_container_Prod{
+  margin-top: 200px;
+  padding: 50px;
+}
+/* TABLA DE LOS PRODUCTOS */
+#apci_table_thead_Prod{
+  background-color: #006465;
+  color: #ffffff;
+  text-align: center;
+  font-size: 20px;
+}
+/* BOTON DE AGREGAR PRODUCTO */
+#apci_Form_Add{
+  border: 1px solid #006465;
+  background-color: #ffffff;
+  color: #006465;
+}
+/* BOTON DE AGREGAR PRODUCTO CUANDO PASEN EL MAUSE*/
+#apci_Form_Add:hover{
+  border: 1px solid #006465;
+  background-color: #006465;
+  color: #ffffff;
+}
+
+/*------------------------VISTA LAPTOP L-----------------------*/
+@media screen and (max-width: 1440px){
+  /* IMAGEN DEL USUARIO */
+  #apci_panel_user_menu_logo{
+    margin-left: 90px;
+  }
+  /* NOMBRE DEL USUARIO */
+  #apci_panel_user_menu_name{
+    margin-left: 55px;
+  }
+}
+/*------------------------VISTA IPAD landscape-----------------*/
+@media screen and (max-width: 1366px){
+  /* IMAGEN DEL USUARIO */
+  #apci_panel_user_menu_logo{
+    margin-left: 70px;
+  }
+  /* NOMBRE DEL USUARIO */
+  #apci_panel_user_menu_name{
+    margin-left: 40px;
+  }
+}
+/*------------------------VISTA LAPTOP------------------------*/
+@media screen and (max-width: 1280px){
+  /* IMAGEN DEL USUARIO */
+  #apci_panel_user_menu_logo{
+    margin-left: 70px;
+  }
+  /* NOMBRE DEL USUARIO */
+  #apci_panel_user_menu_name{
+    font-size: 30px;
+    margin-left: 80px;
+  }
+  /* TITULOS */
+  #apci_panel_user_menu_tittle{
+    margin-left: 30px;
+    font-size: 30px;
+  }
+  /* CONTENEDOR DEL AREA DE MENSAJES */
+  #apci_panel_User_msn{
+    padding: 150px;
+  }
+  /* CONTENEDOR DEL AREA DEL MENSAJE RECIBIDO */
+  #apci_panel_user_menu_Msn{
+    padding: 180px;
+  }
+}
+/*------------------------VISTA IPAD-------------------------*/
+@media screen and (max-width: 1024px){
+  /* CONTENEDOR DEL AREA DE MENSAJES */
+  #apci_panel_User_msn{
+    padding: 0px;
+    margin-top: 250px;
+    margin-left: 100px;
+  }
+  /* CONTENEDOR DEL AREA DEL MENSAJE RECIBIDO */
+  #apci_panel_user_menu_Msn{
+    padding: 50px;
+    margin-top: 300px;
+  }
+  /* IMAGEN DEL USUARIO */
+  #apci_panel_user_menu_logo{
+    width: 250px;
+    height: 250px;
+    margin-left: 50px;
+  }
+  /* NOMBRE DEL USUARIO */
+  #apci_panel_user_menu_name{
+    margin-left: 40px;
+  }
+}
+/*------------------------VISTA SMARTPHONE landscape---------*/
+@media screen and (max-width: 900px){
+  /* NOMBRE DEL USUARIO */
+  #apci_panel_user_menu_name{
+    font-size: 25px;
+    margin-left: 40px;
+  }
+  /* TITULOS */
+  #apci_panel_user_menu_tittle{
+    margin-left: 30px;
+    font-size: 25px;
+  }
+}
+/*------------------------VISTA TABLETS------------------------*/
+@media screen and (max-width: 768px){
+  /* IMAGEN DEL USUARIO */
+  #apci_panel_user_menu_logo{
+    width: 200px;
+    height: 200px;
+    margin-left: 30px;
+  }
+  /* NOMBRE DEL USUARIO */
+  #apci_panel_user_menu_name{
+    font-size: 23px;
+    margin-left: 25px;
+  }
+  /* TITULOS */
+  #apci_panel_user_menu_tittle{
+    margin-left: 30px;
+    font-size: 25px;
+  }
+  /* CONTENEDOR DEL AREA DE MENSAJES */
+  #apci_panel_User_msn{
+    padding: 50px;
+  }
+  /* CONTENEDOR DEL AREA DEL MENSAJE RECIBIDO */
+  #apci_panel_user_menu_Msn{
+    padding: 100px;
+  }
+}
+/*------------------------VISTA SMARTPHONE--------------------*/
+@media screen and (max-width: 500px){
+  /* IMAGEN DEL USUARIO */
+  #apci_panel_user_menu_logo{
+    width: 200px;
+    height: 200px;
+    margin-left: 150px;
+  }
+  /* NOMBRE DEL USUARIO */
+  #apci_panel_user_menu_name{
+    font-size: 30px;
+    margin-left: 130px;
+  }
+  /* TITULOS */
+  #apci_panel_user_menu_tittle{
+    margin-left: 30px;
+    font-size: 30px;
+  }
+  /* LISTAS */
+  #apci_panel_user_ul_form, #apci_panel_user_ul_msn, #apci_panel_user_ul_pen{
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  /* CONTENEDOR DEL AREA DE MENSAJES */
+  #apci_panel_User_msn{
+    padding: 30px;
+    margin-top: 30px;
+    margin-left: 0px;
+  }
+  /* CONTENEDOR DEL AREA DEL MENSAJE RECIBIDO */
+  #apci_panel_user_menu_Msn{
+    padding: 30px;
+    margin-top: 30px;
+  }
+}
+/*------------------------VISTA SMARTPHONE------------------------*/
+@media screen and (max-width: 450px){
+  /* IMAGEN DEL USUARIO */
+  #apci_panel_user_menu_logo{
+    margin-left: 100px;
+  }
+  /* NOMBRE DEL USUARIO */
+  #apci_panel_user_menu_name{
+    margin-left: 75px;
+  }
+  /* CONTENEDOR DEL AREA DE MENSAJES */
+  #apci_panel_User_msn{
+    padding: 30px;
+  }
+  /* CONTENEDOR DEL AREA DEL MENSAJE RECIBIDO */
+  #apci_panel_user_menu_Msn{
+    padding: 30px;
+  }
+  /* TITULOS DEL MENSAJE RECIBIDO */
+  #apci_panel_user_menu_Msn_tittle{
+    font-size: 25px;
+  }
+  /* INFORMACION DEL MENSAJE RECIBIDO */
+  #apci_panel_user_menu_Msn_txt{
+    font-size: 20px;
+  }
+}
+/*------------------------VISTA SMARTPHONE IPHONE-------------*/
+@media screen and (max-width: 350px){
+  /* IMAGEN DEL USUARIO */
+  #apci_panel_user_menu_logo{
+    margin-left: 50px;
+  }
+  /* NOMBRE DEL USUARIO */
+  #apci_panel_user_menu_name{
+    margin-left: 20px;
+  }
+  /* LISTAS */
+  #apci_panel_user_ul_form, #apci_panel_user_ul_msn, #apci_panel_user_ul_pen{
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  /* CONTENEDOR DEL AREA DE MENSAJES */
+  #apci_panel_User_msn{
+    padding: 10px;
+  }
+  /* CONTENEDOR DEL AREA DEL MENSAJE RECIBIDO */
+  #apci_panel_user_menu_Msn{
+    padding: 10px;
+  }
+  /* BOTON DE GENERAR FORMATO DEL FORMATO */
+  #APCIOT_info_btn{
+    margin-bottom: 20px;
+  }
+}
