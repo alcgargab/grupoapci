@@ -1,0 +1,551 @@
+/*================================= MENU =====================================*/
+/* ICONO DEL MENU */
+#televia_menu_icon{
+  color: #3757a4;
+}
+/* LOGO */
+#televia_menu_logo{
+  margin-left: 250px;
+  /* width: 350px;
+  height: 100px; */
+}
+/* COLOR DEL MENU */
+#televia_menu{
+  background-color: #ffffff;
+}
+/* TITULO DEL MENU PRINCIPAL */
+#televia_items_tittle{
+  margin-left: 700px;
+  font-size: 35px;
+  color: #3757a4;
+}
+/* OPCIONES DEL MENU PRINCIPAL */
+#televia_items{
+  margin-left: 100px;
+  font-size: 20px;
+  color: #3757a4;
+}
+/* OPCIONES DEL SUB MENU PRINCIPAL */
+#televia_submenu{
+  margin-left: 750px;
+  width: 60%;
+  color: #3757a4;
+}
+#televia_submenu_items{
+  text-decoration: none;
+  list-style-type: none;
+}
+#televia_submenu_items:hover{
+  background-color: #3757a4;
+  color: #ffffff;
+}
+/*=========================== IMAGEN DEL BANNER ==============================*/
+/* CONTENEDOR DEL BANNER */
+#Televia_banner{
+  position: relative;
+  z-index: -1000;
+  width: 100%;
+  /* margin-top: 140px; */
+  background: url(../images/Banner/televia_banner.gif) no-repeat 0px 80px;
+  background-size: cover;
+  min-height: 1000px;
+  background-attachment: fixed;
+}
+/* IMAGEN DEL BANNER */
+#Televia_banner_img{
+  margin-top: 140px;
+  width: 100%;
+  height: 1000px;
+}
+.carousel-inner img {
+  width: 100%;
+  height: 1000px;
+}
+/*=============================== MENU DOWN ==================================*/
+/* COLOR DEL MENU */
+#televia_menu_down{
+  background-color: #ffffff;
+}
+/* TITULO DEL MENU DE ABAJO */
+#televia_items_tittle_down{
+  margin-left: 100px;
+  font-size: 35px;
+  color: #3757a4;
+}
+/* OPCIONES DEL MENU DE ABAJO */
+#televia_items_down{
+  text-align: center;
+  margin-left: 100px;
+  font-size: 20px;
+  color: #3757a4;
+}
+/*================================ HOME PAGE =================================*/
+/* INFORMACION DE LA EMPRESA */
+#Televia_home_info{
+  margin-top: 50px;
+  background-color: #3757a4;
+}
+/* BOTON DE LA INFORMACION DE LA EMPRESA */
+#Televia_btn{
+  background-color: #3757a4;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  margin-bottom: 50px;
+  text-transform:uppercase;
+}
+/* BOTON DE LA INFORMACION DE LA EMPRESA CUANDO PASEN EL MAUSE*/
+#Televia_btn:hover{
+  background-color: #3757a4;
+  color: #ffffff;
+  border: 1px solid #3757a4;
+}
+/* ICONO DEL BOTON DE LA INFORMACION DE LA EMPRESA */
+#Televia_btn_icon{
+  font-size: 20px;
+  color: #3757a4;
+}
+/*============================= QUIENES SOMOS ================================*/
+/* IMAGEN DE FONDO */
+#televia_QS{
+  opacity: 0.1;
+  position: absolute;
+  margin-left: 600px;
+  margin-top: 60px;
+}
+/* CONTENEDOR DE QUIENES SOMOS */
+#televia_container_QS{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+/*================================ EMPRESAS ==================================*/
+/* CONTENEDOR DEL MENU */
+#televia_container_Emp{
+  padding: 40px;
+}
+#televia_Emp_container{
+  padding: 25px;
+}
+/* LIGA DEL MENU */
+#televia_Emp_Servi{
+  font-size: 15px;
+  color: #082639;
+  text-decoration: none
+}
+/* IMAGEN DEL MENU */
+#televia_Emp_Serv_img{
+  width: 25px;
+  height: 25px;
+}
+/* SUBMENU */
+#televia_Emp_Submenu{
+  list-style-type: none;
+  color: #3757a4;
+  font-size: 15px;
+}
+/* SUBMENU ITEMS */
+#televia_Emp_Submenu_Items{
+  text-decoration: none;
+}
+/* BOTON */
+#televia_btn_Emp{
+  font-size: 20px;
+  color: #ffffff;
+  background-color: #aaaaaa;
+}
+/* BOTON CUANDO PASEN EL MAUSE */
+#televia_btn_Emp:hover{
+  border: 1px solid #aaaaaa;
+  color: #aaaaaa;
+  background-color: #ffffff;
+}
+/* ICONO DEL MENU */
+#televia_Emp_icon{
+  color: #aaaaaa;
+  font-size: 20px;
+}
+/* MENU DE SERVICIOS */
+#televia_Emp_Servicios{
+  color: #aaaaaa;
+  font-size: 20px;
+  text-decoration: none;
+}
+/*============================= SECTOR PUBLICO ===============================*/
+/* BOTON */
+#televia_btn_pub{
+  font-size: 20px;
+  color: #ffffff;
+  background-color: #26dbdb;
+}
+/* BOTON CUANDO PASEN EL MAUSE */
+#televia_btn_pub:hover{
+  border: 1px solid #26dbdb;
+  color: #26dbdb;
+  background-color: #ffffff;
+}
+/* ICONOS DEL MENU */
+#televia_Pub_icon{
+  color: #26dbdb;
+  font-size: 20px;
+}
+/* MENU DE SERVICIOS */
+#televia_Pub_Servicios{
+  color: #26dbdb;
+  font-size: 20px;
+  text-decoration: none;
+}
+/*=============================== EMPRESA VOZ ================================*/
+/* MENU DE SERVICIOS */
+#televia_menu_down_Emp{
+  background-color: #ffffff;
+  /* background-color: rgb(200, 44, 44); */
+  margin-top: 150px;
+}
+/* ITEMS DE MENU SERVICIOS */
+#televia_Emp_Servicios_Emp{
+  color: #3757a4;
+  font-size: 20px;
+  text-decoration: none;
+}
+/* MENU DE SERVICIOS EMPRESAS */
+#televia_Emp_Submenu_Emp{
+  list-style-type: none;
+  color: #3757a4;
+  font-size: 15px;
+  float: right;
+}
+/* OPCIONES DEL MENU DE EMPRESAS */
+#televia_items_down_Emp{
+  text-align: center;
+  margin-left: 160px;
+  font-size: 20px;
+  color: #3757a4;
+}
+/* CONTENEDOR DE LA INFORMACION */
+#televia_container_Emp_Serv{
+  padding: 50px;
+}
+/* SERVICIOS */
+#televia_container_Emp_Serv_row{
+  margin-bottom: 50px;
+}
+/*================================ CONTACTO ==================================*/
+/* CONTENEDOR DEL CONTACTO */
+#televia_container_Contact{
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+/* TEXTO DE CONTACTO */
+#televia_contacto_text{
+  color: #082639;
+  font-size: 25px;
+}
+/* IMAGEN DEL CONTACTO */
+#televia_contact_img{
+  margin-top: 100px;
+  width: 100%;
+  height: 50%;
+}
+/* CONTAINER DEL BOTON CONTACTO */
+#televia_contenedor_contacto{
+  width:90px;
+  height:240px;
+  position: fixed;
+  left:0px;
+  bottom:0px;
+}
+/* ETIQUETA DEL BOTON CONTACTO */
+#televia_contenedor_contacto_a{
+  width:60px;
+  height:60px;
+  border-radius:100%;
+  background: #3757a4;
+  left: 0;
+  bottom:0;
+  position:fixed;
+  margin-left: 20px;
+  margin-bottom:20px;
+  color:#ffffff;
+  font-size:36px;
+  transition:.9s;
+}
+#televia_contenedor_contacto_a:hover{
+  background: #ffffff;
+  color: #3757a4;
+}
+/* ICONO DEL CONTACTO */
+#televia_contenedor_contacto_a_icon{
+  padding: 13px;
+}
+/*================================ FOOTER ====================================*/
+/* FOOTER */
+#Televia_fototer{
+  border-top: 2px solid #3757a4;
+  background-color: #ffffff;
+  color: #3757a4;
+}
+/* CONTENEDOR */
+.Televia_fototer_Container{
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 20px;
+  padding-bottom: 2px;
+}
+/* TITULO DEL FOOTER */
+#Televia_footer_tittle{
+  font-size: 40px;
+  border-bottom: 1px solid #3757a4;
+}
+/* CONTENEDOR DE LOS ICONOS DEL FOOTER */
+#Televia_footer_redes{
+  float: right;
+}
+/* ICONOS DEL FOOTER */
+#Televia_footer_redes_icon{
+  display: inline;
+  /* width: 50px; */
+  /* height: 50px; */
+  margin-left: 10px;
+}
+/* LIGA DE LOS ICONOS */
+#Televia_footer_redes_liga{
+  text-decoration: none;
+}
+/* CONTENEDOR INFORMACION DEL FOOTER */
+#Televia_footer_down{
+  margin-top: 25px;
+}
+/* TITULO DE LA INFORMACION DEL FOOTER */
+#Televia_footer_tittle1{
+  font-weight: bold;
+  font-size: 25px;
+  text-align: center;
+  border-bottom: 1px dashed #082639;
+}
+/* LISTA DEL MENU */
+#Televia_footer_down_ul{
+  list-style-type: none;
+}
+/* TEXTO DE LA INFORMACION DEL FOOTER */
+#Televia_footer_txt{
+  font-size: 15px;
+  text-decoration: none;
+  color: #082639;
+}
+#Televia_footer_txt:hover{
+  color: #48708a;
+}
+/*============================= DESARROLLO WEB ===============================*/
+/* CONTENEDOR */
+#televia_container_DW{
+  padding: 40px;
+}
+/* CONTENEDOR TEXTO */
+#televia_DW_container{
+  padding: 25px;
+}
+/* ICONO DE LA LISTA */
+#televia_ul_DW_Icon{
+  width: 30px;
+  height: 30px;
+  position: absolute;
+}
+/* BOTÓN */
+#televia_btn_DW{
+  font-size: 20px;
+  color: #ffffff;
+  background-color: #9e0000;
+}
+/* BOTON CUANDO PASEN EL MAUSE */
+#televia_btn_DW:hover{
+  border: 1px solid #9e0000;
+  color: #9e0000;
+  background-color: #ffffff;
+}
+/* ICONO DEL MENU */
+#televia_DW_icon{
+  color: #9e0000;
+  font-size: 20px;
+}
+/* MENU DE ABAJO DESARROLLO WEB */
+#televia_items_down_DW{
+  text-align: center;
+  margin-left: 160px;
+  font-size: 20px;
+  color: #500000;
+}
+/*=============================== CALL CENTER ================================*/
+/* BOTON */
+#televia_btn_Call{
+  font-size: 20px;
+  color: #ffffff;
+  background-color: #ffc000;
+}
+/* BOTON CUANDO PASEN EL MAUSE */
+#televia_btn_Call:hover{
+  border: 1px solid #ffc000;
+  color: #ffc000;
+  background-color: #ffffff;
+}
+/* ICONOS DEL MENU */
+#televia_Call_icon{
+  color: #ffc000;
+  font-size: 20px;
+}
+/* ICONO DE LA LISTA */
+#televia_ul_CC_Icon{
+  width: 30px;
+  height: 30px;
+  position: absolute;
+}
+/* BOTÓN */
+#televia_btn_CC{
+  font-size: 20px;
+  color: #3757a4;
+  background-color: #ffc000;
+}
+/* BOTON CUANDO PASEN EL MAUSE */
+#televia_btn_CC:hover{
+  border: 1px solid #ffc000;
+  color: #ffc000;
+  background-color: #ffffff;
+}
+/*============================== SUBSERVICIOS ================================*/
+/* SUBSERVICIOS */
+#televia_container_Emp_Serv_row_item{
+  margin-bottom: 30px;
+}
+/* CARD DE CADA ITEM DESARROLLO WEB*/
+#televia_container_item_card_DW{
+  border-radius: 20px 20px 0px 0px;
+  border: 1px dashed #aaaaaa;
+}
+/* IMAGEN DE CADA SERVICIO */
+#televia_container_item_img{
+  width: 150px;
+  height: 150px;
+  padding: 20px;
+}
+/* CUERPO DEL ITEM DESARROLLO WEB*/
+#televia_container_item_card_body_DW{
+  background-color: #aaaaaa;
+  /* border-radius: 0px 0px 20px 20px;   */
+}
+/* BOTON DESARROLLO WEB*/
+#televia_container_item_btn_DW{
+  background-color: #9e0000;
+  color: #ffffff;
+  border: 1px solid #9e0000;
+  border-radius: 5px;
+  float: right;
+}
+/* BOTON CUANOD PASEN EL MAUSE DESARROLLO WEB*/
+#televia_container_item_btn_DW:hover{
+  background-color: #aaaaaa;
+  color: #000000;
+  border: 1px solid #aaaaaa;
+  font-weight: bold;
+}
+/* CARD DE CADA ITEM CALL CENTER*/
+#televia_container_item_card_CC{
+  border-radius: 20px 20px 0px 0px;
+  border: 1px dashed #3757a4;
+}
+/* CUERPO DEL ITEM CALL CENTER*/
+#televia_container_item_card_body_CC{
+  background-color: #3757a4;
+  /* border-radius: 0px 0px 20px 20px; */
+}
+/* BOTON CALL CENTER*/
+#televia_container_item_btn_CC{
+  background-color: #ffc000;
+  color: #3757a4;
+  border: 1px solid #ffc000;
+  border-radius: 5px;
+  float: right;
+}
+/* BOTON CUANOD PASEN EL MAUSE CALL CENTER*/
+#televia_container_item_btn_CC:hover{
+  background-color: #3757a4;
+  color: #ffc000;
+  border: 1px solid #ffc000;
+  font-weight: bold;
+}
+/*============================ SERVICIOS ITEMS ===============================*/
+/* CONTENEDOR */
+#telvia_container_subseritem{
+  margin-top: 150px;
+}
+/* IMAGEN */
+#telvia_container_subseritem_item_img{
+  width: 100%;
+  height: 100%;
+  margin-top: 35px;
+}
+/* ROW */
+#telvia_container_subseritem_item{
+  margin-bottom: 50px;
+}
+/* MENUS */
+#telvia_container_subseritem_item_opc{
+  color: #aaaaaa;
+  font-size: 20px;
+}
+/* LISTA DE MENUS */
+.telvia_container_subseritem_li{
+  margin-bottom: 10px;
+}
+/*================================ GRACIAS ===================================*/
+/* CONTENEDOR */
+#televia_container_Gracias{
+  margin-top: 220px;
+  margin-bottom: 150px;
+}
+/* ICONO */
+#televia_container_Gracias_Icon{
+  width: 150px;
+  height: 150px;
+  text-align: center;
+}
+/*================================= COOKIES ==================================*/
+/* BOTON */
+#btnCookies{
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
+/* BOTON CUANDO PASEN EL MAUSE*/
+#btnCookies:hover{
+  color: #3757a4;
+  border: 1px solid #3757a4;
+  background-color: #ffffff;
+}
+/*================================ ERROR404 ==================================*/
+.error404{
+  margin-top: 100px;
+}
+.error404txt{
+  font-family: 'Poppins', sans-serif;
+  font-size: 100px;
+  text-shadow: 5px 5px 1px #dadada;
+}
+.error404txt1{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 50px;
+}
+.error404txt2{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 30px;
+}
+.error404txt2 span{
+  color: #3757a4;
+}
+.error404Card{
+  border: none;
+  margin-bottom: 30px;
+}
+.error404Card p a{
+  color: #3757a4;
+  font-size: 15px;
+  text-align: justify;
+  /* color: rgb(78, 148, 193);
+  text-decoration: none; */
+}

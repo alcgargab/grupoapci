@@ -1,0 +1,85 @@
+/*================================= MENU =====================================*/
+/* LOGO */
+.imgLogo{
+  margin-top: 30px;
+  margin-left: 100px;
+  padding-bottom: 30px;
+}
+/* SECCIÓN DE LAS TABLAS */
+.cardTabla{
+  background-color: #0A1A59;
+}
+/* TEXTO DE LA SECCIÓN */
+.cardTablaText{
+  color: #ffffff;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+/* ITEMS DE LA LISTA DE TABLAS */
+.tablaItemsText{
+  font-family: 'Poppins', sans-serif;
+  color: #0A1A59;
+  font-size: 20px;
+  text-decoration: none;
+}
+.tablaItems{
+  text-decoration: none;
+}
+/* IMAGEN */
+.tablaItemsImg{
+  width: 40px;
+  height: 40px;
+}
+/*================================= TABLAS ===================================*/
+/* CONTENEDOR DE LA TABLA */
+.registroContainer{
+  padding-top: 150px;
+  padding-right: 50px;
+  padding-bottom: 100px;
+  padding-left: 50px;
+}
+/* BOTONES PRINCIPALES */
+.registroContainerBtn{
+  margin-bottom: 30px;
+}
+/* CONTENEDOR PARA EL REGISTRO */
+.tablaFormRegistro{
+  font-family: 'Poppins', sans-serif;
+}
+/* BOTON DE INSERTAR REGISTRO */
+.tablaBtn{
+  margin-left: 60px;
+  margin-top: 25px;
+}
+/* CABECERA DE LA TABLA */
+.tablaHeader{
+  background-color: #0A1A59;
+  color: #ffffff;
+}
+/* CONTENEDOR DE LOS BOTONES DE LAS OPERACIONES */
+.tablaBtnOp{
+  border: none;
+}
+/* TABLA */
+.tablaRegistros{
+  margin-bottom: 50px;
+}
+/* IMAGEN DE LOS USUARIO */
+.imgUser{
+  width: 300px;
+  height: 300px;
+}
+/*========================= MODEL DEL REGISTRO ===============================*/
+/* CONTENEDOR PRINCIPAL */
+#ModalRegistro{
+  font-family: 'Poppins', sans-serif;
+}
+/* HEADER */
+.modal-header{
+  background-color: #0A1A59;
+  color: #ffffff;
+}
+/*=================== ERROR CUANDO NO HAY REGISTROS ==========================*/
+.ErrorRegistros{
+  padding: 150px;
+}

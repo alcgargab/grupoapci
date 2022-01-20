@@ -1,0 +1,242 @@
+/*------------------------VISTA LAPTOP L-----------------------*/
+@media screen and (max-width: 1440px){
+  /* UL DEL MENU DEL HEADER */
+  #ul_list_item {
+      margin-left: 20px;
+  }
+}
+/*------------------------VISTA IPAD landscape-----------------*/
+@media screen and (max-width: 1366px){
+  /* LOGO DE LOS UNIFORMES */
+  #sassper_modal_card_uniforme_card_logo {
+      width: 100%;
+      height: 80%;
+  }
+}
+/*------------------------VISTA LAPTOP------------------------*/
+@media screen and (max-width: 1280px){
+  /* TEXTO DEL BANNER */
+  #sassper_benner_titulo {
+      font-size: 40px;
+  }
+  /* UL DEL MENU DEL HEADER */
+  #ul_list_item {
+      margin-left: 0px;
+  }
+  /* ITEMS DEL MENU DEL HEADER */
+  #sassper_menu_items {
+      margin-left: 30px;
+  }
+  /* LOGO DE LOS UNIFORMES */
+  #sassper_modal_card_uniforme_card_logo {
+      margin-top: 10px;
+      width: 100%;
+      height: 80%;
+  }
+  /* CONTENEDOR DEL UNIFORME DE COMISARIO */
+  #sassper_VU_C {
+      margin-left: 300px;
+  }
+  /* IMAGEN DE LOS CASOS DE EXITO */
+  #sassper_container_CE_img {
+      width: 1100px;
+  }
+}
+/*------------------------VISTA IPAD-------------------------*/
+@media screen and (max-width: 1024px){
+  /* IMAGEN DEL BANNER */
+  #sassper_banner_img {
+      width: 100%;
+      height: 100%;
+  }
+  /* IMAGEN DE LOS CASOS DE EXITO */
+  #sassper_container_CE_img {
+      width: 900px;
+  }
+  /* CONTENEDOR DEL UNIFORME DE COMISARIO */
+  #sassper_VU_C {
+      margin-left: 250px;
+  }
+  /* LOGO DE LOS UNIFORMES */
+  #sassper_modal_card_uniforme_card_logo {
+      width: 50%;
+      height: 50%;
+  }
+}
+/*------------------------VISTA SMARTPHONE landscape---------*/
+@media screen and (max-width: 900px){
+  /* IMAGEN DE LOS CASOS DE EXITO */
+  #sassper_container_CE_img {
+      width: 700px;
+      height: 200px;
+  }
+  /* CONTENEDOR DEL UNIFORME DE COMISARIO */
+  #sassper_VU_C {
+      margin-left: 0px;
+  }
+  /* LOGO DE LOS UNIFORMES */
+  #sassper_modal_card_uniforme_card_logo {
+    margin-top: 0px;
+      width: 100%;
+      height: 100%;
+  }
+}
+/*------------------------VISTA TABLETS-----------------------*/
+@media screen and (max-width: 768px){
+  /* IMAGEN DEL BANNER */
+  #sassper_banner_img {
+      height: 300px;
+  }
+  /* UL DEL MENU DEL HEADER */
+  #ul_list_item {
+      margin-left: 0px;
+  }
+  /* ITEMS DEL MENU DEL HEADER */
+  #sassper_menu_items {
+      margin-left: 30px;
+  }
+  /* CONTENEDOR DEL UNIFORME DE COMISARIO */
+  #sassper_VU_C {
+      margin-left: 0px;
+  }
+  /* CONTENEDOR DE LA INFORMACIÓN DEL BANNER */
+  #sassper_contenedor {
+      width: 50%;
+      top: 80%;
+      left: 55%;
+      transform: translateX(-90%) translateY(-60%);
+      text-align: left;
+  }
+  /* TEXTO DEL BANNER */
+  #sassper_benner_titulo {
+      font-size: 30px;
+  }
+  /* IMAGEN EN EL APARTADO DE VALORES */
+  #sassper_img_obj {
+      background: url(../images/Objetivos/sassper_objetivos_img.webp) no-repeat 0px 0px;
+  }
+  /* IMAGEN DE LOS CASOS DE EXITO */
+  #sassper_container_CE_img {
+      width: 680px;
+      height: 200px;
+  }
+  @keyframes slider {
+      to {
+          background-position: 500px;
+      }
+  }
+  /* LOGO DE LOS UNIFORMES */
+  #sassper_modal_card_uniforme_card_logo {
+      width: 100%;
+      height: 100%;
+  }
+}
+/*------------------------VISTA SMARTPHONE--------------------*/
+@media screen and (max-width: 500px){
+  /* IMAGEN DEL BANNER */
+  #sassper_banner_img {
+      height: 300px;
+  }
+  /* CONTENEDOR DE LA INFORMACIÓN DEL BANNER */
+  #sassper_contenedor {
+      width: 300px;
+      top: 70%;
+      left: 55%;
+      transform: translateX(-55%) translateY(-60%);
+      text-align: left;
+  }
+  /* TEXTO DEL BANNER */
+  #sassper_benner_titulo {
+      font-size: 20px;
+  }
+  /* SUBTITULOS DE LA PAGINA */
+  #sassper_subtittle {
+      font-size: 25px;
+  }
+  /* LOGO DE LOS UNIFORMES */
+  #sassper_modal_card_uniforme_card_logo {
+      margin-left: 140px;
+      width: 100px;
+      height: 100px;
+  }
+  /* IMAGEN DE LOS CASOS DE EXITO */
+  #sassper_container_CE_img {
+      width: 440px;
+      margin-left: 20px;
+  }
+  @keyframes slider {
+      to {
+          background-position: 330px;
+      }
+  }
+}
+/*------------------------VISTA SMARTPHONE--------------------*/
+@media screen and (max-width: 450px){
+  /* CONTENEDOR DE LA INFORMACIÓN DEL BANNER */
+  #sassper_contenedor {
+      top: 75%;
+  }
+  /* IMAGEN DE LOS CASOS DE EXITO */
+  #sassper_container_CE_img {
+      width: 300px;
+  }
+  /* LOGO DE LOS UNIFORMES */
+  #sassper_modal_card_uniforme_card_logo {
+      margin-left: 60px;
+  }
+  /* IMAGEN DEL LOGO */
+  #sassper_logo_img {
+      width: 40%;
+      height: 40%;
+      /* margin-left: 60px; */
+  }
+  /* BOTON PARA EL SCROLL */
+  #scrollUp {
+    bottom: 10px;
+    right: 10px;
+  }
+  /* LIGA DEL BOTON PARA EL MODAL DE CONTACTO */
+  #sassper_contenedor_contacto_a {
+      margin-left: 10px;
+      margin-bottom: 10px;
+  }
+  /* TITULOS DE LA PAGINA */
+  #sassper_tittle {
+      font-size: 30px;
+  }
+  /* TITULOS DE LA PAGINA */
+  #sassper_tittle2 {
+      font-size: 30px;
+  }
+  /* TITULOS DE LA PAGINA */
+  #sassper_tittle3 {
+      font-size: 25px;
+  }
+  /* TITULO DEL FOOTER */
+  #sassper_footerinfo_tittle {
+      font-size: 25px;
+  }
+  /* LOGO DE LA EMPRESA */
+  #sassper_logo_img_footer {
+    margin-top: 70px;
+    margin-left: 20px;
+    width: 30%;
+    height: 30%;
+  }
+  /* CONTENEDOR DE LAS REDES */
+  #sassper_footer_redes {
+      margin-top: 10px;
+  }
+}
+/*------------------------VISTA SMARTPHONE IPHONE-------------*/
+@media screen and (max-width: 350px){
+  /* IMAGEN DE LOS CASOS DE EXITO */
+  #sassper_container_CE_img {
+      width: 280px;
+  }
+  /* LOGO DE LOS UNIFORMES */
+  #sassper_modal_card_uniforme_card_logo {
+      margin-left: 50px;
+      color: #ffc000;
+  }
+}

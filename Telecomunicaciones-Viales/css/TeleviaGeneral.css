@@ -1,0 +1,110 @@
+/*------------------------VISTA COMPUTADORA-------------------*/
+/*------------------------ESTILOS GENERALES-------------------*/
+@import url('https://fonts.googleapis.com/css?family=Poppins|Roboto+Condensed');
+body{
+  font-family: 'Roboto Condensed', sans-serif;
+}
+*{
+  box-sizing: border-box;
+}
+img{
+  display: block;
+  max-width: 100%;
+}
+/* TITULOS DE LA PAGINA */
+#televia_tittle{
+  font-size: 55px;
+  color: #3757a4;
+}
+/* TITULOS DE LA PAGINA */
+#televia_tittle1{
+  text-align: center;
+  font-size: 35px;
+  color: #aaaaaa;
+  font-weight: bold;
+}
+/* TITULOS DE LA PAGINA */
+#televia_tittle2{
+  text-align: center;
+  font-size: 35px;
+  color: #26dbdb;
+  font-weight: bold;
+}
+/* TITULO DE LA INFORMACION DE LA EMPRESA */
+#televia_tittle3{
+  font-size: 40px;
+  color: #ffffff;
+}
+/* TITULO DEL DESARROLLO WEB */
+#televia_tittle4{
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold;
+  color: #9e0000;
+}
+/* TITULOS GRACIAS */
+#televia_tittle5{
+  font-size: 55px;
+  color: #3757a4;
+  text-align: center;
+}
+/* TITULO DEL CALL CENTER */
+#televia_tittle6{
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold;
+  color: #ffc000;
+}
+/* TEXTO DE LA PAGINA */
+#televia_text{
+  font-size: 25px;
+  color: #082639;
+}
+/* TEXTO DE LA PAGINA */
+#televia_text1{
+  font-size: 20px;
+  color: #082639;
+}
+/* TEXTO DE LA INFORMACION DE LA EMPRESA */
+#televia_txt3{
+  font-size: 25px;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+/* LISTA DE DESARROLLO WEB */
+#televia_ul_DW{
+  list-style-type: none;
+}
+/* LISTA DE CALL CENTER */
+#televia_ul_CC{
+  list-style-type: none;
+}
+/* TEXTO DE DESARROLLO WEB */
+#televia_txt4{
+  font-size: 20px;
+  color: #500000;
+  margin-left: 40px;
+}
+/* TEXTO DE SERVICIOS DESARROLLO WEB */
+#televia_txt5{
+  font-size: 20px;
+  color: #500000;
+}
+/* TEXTO DE GRACIAS */
+#televia_txt6{
+  text-align: center;
+  font-size: 40px;
+  color: #500000;
+}
+/* TEXTO DE DESARROLLO WEB */
+#televia_txt7{
+  font-size: 20px;
+  color: #082639;
+  margin-left: 40px;
+}
+/* TEXTO GENERAL DE LA VISTA DE LOS SUBSERVICIOS */
+#televia_txt8{
+  font-size: 20px;
+  color: #082639;
+  margin-left: 40px;
+}

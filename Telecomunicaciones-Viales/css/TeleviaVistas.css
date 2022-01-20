@@ -1,0 +1,182 @@
+/*------------------------VISTA LAPTOP L-----------------------*/
+@media screen and (max-width: 1440px){
+  /* OPCIONES DEL MENU DE ABAJO */
+  #televia_items_down{
+    margin-left: 100px;
+  }
+  /* LOGO */
+  #televia_menu_logo{
+    margin-left: 300px;
+  }
+  /* OPCIONES DEL MENU DE EMPRESAS */
+  #televia_items_down_Emp{
+    margin-left: 100px;
+  }
+}
+/*------------------------VISTA IPAD landscape-----------------*/
+@media screen and (max-width: 1366px){
+  /* OPCIONES DEL MENU DE ABAJO */
+  #televia_items_down{
+    margin-left: 80px;
+  }
+  /* LOGO */
+  #televia_menu_logo{
+    margin-left: 200px;
+  }
+  /* OPCIONES DEL MENU DE EMPRESAS */
+  #televia_items_down_Emp{
+    margin-left: 80px;
+  }
+}
+/*------------------------VISTA LAPTOP------------------------*/
+@media screen and (max-width: 1280px){
+  /* LOGO */
+  #televia_menu_logo{
+    margin-left: 100px;
+  }
+  /* OPCIONES DEL MENU DE ABAJO */
+  #televia_items_down{
+    margin-left: 60px;
+  }
+  /* OPCIONES DEL MENU DE EMPRESAS */
+  #televia_items_down_Emp{
+    margin-left: 60px;
+  }
+}
+/*------------------------VISTA IPAD-------------------------*/
+@media screen and (max-width: 1024px){
+  /* LOGO */
+  #televia_menu_logo{
+    margin-left: 70px;
+  }
+  /* OPCIONES DEL MENU DE ABAJO */
+  #televia_items_down{
+    margin-left: 40px;
+  }
+  /* OPCIONES DEL MENU DE EMPRESAS */
+  #televia_items_down_Emp{
+    margin-left: 40px;
+  }
+}
+/*------------------------VISTA SMARTPHONE landscape---------*/
+@media screen and (max-width: 900px){
+  /* LOGO */
+  #televia_menu_logo{
+    margin-left: 40px;
+  }
+  /* OPCIONES DEL MENU DE ABAJO */
+  #televia_items_down{
+    margin-left: 20px;
+  }
+  /* OPCIONES DEL MENU DE EMPRESAS */
+  #televia_items_down_Emp{
+    margin-left: 20px;
+  }
+  .carousel-inner img {
+    height: 900px;
+  }
+}
+/*------------------------VISTA TABLETS-----------------------*/
+@media screen and (max-width: 768px){
+  /* LOGO */
+  #televia_menu_logo{
+    margin-left: 10px;
+  }
+  /* OPCIONES DEL MENU DE ABAJO */
+  #televia_items_down{
+    margin-left: 30px;
+  }
+  /* IMAGEN DE FONDO */
+  #televia_QS{
+    display: none;
+  }
+  .carousel-inner img {
+    height: 800px;
+  }
+}
+/*------------------------VISTA SMARTPHONE--------------------*/
+@media screen and (max-width: 500px){
+  /* CONTENEDOR DEL BANNER */
+  #Televia_banner{
+    background: url(../images/Banner/televia_banner.gif) no-repeat 0px 180px;
+    min-height: 900px;
+  }
+  /* LOGO */
+  #televia_menu_logo{
+    margin-left: 100px;
+  }
+  /* OPCIONES DEL MENU DE ABAJO */
+  #televia_items_down{
+    margin-left: 120px;
+    font-size: 30px;
+  }
+  /* OPCIONES DEL MENU DE EMPRESAS */
+  #televia_items_down_Emp{
+    margin-left: 120px;
+    font-size: 30px;
+  }
+  .carousel-inner img {
+    height: 500px;
+  }
+}
+/*------------------------VISTA SMARTPHONE--------------------*/
+@media screen and (max-width: 450px){
+  /* LOGO */
+  #televia_menu_logo{
+    margin-left: 70px;
+  }
+  /* IMAGEN DE FONDO */
+  #televia_QS{
+    display: none;
+  }
+  /* TITULOS DE LA PAGINA */
+  #televia_tittle{
+    font-size: 35px;
+  }
+  /* TEXTO DE LA PAGINA */
+  #televia_text{
+    font-size: 20px;
+  }
+  /* OPCIONES DEL MENU DE ABAJO */
+  #televia_items_down{
+    margin-left: 80px;
+    font-size: 30px;
+  }
+  /* OPCIONES DEL MENU DE EMPRESAS */
+  #televia_items_down_Emp{
+    margin-left: 80px;
+    font-size: 30px;
+  }
+  /* TITULO DEL FOOTER */
+  #Televia_footer_tittle{
+    font-size: 30px;
+  }
+}
+/*------------------------VISTA SMARTPHONE IPHONE-------------*/
+@media screen and (max-width: 350px){
+  /* LOGO */
+  #televia_menu_logo{
+    margin-left: 0px;
+  }
+  /* OPCIONES DEL MENU DE ABAJO */
+  #televia_items_down{
+    margin-left: 40px;
+    font-size: 25px;
+  }
+  /* OPCIONES DEL MENU DE EMPRESAS */
+  #televia_items_down_Emp{
+    margin-left: 40px;
+    font-size: 25px;
+  }
+  /* TITULO DE LA INFORMACION DE LA EMPRESA */
+  #televia_tittle3{
+    font-size: 30px;
+  }
+  /* TEXTO DE LA INFORMACION DE LA EMPRESA */
+  #televia_txt3{
+    font-size: 20px;
+  }
+  .carousel-inner img {
+    height: 400px;
+  }
+}

@@ -1,0 +1,56 @@
+/* ================================== ESTILOS GENERALES ===================== */
+@import url('https://fonts.googleapis.com/css?family=Poppins|Roboto+Condensed');
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+* {
+    box-sizing: border-box;
+}
+img {
+    display: block;
+    max-width: 100%;
+}
+/* TITULOS DE LA PAGINA */
+#sassper_tittle {
+    font-size: 50px;
+    color: #ffc000;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+/* TITULOS DE LA PAGINA */
+#sassper_tittle2 {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: #ffffff;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+/* TITULOS DE LA PAGINA */
+#sassper_tittle3 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    color: #ffffff;
+}
+/* SUBTITULOS DE LA PAGINA */
+#sassper_subtittle {
+    font-size: 35px;
+    color: #ffc000;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+/* TEXTOS DE LA PAGINA */
+#sassper_text {
+    font-size: 20px;
+    color: #727272;
+}
+/* BOTON PARA EL SCROLL */
+#scrollUp {
+  bottom: 30px;
+  right: 30px;
+  width: 59px;
+  height: 59px;
+  background: url("../images/Iconos/Sassper_Up_Icon.webp")
+}

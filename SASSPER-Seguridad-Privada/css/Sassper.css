@@ -1,0 +1,259 @@
+/* ======================================= MENU ============================= */
+/* MENU */
+#sassper_menu {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-bottom: solid 2px #ffc000;
+}
+/* LOGO */
+#sassper_logo {
+    width: auto;
+}
+/* IMAGEN DEL LOGO */
+#sassper_logo_img {
+    width: 80%;
+    height: 80%;
+}
+/* #sassper_Tmenu_tittle {
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    color: #ffc000;
+    text-decoration: none;
+} */
+/* ICONO DEL MENU EN DISPOSITIVO MOVIL */
+.fa-list-ul {
+    color: #ffc000;
+}
+/* UL DEL MENU DEL HEADER */
+#ul_list_item {
+    margin-left: 200px;
+}
+/* ITEMS DEL MENU DEL HEADER */
+#sassper_menu_items {
+    font-size: 20px;
+    color: #ffffff;
+    margin-left: 100px;
+    font-weight: 500;
+}
+/* ITEMS DEL MENU DEL HEADER CUANDO PASEN EL MAUSE */
+#sassper_menu_items:hover {
+    color: #ffc000;
+    transition: all 1s;
+}
+/* ================================= MODAL DE CONTACTO ====================== */
+/* CONTENEDOR DE LOS ICONOS DEL MODAL DE CONTACTO */
+#Sassper_prepend {
+  background-color: #ffffff;
+}
+/* ICONOS DEL MODAL DE CONTACTO */
+#sassper_modal_contact_icon {
+    width: 23px;
+    height: 23px;
+}
+/* TITULO DEL MODAL DE CONTACTO */
+#sassper_modal_contact_tittle {
+    font-size: 25px;
+    color: #ffffff;
+}
+/* DATOS DE LA EMPRESA DEL MODAL DE CONTACTO */
+/* #sassper_modal_contact_subtittle {
+    font-size: 25px;
+    color: #000000;
+} */
+/* INFORMACIÓN DE LA EMPRESA DEL MODAL DE CONTACTO */
+/* #sassper_modal_contact_info {
+    font-size: 20px;
+    color: #545454;
+} */
+/* ======================================= BANNER =========================== */
+/* CONTENEDOR DEL BANNER */
+#sassper_banner {
+    position: relative;
+    z-index: -1000;
+}
+/* IMAGEN DEL BANNER */
+#sassper_banner_img {
+    height: 100%;
+    width: 100%;
+}
+/* CONTENEDOR DE LA INFORMACIÓN DEL BANNER */
+#sassper_contenedor {
+    width: 60%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-80%) translateY(-50%);
+    color: #ffc000;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+/* TEXTO DEL BANNER */
+#sassper_benner_titulo {
+    font-size: 80px;
+}
+/* ======================================= VALORES ========================== */
+/* LISTA DE VALORES */
+#sassper_VU_ul {
+    list-style-type: none;
+    font-size: 20px;
+}
+/* ITEMS DE LA LISTA DE VALORES */
+#sassper_VU_ul_items {
+    font-size: 20px;
+    margin-left: 50px;
+    color: #727272;
+}
+/* LOGO DE LA LISTA DE VALORES */
+#sassper_VU_ul_logo {
+    position: absolute;
+    margin-left: -40px;
+    width: 30px;
+    height: 30px;
+}
+/* IMAGEN EN EL APARTADO DE VALORES */
+#sassper_img_obj {
+    background: url(../images/Objetivos/sassper_objetivos_img.webp) no-repeat -200px -400px;
+    background-size: cover;
+    min-height: 550px;
+    background-attachment: fixed;
+}
+/* ====================================== OBJETIVOS ========================= */
+/* LISTA DE OBJETIVOS */
+#sassper_ul_obj {
+    list-style-type: none;
+    font-size: 20px;
+    color: #727272;
+}
+/* ITEMS DE LA LISTA DE OBJETIVOS */
+#sassper_ul_obj_item {
+    margin-bottom: 20px;
+}
+/* CONTENEDOR DEL UNIFORME DE COMISARIO */
+#sassper_VU_C {
+    margin-left: 500px;
+}
+/* ====================================== UNIFORMES ========================= */
+/* CONTENEDOR DE UNIFORMES */
+#sassper_Uniforme{
+  padding: 50px;
+}
+/* CONTENEDOR DE LAS CARDS DE LAS INSIGNIAS DE LOS UNIFORMES */
+#sassper_modal_card_uniforme {
+    margin-bottom: 10px;
+}
+/* CARDS DE LAS INSIGNIAS DE LOS UNIFORMES */
+#sassper_modal_card_uniforme_card {
+    border-radius: 15px;
+}
+/* LOGO DE LOS UNIFORMES */
+#sassper_modal_card_uniforme_card_logo {
+    width: 100%;
+    height: 100%;
+}
+/* DISTINTIVO DEL UNIFORME */
+#sassper_modal_card_uniforme_card_disti {
+    text-align: center;
+    border: 2px solid #ffc000;
+    background-color: #ffffff;
+    color: #343a40;
+}
+/* TITULO */
+#sassper_modal_card_title {
+    font-family: 'Poppins', sans-serif;
+    border-bottom: 1px solid #ffffff;
+    text-align: center;
+}
+/* BOTONES DE LAS INSIGNIAS */
+.btn_Uniformes, .btn_Comando_Sector_Derecho, .btn_Comando_Sector_Centro, .btn_Comando_Sector_Distintivo, .btn_Ejecutivo_Sector_Derecho, .btn_Ejecutivo_Sector_Centro, .btn_Ejecutivo_Sector_Distintivo{
+  cursor: pointer;
+}
+/* IMAGEN DE LOS UNIFORMES*/
+.img_Comando, .img_Ejecutivo{
+  margin-left: 50px;
+  width: 400px;
+  height: 700px;
+}
+/* ====================================== SERVICIOS ========================= */
+/* CONTENEDOR DE SERVICIOS */
+#sassper_servicios {
+    padding: 50px;
+    background-color: #545454;
+    color: #343a40;
+}
+/* IMAGEN DE LOS SERVICIOS */
+#sassper_servicios_container_img {
+    width: auto;
+    height: auto;
+}
+/* =================================== CASOS DE EXITO ======================= */
+/* CONTENEDOR DE LOS CASOS DE EXITO */
+#sassper_container_CE {
+    width: 100%;
+    margin: auto;
+}
+/* IMAGEN DE LOS CASOS DE EXITO */
+#sassper_container_CE_img{
+    width: 1200px;
+    height: 200px;
+    background-image: url(../images/socios/Sassper_Socios.webp);
+    background-size: 100% 100%;
+    animation: slider 20s infinite linear;
+}
+@keyframes slider {
+    to {
+        background-position: 1200px;
+    }
+}
+/* ======================================= FOOTER =========================== */
+/* TITULO DEL FOOTER */
+#sassper_footerinfo_tittle {
+    color: #ffc000;
+    font-size: 40px;
+    border-bottom: 1px solid #ffc000;
+}
+/* CONTENEDOR DE LAS REDES */
+#sassper_footer_redes {
+    float: right;
+}
+/* ICONOS DE LAS REDES */
+#sassper_footer_redes_icon {
+    display: inline;
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+}
+/* LIGA DE LAS REDES */
+#sassper_footer_redes_liga {
+    text-decoration: none;
+}
+/* LOGO DE LA EMPRESA */
+#sassper_logo_img_footer {
+    width: auto;
+    height: auto;
+}
+/* ================================== BOTON DE CONTACTO ===================== */
+/* LIGA DEL BOTON PARA EL MODAL DE CONTACTO */
+#sassper_contenedor_contacto_a {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    background: #545454;
+    left: 0;
+    bottom: 0;
+    position: fixed;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    color: #ffc000;
+    font-size: 36px;
+    transition: .9s;
+}
+/* LIGA DEL BOTON PARA EL MODAL DE CONTACTO CUANDO PASEN EL MAUSE*/
+#sassper_contenedor_contacto_a:hover {
+    background: #ffc000;
+    color: #545454;
+}
+/* ICONO DE LIGA DEL BOTON PARA EL MODAL DE CONTACTO */
+#sassper_contenedor_contacto_a_icon {
+    padding: 13px;
+}
