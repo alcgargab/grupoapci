@@ -1,0 +1,479 @@
+/*================================= COL-XL 1200px ============================*/
+@media (max-width: 1200px){
+  .col-1200{
+    display: none;
+  }
+  /* NUMERO DE ERROR */
+  .error404 h1{
+    margin-top: -20px;
+    font-size: 300px;
+    text-shadow: 8px 8px 1px #dadada;
+  }
+  /* TITULO */
+  #Slide .slideOpciones h1{
+    font-size: 35px;
+  }
+  /* SUBTITULO */
+  #Slide .slideOpciones h2{
+    font-size: 30px;
+    /* display: none; */
+  }
+  /* TEXTO */
+  #Slide .slideOpciones h3{
+    font-size: 25px;
+    margin-bottom: -5px;
+  }
+  /* BOTON */
+  #Slide .slideOpciones button{
+    margin-top: 10px;
+    padding: 5px 5px;
+    font-size: 15px;
+  }
+  /* FLECHAS */
+  #Slide #previus, #Slide #next{
+    top: 25%;
+  }
+  /* TEXTO A CENTRADO */
+  .banner .textoCenter{
+    margin-left: 200px;
+  }
+  /* VIDEO */
+  .videoPresentacion{
+    height: 415px;
+  }
+  /* CONTENEDOR DE LA ENTREGA */
+  #Entrega1{
+    display: block;
+  }
+  /* CONTENEDOR DE LA ENTREGA */
+  #Entrega2{
+    display: none;
+  }
+}
+/*================================= COL-LG 1024px ============================*/
+@media (max-width: 1199px) and (min-width: 992px){
+  .col-1024{
+    display: none;
+  }
+  /* TITULO */
+  #Slide .slideOpciones h1{
+    font-size: 35px;
+  }
+  /* SUBTITULO */
+  #Slide .slideOpciones h2{
+    font-size: 30px;
+  }
+  /* TEXTO */
+  #Slide .slideOpciones h3{
+    font-size: 25px;
+    margin-bottom: -5px;
+  }
+  /* BOTON */
+  #Slide .slideOpciones button{
+    margin-top: 10px;
+    padding: 5px 5px;
+    font-size: 15px;
+  }
+  /* FLECHAS */
+  #Slide #previus, #Slide #next{
+    top: 17%;
+  }
+  /* CONTENEDOR */
+  .banner{
+    height: 200px;
+  }
+  /* TEXTO A CENTRADO */
+  .banner .textoCenter{
+    top: 50px;
+    margin-left: 100px;
+  }
+  /* VIDEO */
+  .videoPresentacion{
+    height: 415px;
+  }
+  /* CONTENEDOR DE LA ENTREGA */
+  #Entrega1{
+    display: block;
+  }
+  /* CONTENEDOR DE LA ENTREGA */
+  #Entrega2{
+    display: none;
+  }
+}
+/*================================= COL-MD 768px =============================*/
+@media (max-width: 991px) and (min-width: 768px){
+  .col-768{
+    display: none;
+  }
+  /* SELECT DE CATEGORIA */
+  .selectcategoria{
+    margin-left: -1px;
+  }
+  /* SELECT DE SUBCATEGORIA */
+  .selectsubcategoria{
+    margin-left: -25px;
+  }
+  /* BOTON DE FORM DE CATEGORIA Y SUBCATEGORIA */
+  .selectbtn{
+    margin-left: 25px;
+  }
+  /* BOTON DEL FORM */
+  #btn_Cat{
+    float: right;
+  }
+  /* TEXTO DEL CARRITO DE COMPRAS */
+  header #carrito p{
+    display: none;
+  }
+  /* TITULO */
+  #Slide .slideOpciones h1{
+    font-size: 30px;
+  }
+  /* SUBTITULO */
+  #Slide .slideOpciones h2{
+    font-size: 25px;
+    /* display: none; */
+  }
+  /* TEXTO */
+  #Slide .slideOpciones h3{
+    font-size: 20px;
+    margin-bottom: -5px;
+  }
+  /* BOTON */
+  #Slide .slideOpciones button{
+    margin-top: 10px;
+    padding: 5px 5px;
+    font-size: 15px;
+  }
+  /* FLECHAS */
+  #Slide #previus, #Slide #next{
+    top: 24%;
+  }
+  /* CONTENEDOR */
+  .error404{
+    margin-left: 60px;
+    margin-top: 80px;
+    width: 80%;
+    height: 500px;
+  }
+  /* NUMERO DE ERROR */
+  .error404 h1{
+    margin-top: 100px;
+    font-size: 150px;
+  }
+  /* IMAGEN */
+  .error404 img{
+    margin-top: 70px;
+    width: 80%;
+    height: 70%;
+  }
+  /* CONTENEDOR */
+  .banner{
+    height: 200px;
+  }
+  /* TEXTO A CENTRADO */
+  .banner .textoCenter{
+    top: 60px;
+    margin-left: -50px;
+  }
+  /* VIDEO */
+  .videoPresentacion{
+    height: 350px;
+  }
+  /* CONTENEDOR DE LA ENTREGA */
+  #Entrega1{
+    display: none;
+  }
+  /* CONTENEDOR DE LA ENTREGA */
+  #Entrega2{
+    display: block;
+  }
+}
+/*================================= COL-SM 576px =============================*/
+@media (max-width: 767px) and (min-width: 576px){
+  .col-576{
+    display: none;
+  }
+  /* SELECT DE CATEGORIA */
+  .selectcategoria{
+    margin-left: -1px;
+  }
+  /* SELECT DE SUBCATEGORIA */
+  .selectsubcategoria{
+    margin-left: -20px;
+  }
+  /* BOTON DE FORM DE CATEGORIA Y SUBCATEGORIA */
+  .selectbtn{
+    margin-left: -20px;
+  }
+  /* TITULO */
+  #Slide .slideOpciones h1{
+    font-size: 25px;
+  }
+  /* SUBTITULO */
+  #Slide .slideOpciones h2{
+    font-size: 20px;
+    /* display: none; */
+  }
+  /* TEXTO */
+  #Slide .slideOpciones h3{
+    font-size: 17px;
+    margin-bottom: -5px;
+  }
+  /* BOTON */
+  #Slide .slideOpciones button{
+    margin-top: 10px;
+    padding: 5px 5px;
+    font-size: 15px;
+  }
+  /* FLECHAS */
+  /* #Slide #previus, #Slide #next{
+    top: 39%;
+  } */
+  /* FLECHA PREVIUS */
+  #Slide #previus{
+    background-color: #104762;
+    padding: 20px 10px 20px 15px;
+    top: 41%;
+    left: 0;
+    font-size: 22px;
+    opacity: 0;
+  }
+  /* FLECHA PREVIUS */
+  #Slide #next{
+    background-color: #104762;
+    padding: 20px 15px 20px 10px;
+    top: 41%;
+    right: 0;
+    font-size: 22px;
+    opacity: 0;
+  }
+  /* CONTENEDOR */
+  .banner{
+    height: 200px;
+  }
+  /* TEXTO A LA DERECHA */
+  /* .banner .textoDer, .banner .textoIzq, .banner .textoCenter{
+    left: 50px;
+    width: 800px;
+    height: 550px;
+    margin-left: -100px;
+    text-align: center;
+    text-shadow: 2px 2px 20px #000000;
+  } */
+  /* TITULO */
+  .textoBanner h1{
+    font-size: 30px;
+    line-height: 10px;
+  }
+  /* SUBTITULO */
+  .textoBanner h2{
+    font-size: 25px;
+    line-height: 10px;
+  }
+  /* TEXTO */
+  .textoBanner h3{
+    font-size: 20px;
+    line-height: 10px;
+  }
+  /* TEXTO A CENTRADO */
+  .banner .textoCenter{
+    top: 80px;
+    margin-left: -150px;
+  }
+  /* VIDEO */
+  .videoPresentacion{
+    height: 300px;
+  }
+  /* CONTENEDOR DE LA ENTREGA */
+  #Entrega1{
+    display: none;
+  }
+  /* CONTENEDOR DE LA ENTREGA */
+  #Entrega2{
+    display: block;
+  }
+}
+/*================================= COL-XS 320px =============================*/
+@media (max-width: 575px){
+  .col-320{
+    display: none;
+  }
+  /* SELECT DE CATEGORIA */
+  .selectcategoria{
+    margin-left: 0px;
+    margin-bottom: 10px;
+  }
+  /* SELECT DE SUBCATEGORIA */
+  .selectsubcategoria{
+    margin-left: 0px;
+    margin-bottom: 10px;
+  }
+  /* BOTON DE FORM DE CATEGORIA Y SUBCATEGORIA */
+  .selectbtn{
+    margin-left: 0px;
+    margin-bottom: 10px;
+  }
+  /* LISTA DEL CONTENEDOR */
+  #top ul{
+    text-align: center;
+  }
+  /* REGISTRO */
+  .registro{
+    border-top: 1px solid #222;
+  }
+  /* LOGO */
+  header #logo img{
+    padding: 20px 0px 0px 0px;
+    padding-left: 0px;
+  }
+  /* BOTON DE CATEGORIAS */
+  header #btn_Categorias{
+    padding: 5px;
+  }
+  /* BUSCADOR */
+  header #buscador{
+    margin-top: -5px;
+    padding: 5px;
+  }
+  /* CARRITO DE COMPRAS */
+  header #carrito{
+    margin-top: -5px;
+    padding: 5px;
+  }
+  /* TEXTO DEL CARRITO DE COMPRAS */
+  header #carrito p{
+    display: block;
+  }
+  /* NUMERO DE ERROR */
+  .error404 h1{
+    font-size: 200px;
+  }
+  /* TITULO */
+  #Slide .slideOpciones h1{
+    margin-top: -10px;
+    font-size: 25px;
+  }
+  /* SUBTITULO */
+  #Slide .slideOpciones h2{
+    /* font-size: 20px; */
+    display: none;
+  }
+  /* TEXTO */
+  #Slide .slideOpciones h3{
+    font-size: 17px;
+    margin-bottom: -5px;
+    display: none;
+  }
+  /* BOTON */
+  #Slide .slideOpciones button{
+    margin-top: 10px;
+    padding: 5px 5px;
+    font-size: 15px;
+  }
+  /* FLECHAS */
+  #Slide #previus, #Slide #next{
+    display: none;
+  }
+  /* TEXTO A LA DERECHA */
+  /* .banner .textoDer, .banner .textoIzq, .banner .textoCenter{
+    margin-left: -200px;
+  } */
+  /* TITULO */
+  .tituloDestacado h1{
+    font-size: 30px;
+    text-align: center;
+  }
+  /* ICONO DEL BOTON */
+  .tituloDestacado button{
+    position: absolute;
+    left: 50%;
+    width: 40%;
+    margin-left: -20%;
+  }
+  /* PRODUCTO IMAGEN*/
+  .productos ul li figure{
+    margin-left: 50px;
+  }
+  /* DESCRIPCION DEL PRODUCTO */
+  .text-secondary{
+    margin-top: 20px;
+  }
+  /* CONTENEDOR PRINCIPAL */
+  .container404{
+    width: 90%;
+    height: 500px;
+  }
+  /* CONTENEDOR */
+  .error404{
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 90%;
+    height: 450px;
+    box-shadow: 5px 5px 1px #b4b4b4;
+  }
+  /* NUMERO DE ERROR */
+  .error404 h1{
+    margin-top: 25px;
+    font-size: 100px;
+  }
+  /* CONTENEDOR DE LA IMAGEN */
+  .error404Img{
+    margin-top: 0px;
+    margin-left: 20px;
+    width: 350px;
+    /* height: 350px; */
+    border-right: 0px solid #dadada;
+    border-bottom: 4px solid #dadada;
+  }
+  /* IMAGEN */
+  .error404 img{
+    margin-top: 25px;
+    width: 50%;
+    height: 70%;
+  }
+  /* CONTENEDOR */
+  .banner{
+    height: 200px;
+  }
+  /* TEXTO A CENTRADO */
+  .banner .textoCenter{
+    top: 60px;
+    margin-left: -250px;
+  }
+  /* VIDEO */
+  .videoPresentacion{
+    height: 200px;
+  }
+  /* CONTENEDOR DE LA ENTREGA */
+  #Entrega1{
+    display: none;
+  }
+  /* CONTENEDOR DE LA ENTREGA */
+  #Entrega2{
+    display: block;
+  }
+  /* MIGAS DE PAN */
+  .fondoBreadcrumb{
+    font-size: 15px;
+  }
+  /* TITULO DEL PRODUCTO */
+  .productoTitulo{
+    font-size: 25px;
+    margin-top: 15px;
+  }
+  /* BOTONES */
+  .btnCompraProdcuto button{
+    margin-top: 20px;
+  }
+  /* ICONOS */
+  .modalFormulario p i{
+    margin-left: -15px;
+    margin-right: 15px;
+    font-size: 20px;
+  }
+  /* BOTONES DE LAS REDES */
+  .modalFormulario .google p, .modalFormulario .facebook p{
+    margin-top: 0px;
+  }  
+}
