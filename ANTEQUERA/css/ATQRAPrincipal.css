@@ -1,0 +1,343 @@
+/*------------------------VISTA COMPUTADORA-------------------*/
+/*------------------------ESTILOS GENERALES-------------------*/
+@import url('https://fonts.googleapis.com/css?family=Poppins|Roboto+Condensed');
+body{
+  font-family: 'Roboto Condensed', sans-serif;
+}
+*{
+  box-sizing: border-box;
+}
+img{
+  display: block;
+  max-width: 100%;
+}
+/* TITULOS DE LA PAGINA */
+#ATQRA_tittle1{
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 45px;
+  color: #ffffff;
+}
+/* TEXTO DE LA PAGINA */
+#ATQRA_text1{
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  color: #ffffff;
+}
+/*------------------------BANNER DE LA PAGINA------------------------*/
+/* CONTENEDOR DEL BANNER */
+#ATQRA_Banner{
+  position: relative;
+  z-index: -1000;
+  width: 100%;
+  height: 900px;
+  background: url(../images/Banner/ATQRA_Banner.png) no-repeat 0px 0px;
+  background-size: cover;
+  min-height: 550px;
+  background-attachment: fixed;
+}
+/* IMAGEN DEL BANNER */
+#ATQRA_Banner_Img{
+  width: 100%;
+  height: 900px;
+}
+/*------------------------MENU DE LA PAGINA------------------------*/
+/* MENU DE LA PAGIN */
+#ATQRA_Menu{
+  /* background-color: #b75a58; */
+  background-color: rgb(255, 255, 255, 0.9);
+  /* font-family: 'Poppins', sans-serif; */
+}
+/* ICONO DE LA PAGINA */
+#ATQRA_Menu_icon{
+  color: #7d9987;
+  font-size: 30px;
+}
+/* LOGO DE LA PAGINA */
+#ATQRA_Menu_logo{
+  margin-left: 350px;
+  width: 200px;
+  height: 80px;
+}
+/* CONTENEDOR DE LAS OPCIONES */
+#ATQRA_Menu_item{
+  margin-left: 100px;
+}
+/* OPCIONES DEL MENU */
+#ATQRA_Menu_items{
+  margin-left: 40px;
+  /* color: #ffffff; */
+  color: #7d9987;
+  font-size: 25px;
+}
+#ATQRA_Menu_items:hover{
+  color: #7d9987;
+  border-right: 1px solid #7d9987;
+  font-size: 25px;
+  transition: all 0.5s;
+}
+/*------------------------HOMEPAGE------------------------*/
+/* CONTENEDOR DE LA IMAGENES */
+#ATQRA_Container_home{
+  margin: 0px;
+}
+/* IMAGENES DEL HOME */
+#ATQRA_Home_img1,
+#ATQRA_Home_img2,
+#ATQRA_Home_img3,
+#ATQRA_Home_img4,
+#ATQRA_Home_img5,
+#ATQRA_Home_img6,
+#ATQRA_Home_img7,
+#ATQRA_Home_img8,
+#ATQRA_Home_img9,
+#ATQRA_Home_img10,
+#ATQRA_Home_img11,
+#ATQRA_Home_img12{
+  width: 100%;
+  height: 100%;
+}
+/* IMAGENES DEL HOME CUNADO PASEN EL MAUSE */
+#ATQRA_Home_img1:hover,
+#ATQRA_Home_img2:hover,
+#ATQRA_Home_img3:hover,
+#ATQRA_Home_img4:hover,
+#ATQRA_Home_img5:hover,
+#ATQRA_Home_img6:hover,
+#ATQRA_Home_img7:hover,
+#ATQRA_Home_img8:hover,
+#ATQRA_Home_img9:hover,
+#ATQRA_Home_img10:hover,
+#ATQRA_Home_img11:hover,
+#ATQRA_Home_img12:hover{
+  opacity: 0.5;
+}
+/* CONTENEDOR DEL TEXTO QUE APARECE EN LAS IMAGENES */
+#ATQRA_container_txt1,
+#ATQRA_container_txt2,
+#ATQRA_container_txt3,
+#ATQRA_container_txt4,
+#ATQRA_container_txt5,
+#ATQRA_container_txt6,
+#ATQRA_container_txt7,
+#ATQRA_container_txt8,
+#ATQRA_container_txt9,
+#ATQRA_container_txt10,
+#ATQRA_container_txt11,
+#ATQRA_container_txt12{
+  display: none;
+  position: absolute;
+  margin-top: -350px;
+  margin-left: 120px;
+  font-size: 50px;
+  color: rgb(255, 0, 0);
+}
+/* BOTÓN DE NEW */
+#ATQRA_container_btn1,
+#ATQRA_container_btn2,
+#ATQRA_container_btn3,
+#ATQRA_container_btn4,
+#ATQRA_container_btn5,
+#ATQRA_container_btn6,
+#ATQRA_container_btn7,
+#ATQRA_container_btn8,
+#ATQRA_container_btn9,
+#ATQRA_container_btn10,
+#ATQRA_container_btn11,
+#ATQRA_container_btn12{
+  border: 1px solid #000000;
+  background-color: #727272;
+  border-radius: 5px;
+  position: absolute;
+  margin-top: -500px;
+  margin-left: 380px;
+  font-size: 50px;
+  color: #ffffff;
+}
+/* #ATQRA_Container_QS{
+  margin-top: 50px;
+  background-color: rgba(179, 2, 2);
+  color: #ffffff;
+} */
+/*------------------------FOOTER------------------------*/
+/* FOOTER */
+#ATQRA_fototer{
+  margin-top: 20px;
+  border-top: 2px solid #7d9987;
+  background-color: #ffffff;
+}
+/* TITULO DEL FOOTER */
+#ATQRA_footer_tittle{
+  font-size: 40px;
+  border-bottom: 1px solid #7d9987;
+  color: #7d9987;
+}
+/* CONTENEDOR DE LOS ICONOS DEL FOOTER */
+#ATQRA_footer_redes{
+  float: right;
+}
+/* ICONOS DEL FOOTER */
+#ATQRA_footer_redes_icon{
+  display: inline;
+  width: 50px;
+  height: 50px;
+  margin-left: 10px;
+}
+/* LIGA DE LOS ICONOS */
+#ATQRA_footer_redes_liga{
+  text-decoration: none;
+}
+/* CONTENEDOR INFORMACION DEL FOOTER */
+#ATQRA_footer_down{
+  margin-top: 25px;
+}
+/* TITULO DE LA INFORMACION DEL FOOTER */
+#ATQRA_footer_tittle1{
+  color: #7d9987;
+  font-weight: bold;
+  font-size: 25px;
+  text-align: center;
+}
+/* TEXTO DE LA INFORMACION DEL FOOTER */
+#ATQRA_footer_txt{
+  font-family: 'Poppins', sans-serif;
+  color: #a0c1ac;
+  font-size: 20px;
+}
+/*------------------------VISTA MUJER------------------------*/
+/* CONTENEDOR DE LA PAGINA DE MUJER */
+#ATQRA_container_woman{
+  padding: 150px;
+}
+/* ICONO DEL MENU */
+#ATQRA_M_icon{
+  float: right;
+}
+/*------------------------CONTACTO------------------------*/
+/* CONTENEDOR DEL CONTACTO */
+#ATQRA_container_Contact{
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+/* TEXTO DE CONTACTO */
+#ATQRA_contacto_text{
+  color: #a0c1ac;
+  font-size: 25px;
+}
+/* IMAGEN DEL CONTACTO */
+#ATQRA_contact_img{
+  margin-top: 40px;
+  width: 100%;
+  height: 80%;
+}
+/* BOTON */
+#ATQRA_btn{
+  font-size: 20px;
+  color: #ffffff;
+  background-color: #92221f;
+}
+/* BOTON CUANDO PASEN EL MAUSE */
+#ATQRA_btn:hover{
+  border: 1px solid #92221f;
+  color: rgb(164, 55, 55);
+  background-color: #ffffff;
+}
+/* ICONO DEL MENU */
+#ATQRA_Emp_icon{
+  color: #92221f;
+  font-size: 20px;
+}
+/*------------------------VISTA LAPTOP L-----------------------*/
+@media screen and (max-width: 1440px){
+  /* LOGO DE LA PAGINA */
+  #ATQRA_Menu_logo{
+    margin-left: 250px;
+  }
+}
+/*------------------------VISTA IPAD landscape-----------------*/
+@media screen and (max-width: 1366px){
+  /* LOGO DE LA PAGINA */
+  #ATQRA_Menu_logo{
+    margin-left: 250px;
+  }
+}
+/*------------------------VISTA LAPTOP------------------------*/
+@media screen and (max-width: 1280px){
+  /* LOGO DE LA PAGINA */
+  #ATQRA_Menu_logo{
+    margin-left: 200px;
+  }
+}
+/*------------------------VISTA IPAD-------------------------*/
+@media screen and (max-width: 1024px){
+  /* LOGO DE LA PAGINA */
+  #ATQRA_Menu_logo{
+    margin-left: 50px;
+  }
+}
+/*------------------------VISTA SMARTPHONE landscape---------*/
+@media screen and (max-width: 900px){
+  /* LOGO DE LA PAGINA */
+  #ATQRA_Menu_logo{
+    margin-left: 10px;
+    width: 800px;
+    height: 80px;
+  }
+  /* CONTENEDOR DE LAS OPCIONES */
+  #ATQRA_Menu_item{
+    margin-left: 10px;
+  }
+}
+/*------------------------VISTA TABLETS-----------------------*/
+@media screen and (max-width: 768px){
+  /* LOGO DE LA PAGINA */
+  #ATQRA_Menu_logo{
+    /* margin-left: 10px; */
+    width: 100px;
+    /* height: 800px; */
+  }
+  /* CONTENEDOR DE LAS OPCIONES */
+  #ATQRA_Menu_item{
+    margin-left: 0px;
+  }
+  /* OPCIONES DEL MENU */
+  #ATQRA_Menu_items{
+    margin-left: 20px;
+  }
+  /* CONTENEDOR DE LA PAGINA DE MUJER */
+  #ATQRA_container_woman{
+    padding: 0px;
+    margin-top: 150px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+  }
+}
+/* CONTENEDOR DEL CONTACTO */
+#ATQRA_container_Contact{
+  margin-top: 150px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+}
+/*------------------------VISTA SMARTPHONE--------------------*/
+@media screen and (max-width: 500px){
+  /* OPCIONES DE LOS PRODUCTOS */
+  #ATQRA_container_woman_select{
+    margin-bottom: 50px;
+  }
+}
+/*------------------------VISTA SMARTPHONE--------------------*/
+@media screen and (max-width: 450px){
+  /* LOGO DE LA PAGINA */
+  #ATQRA_Menu_logo{
+    margin-left: 30px;
+  }
+  /* OPCIONES DE LOS PRODUCTOS */
+  #ATQRA_container_woman_select{
+    margin-bottom: 50px;
+  }
+}
+/*------------------------VISTA SMARTPHONE IPHONE-------------*/
+@media screen and (max-width: 350px){
+}
