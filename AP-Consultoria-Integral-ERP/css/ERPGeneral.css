@@ -1,0 +1,73 @@
+/*------------------------VISTA COMPUTADORA-------------------*/
+/*------------------------ESTILOS GENERALES-------------------*/
+@import url('https://fonts.googleapis.com/css?family=Poppins|Roboto+Condensed');
+body{
+  /* font-family: 'Roboto Condensed', sans-serif; */
+  font-family: 'Poppins', sans-serif;
+}
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  text-decoration: none;
+}
+ul, ol{
+  padding: 0;
+}
+a:visited, a:link, a:focus, a:hover, a:active{
+  list-style: none;
+  text-decoration: none;
+}
+/* boton general */
+.ap-gral-btn{
+  color: #2576df;
+  border: 1px solid #dbdde0;
+}
+/* boton general cuando pasen el mause*/
+.ap-gral-btn:hover{
+  color: #2576df;
+  background-color: #f5f5f5;
+}
+/* header de los modal general */
+.ap-gral-modal-header{
+  color: #052636;
+  background-color: #f5f5f5;
+}
+/* icono general de una X */
+.ap-gral-fa-times{
+  color: #052636;
+}
+/* footer de los modal general */
+.ap-gral-modal-footer{
+  color: #052636;
+  background-color: #f5f5f5;
+}
+/* etiquetas a generales */
+.card-link{
+  color: #2576df;
+}
+/* barra de navegación */
+.ap-bread{
+  background-color: #f5f5f5;
+}
+/* footer general */
+.ap-footer{
+  background-color: #f5f5f5;
+}
+/* input type file */
+input[type='file'].ap-adj-email {
+ opacity: 0;
+ overflow: hidden;
+ position: absolute;
+ z-index: -1;
+}
+/* label del file */
+label[for="files-email[]"] {
+ color: #acacac;
+ display: inline-block;
+ transition: all .5s;
+ cursor: pointer;
+ width: fit-content;
+ text-align: center;
+}

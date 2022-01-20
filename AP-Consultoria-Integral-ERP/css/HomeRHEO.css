@@ -1,0 +1,16 @@
+/*------------------------ BOTONES DE LA PÁGINA PRINCIPAL -------------------*/
+/*------------------------ LISTA DE EMPLEADOS DE -------------------*/
+/* botones de las operaciones */
+.tablaBtnOp{
+  border: none;
+}
+/*------------------------ BOTONES DE LOS MODULOS -------------------*/
+.cardModule{
+  padding: 20px 5px 10px 5px;
+  height: 180px;
+  border: none;
+}
+.cardModule:hover{
+  border: 1px solid #dedede;
+  background-color: rgba(175, 175, 175, 0.13);
+}
